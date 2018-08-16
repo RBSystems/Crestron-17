@@ -1,0 +1,364 @@
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\ApplicationInsights.config
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\NYPIProjectionAppDownload.dll.config
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\NYPIProjectionAppDownload.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\NYPIProjectionAppDownload.pdb
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csc.exe
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csc.exe.config
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csc.rsp
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csi.exe
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csi.exe.config
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csi.rsp
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.AppContext.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Console.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.Compression.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Claims.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.ValueTuple.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\vbc.exe
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\vbc.exe.config
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\vbc.rsp
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\VBCSCompiler.exe
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Antlr3.Runtime.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.Web.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Newtonsoft.Json.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Helpers.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Mvc.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Optimization.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Razor.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Razor.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\WebGrease.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Helpers.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Mvc.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Optimization.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Razor.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Razor.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Antlr3.Runtime.pdb
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Newtonsoft.Json.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.Web.xml
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.csprojResolveAssemblyReference.cache
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.csproj.CoreCompileInputs.cache
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.csproj.CopyComplete
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.dll
+C:\Users\Thura_98\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.pdb
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\ApplicationInsights.config
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\NYPIProjectionAppDownload.dll.config
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\NYPIProjectionAppDownload.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\NYPIProjectionAppDownload.pdb
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csc.exe
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csc.exe.config
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csc.rsp
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csi.exe
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csi.exe.config
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csi.rsp
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.AppContext.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Collections.Immutable.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Console.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Diagnostics.Process.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.Compression.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.FileSystem.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.Pipes.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Reflection.Metadata.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.AccessControl.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Claims.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Principal.Windows.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Threading.Thread.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.ValueTuple.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.XmlDocument.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.XPath.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\vbc.exe
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\vbc.exe.config
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\vbc.rsp
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\VBCSCompiler.exe
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\VBCSCompiler.exe.config
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Antlr3.Runtime.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.Agent.Intercept.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.DependencyCollector.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.Web.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.WindowsServer.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.ApplicationInsights.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.Web.Infrastructure.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Newtonsoft.Json.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Helpers.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Mvc.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Optimization.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Razor.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Deployment.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Razor.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\WebGrease.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Helpers.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Mvc.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Optimization.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Razor.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Deployment.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Razor.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Antlr3.Runtime.pdb
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Newtonsoft.Json.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.ApplicationInsights.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.DependencyCollector.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.WindowsServer.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.Web.xml
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.csprojResolveAssemblyReference.cache
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.csproj.CoreCompileInputs.cache
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.csproj.CopyComplete
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.dll
+D:\muhd rizwan\FYP\NYPIProjectionAppDownload\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.pdb
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\ApplicationInsights.config
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\NYPIProjectionAppDownload.dll.config
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\NYPIProjectionAppDownload.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\NYPIProjectionAppDownload.pdb
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csc.exe
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csc.exe.config
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csc.rsp
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csi.exe
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csi.exe.config
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csi.rsp
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.AppContext.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Console.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.Compression.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.Pipes.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Claims.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Threading.Thread.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.ValueTuple.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.XPath.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\vbc.exe
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\vbc.exe.config
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\vbc.rsp
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\VBCSCompiler.exe
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Antlr3.Runtime.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.Web.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.ApplicationInsights.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Newtonsoft.Json.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Helpers.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Mvc.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Optimization.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Razor.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Deployment.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Razor.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\WebGrease.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Helpers.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Mvc.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Optimization.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Razor.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Deployment.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Razor.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Antlr3.Runtime.pdb
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Newtonsoft.Json.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.ApplicationInsights.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.Web.xml
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.csprojResolveAssemblyReference.cache
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.csproj.CoreCompileInputs.cache
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.csproj.CopyComplete
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.dll
+C:\Users\160902S\Desktop\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.pdb
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\ApplicationInsights.config
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\NYPIProjectionAppDownload.dll.config
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\NYPIProjectionAppDownload.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\NYPIProjectionAppDownload.pdb
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csc.exe
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csc.exe.config
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csc.rsp
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csi.exe
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csi.exe.config
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\csi.rsp
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.AppContext.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Collections.Immutable.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Console.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Diagnostics.Process.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.Compression.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.FileSystem.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.IO.Pipes.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Reflection.Metadata.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.AccessControl.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Claims.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Security.Principal.Windows.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Threading.Thread.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.ValueTuple.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.XmlDocument.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.XPath.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\vbc.exe
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\vbc.exe.config
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\vbc.rsp
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\VBCSCompiler.exe
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\roslyn\VBCSCompiler.exe.config
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Antlr3.Runtime.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.Agent.Intercept.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.DependencyCollector.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.Web.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.WindowsServer.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.ApplicationInsights.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.Web.Infrastructure.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Newtonsoft.Json.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Helpers.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Mvc.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Optimization.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Razor.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Deployment.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Razor.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\WebGrease.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Helpers.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Mvc.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Optimization.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.Razor.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Deployment.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\System.Web.WebPages.Razor.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Antlr3.Runtime.pdb
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Newtonsoft.Json.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.ApplicationInsights.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.DependencyCollector.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.WindowsServer.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\bin\Microsoft.AI.Web.xml
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.csprojResolveAssemblyReference.cache
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.csproj.CoreCompileInputs.cache
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.csproj.CopyComplete
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.dll
+C:\NYPiProjection\NYPIProjectionAppDownload\NYPIProjectionAppDownload\obj\Debug\NYPIProjectionAppDownload.pdb

@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.7.0" projectFile="h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\FusionAPI.shfbproj" started="2/2/2016 7:28:34 AM">
+<buildStep step="Initializing">
+Finding tools...
+Found Sandcastle tools in &#39;H:\Program Files (x86)\Sandcastle\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\bin\ApiHelper.dll
+    Found assembly &#39;h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\bin\ApiHelper.dll&#39;
+Source: h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\bin\ApiHelper.xml
+Source: h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\bin\ApiService.dll
+    Found assembly &#39;h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\bin\ApiService.dll&#39;
+Source: h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\bin\ApiService.xml
+
+Copying XML comments files
+    h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\bin\ApiHelper.xml -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\ApiHelper.xml
+    h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\bin\ApiService.XML -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\ApiService.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.1054
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0100
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  MRefBuilder (v2.7.3.0)
+  Copyright c 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Loaded 2 assemblies for reflection and 1 dependency assemblies.
+  Info: Wrote information on 4 namespaces, 77 types, and 673 members
+  XslTransform (v2.7.3.0)
+  Copyright c 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Applying XSL transformation &#39;H:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
+    Last step completed in 00:00:05.6011
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0490
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    512 attribute nodes removed
+    0 explicit interface implementations removed
+    4 local and base class EII elements removed
+    287 inherited member elements removed
+    0 protected members noted for removal
+    0 protected inherited framework members noted for removal
+    Last step completed in 00:00:00.0800
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.3.0)
+  Copyright c 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Applying XSL transformation &#39;H:\Program Files (x86)\Sandcastle\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Info: Applying XSL transformation &#39;H:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
+  XslTransform (v2.7.3.0)
+  Copyright c 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Applying XSL transformation &#39;H:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+    Last step completed in 00:00:03.4110
+</buildStep>
+<buildStep step="ModifyHelpTopicFilenames">
+Modifying help topic filenames in reflection information file
+    Unique name M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteEvent_1 generated for M:Crestron.Fusion.API.ApiHelper.ApiLog.WriteEvent(System.String,System.Diagnostics.EventLogEntryType,System.String)
+    Unique name M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteVaried_1 generated for M:Crestron.Fusion.API.ApiHelper.ApiLog.WriteVaried(Crestron.Fusion.API.ApiHelper.ApiLog.LoggingLevel,System.String,Crestron.Fusion.API.ApiHelper.ApiLog.MsgType,System.String)
+    Unique name M_Crestron_Fusion_API_ApiHelper_LogHelper_LogResponse_1 generated for M:Crestron.Fusion.API.ApiHelper.LogHelper.LogResponse(System.Net.WebResponse,System.Collections.Generic.List{Crestron.Fusion.API.ApiHelper.LogEntry})
+    Unique name M_Crestron_Fusion_API_Entities_API_Result__ctor_1 generated for M:Crestron.Fusion.API.Entities.API_Result.#ctor(System.String,System.String,System.String,System.String)
+    Last step completed in 00:00:00.0430
+</buildStep>
+<buildStep step="CopyStandardContent">
+Copying standard help content...
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\1_404_bullet.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\1_404_bullet.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\2_404_bullet.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\2_404_bullet.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_caution.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\alert_caution.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_note.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\alert_note.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_security.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\alert_security.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\CFW.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\close.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\close.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\favicon.ico -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\footer_slice.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\footer_slice.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\info_icon.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\info_icon.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\note.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\note.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\online_icon.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\online_icon.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\open.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\open.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pencil.GIF -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\pencil.GIF
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privclass.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privdelegate.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privenumeration.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privevent.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privextension.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privfield.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privinterface.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privmethod.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privproperty.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privstructure.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protclass.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protdelegate.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protenumeration.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protevent.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protextension.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protfield.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protinterface.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protmethod.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protoperator.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protproperty.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protstructure.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubclass.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubdelegate.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubenumeration.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubevent.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubextension.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubfield.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubinterface.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubmethod.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\puboperator.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubproperty.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubstructure.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\search.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search_bk.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\search_bk.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\security.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\security.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\slMobile.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\static.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\static.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabLeftBG.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\tabLeftBG.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabRightBG.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\tabRightBG.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_collapse.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\ui_om_collapse.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_expand.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\ui_om_expand.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\xna.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\icons\xna.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\scripts\branding.js -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\scripts\branding.js
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-cs-CZ.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-de-DE.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-en-US.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-es-ES.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-fr-FR.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-it-IT.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ja-JP.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ko-KR.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pl-PL.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pt-BR.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ru-RU.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-tr-TR.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-CN.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-TW.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\styles\branding.css
+Copying help branding...
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\branding\
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/body.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\body.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/head.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\head.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/CodeSnippet.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\CodeSnippet.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-zh-TW.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/Identity.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\Identity.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/InstrumentedLink.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\InstrumentedLink.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-zh-TW.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/LanguageSpecificText.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\LanguageSpecificText.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-zh-TW.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-zh-TW.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-zh-TW.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-zh-TW.xslt
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\branding\
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xml -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding.xml
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-zh-TW.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-body.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-body.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-head.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-head.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-foot.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-foot.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-collapsibleArea.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-collapsibleArea.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-instrumentedLink.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-languageSpecificText.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-codesnippet.xslt
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\1_404_bullet.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\1_404_bullet.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\2_404_bullet.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\2_404_bullet.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_caution.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\alert_caution.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_note.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\alert_note.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_security.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\alert_security.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\CFW.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\CFW.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\close.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\close.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\favicon.ico -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\favicon.ico
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\footer_slice.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\footer_slice.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\info_icon.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\info_icon.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\note.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\note.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\online_icon.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\online_icon.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\open.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\open.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pencil.GIF -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\pencil.GIF
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privclass.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\privclass.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privdelegate.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\privdelegate.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privenumeration.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\privenumeration.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privevent.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\privevent.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privextension.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\privextension.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privfield.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\privfield.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privinterface.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\privinterface.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privmethod.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\privmethod.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privproperty.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\privproperty.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privstructure.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\privstructure.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protclass.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\protclass.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protdelegate.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\protdelegate.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protenumeration.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\protenumeration.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protevent.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\protevent.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protextension.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\protextension.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protfield.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\protfield.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protinterface.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\protinterface.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protmethod.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\protmethod.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protoperator.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\protoperator.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protproperty.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\protproperty.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protstructure.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\protstructure.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubclass.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\pubclass.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubdelegate.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\pubdelegate.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubenumeration.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\pubenumeration.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubevent.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\pubevent.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubextension.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\pubextension.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubfield.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\pubfield.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubinterface.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\pubinterface.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubmethod.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\pubmethod.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\puboperator.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\puboperator.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubproperty.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\pubproperty.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubstructure.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\pubstructure.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\search.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search_bk.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\search_bk.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\security.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\security.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\slMobile.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\slMobile.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\static.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\static.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabLeftBG.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\tabLeftBG.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabRightBG.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\tabRightBG.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_collapse.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\ui_om_collapse.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_expand.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\ui_om_expand.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\xna.gif -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\icons\xna.gif
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\scripts\branding.js -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\scripts\branding.js
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-cs-CZ.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-cs-CZ.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-de-DE.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-de-DE.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-en-US.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-en-US.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-es-ES.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-es-ES.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-fr-FR.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-fr-FR.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-it-IT.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-it-IT.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ja-JP.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-ja-JP.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ko-KR.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-ko-KR.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pl-PL.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-pl-PL.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pt-BR.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-pt-BR.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ru-RU.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-ru-RU.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-tr-TR.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-tr-TR.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-CN.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-zh-CN.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-TW.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding-zh-TW.css
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding.css -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\styles\branding.css
+Copying help branding...
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\branding\
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/body.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\body.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/head.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\head.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/CodeSnippet.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\CodeSnippet.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\codesnippet-zh-TW.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/Identity.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\Identity.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/InstrumentedLink.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\InstrumentedLink.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\instrumentedlink-zh-TW.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/LanguageSpecificText.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\LanguageSpecificText.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\MultiViewTable-zh-TW.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\index-zh-TW.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\search-zh-TW.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\toc-zh-TW.xslt
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website\branding\
+H:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xml -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding.xml
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-cs-CZ.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-cs-CZ.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-de-DE.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-de-DE.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-en-US.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-en-US.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-es-ES.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-es-ES.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-fr-FR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-fr-FR.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-it-IT.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-it-IT.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ja-JP.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-ja-JP.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ko-KR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-ko-KR.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pl-PL.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-pl-PL.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pt-BR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-pt-BR.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ru-RU.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-ru-RU.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-tr-TR.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-tr-TR.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-CN.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-zh-CN.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-TW.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\branding-zh-TW.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-body.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-body.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-head.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-head.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-foot.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-foot.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-collapsibleArea.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-collapsibleArea.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-instrumentedLink.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-languageSpecificText.xslt
+    H:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\branding\ps-codesnippet.xslt
+    Last step completed in 00:00:02.5285
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0060
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.3.0)
+  Copyright c 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Applying XSL transformation &#39;H:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.5779
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.5099
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.2275
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  BuildAssembler (v2.7.3.0)
+  Copyright c 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Loading configuration...
+  Info: Processing topics...
+  Warn: ShowMissingComponent: [M:Crestron.Fusion.API.ApiHelper.ApiLog.ToString] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:Crestron.Fusion.API.ApiHelper.LogEntry.#ctor] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Appointment.Connections] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Crestron.Fusion.API.Entities.API_Appointment.ToString] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:Crestron.Fusion.API.Entities.API_AppointmentComparer.#ctor] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Asset.AssetTypeName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Crestron.Fusion.API.Entities.API_AssetType] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Crestron.Fusion.API.Entities.API_AssetType.#ctor] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_AssetType.Desc] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_AssetType.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_AssetType.Name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Availability.RoomID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Crestron.Fusion.API.Entities.API_BlueToothDevice.#ctor] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Crestron.Fusion.API.Entities.API_Card.#ctor] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Crestron.Fusion.API.Entities.API_Configuration.#ctor] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Crestron.Fusion.API.Entities.API_Connection] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Crestron.Fusion.API.Entities.API_Connection.#ctor] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Connection.RoomID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Crestron.Fusion.API.Entities.API_EndpointType] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Crestron.Fusion.API.Entities.API_Enum_AppType] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Crestron.Fusion.API.Entities.API_Enum_Status] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Crestron.Fusion.API.Entities.API_Image] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Crestron.Fusion.API.Entities.API_Image.#ctor] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Image.Desc] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Image.FloorPlanDefaultURL] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Image.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Image.Name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Image.RoomID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Image.RoomImageDefaultURL] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Image.URL] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Room.Bookable] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Room.BranchMajorID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Room.BranchUUID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Room.Occupied] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Room.RoomImageURLs] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Room.State] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_Room.Status] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Crestron.Fusion.API.Entities.API_RoomCategory] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Crestron.Fusion.API.Entities.API_RoomCategory.#ctor] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_RoomCategory.CategoryID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_RoomCategory.CategoryName] Missing &lt;summary&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [AllMembers.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Properties.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Properties.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Properties.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Properties.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Properties.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Properties.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Properties.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [Properties.T:Crestron.Fusion.API.Entities.API_RoomCustomField] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:Crestron.Fusion.API.Entities.API_RoomCustomField.BoolValue] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:Crestron.Fusion.API.Entities.API_RoomCustomField.BoolValue] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:Crestron.Fusion.API.Entities.API_RoomCustomField.DateTimeValue] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:Crestron.Fusion.API.Entities.API_RoomCustomField.DateTimeValue] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:Crestron.Fusion.API.Entities.API_RoomCustomField.IntValue] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:Crestron.Fusion.API.Entities.API_RoomCustomField.IntValue] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:Crestron.Fusion.API.Entities.API_RoomCustomField.StringValue] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [P:Crestron.Fusion.API.Entities.API_RoomCustomField.StringValue] Unknown reference link target &#39;T:CustomFieldType&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Entities.API_SecurityLevel] Unknown reference link target &#39;T:SecurityService&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Entities.API_SecurityLevel] Unknown reference link target &#39;T:SecurityService&#39;.
+  Warn: ShowMissingComponent: [T:Crestron.Fusion.API.Entities.API_TaggedSearch] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Crestron.Fusion.API.Entities.API_TaggedSearch.#ctor] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_TaggedSearch.Description] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_TaggedSearch.Tag] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Crestron.Fusion.API.Entities.API_User] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Crestron.Fusion.API.Entities.API_User.TimeZoneID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Crestron.Fusion.API.Entities.API_Version] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Crestron.Fusion.API.Entities.API_Version.#ctor] Missing &lt;summary&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.ActionResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IActionResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.ActionResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IActionResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.ActionResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IActionResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.ActionResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IActionResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AppointmentResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAppointmentResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AppointmentResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAppointmentResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AppointmentResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAppointmentResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AppointmentResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAppointmentResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AssetResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAssetResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AssetResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAssetResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AssetResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAssetResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AssetResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAssetResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AttributeResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAttributeResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AttributeResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAttributeResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AttributeResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAttributeResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AttributeResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAttributeResource&#39;.
+  Warn: ShowMissingComponent: [T:Crestron.Fusion.API.Resources.AvailabilityResource] Missing &lt;summary&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AvailabilityResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAvailabilityResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AvailabilityResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAvailabilityResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AvailabilityResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAvailabilityResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.AvailabilityResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IAvailabilityResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.NodeResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.INodeResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.NodeResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.INodeResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.NodeResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.INodeResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.NodeResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.INodeResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.RoomResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IRoomResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.RoomResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IRoomResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.RoomResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IRoomResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.RoomResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.IRoomResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.SignalValueResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.ISignalValueResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.SignalValueResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.ISignalValueResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.SignalValueResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.ISignalValueResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Resources.SignalValueResource] Unknown reference link target &#39;T:Crestron.Fusion.API.Resources.Contracts.ISignalValueResource&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Security.SecurityService] Unknown reference link target &#39;T:Crestron.Fusion.API.Security.Contracts.ISecurityService&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Security.SecurityService] Unknown reference link target &#39;T:Crestron.Fusion.API.Security.Contracts.ISecurityService&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Security.SecurityService] Unknown reference link target &#39;T:Crestron.Fusion.API.Security.Contracts.ISecurityService&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:Crestron.Fusion.API.Security.SecurityService] Unknown reference link target &#39;T:Crestron.Fusion.API.Security.Contracts.ISecurityService&#39;.
+  Info: Processed 703 topic(s)
+  Info: 112 warning(s)
+  Diagnostic: CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
+  Diagnostic: CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
+    Last step completed in 00:01:09.7333
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+
+Clearing any prior web output
+    Last step completed in 00:00:00.8270
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 1.9.7.0
+Copyright c 2006-2013, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1
+Processed 703 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Crestron_Fusion_API.hhk
+Saving HTML Help 1 table of contents to h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Crestron_Fusion_API.hhc
+
+Processing website files in h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\Website
+Processed 703 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\WebKI.xml
+Saving website table of contents to h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\WebTOC.xml
+    Last step completed in 00:00:35.9814
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0337
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\Crestron_Fusion_API.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 14 seconds
+  
+  705	Topics
+  
+  8,776	Local links
+  
+  632	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created h:\Fusion_SeaLion_10_2_Continued\Services\WebServices\ApiService\Docs\Help\Working\Output\HtmlHelp1\Crestron_Fusion_API.chm, 786,900 bytes
+  
+  Compression decreased file by 7,329,354 bytes.
+  
+    Last step completed in 00:00:16.6244
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:09.1898
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 100 files
+Copied 200 files
+Copied 300 files
+Copied 400 files
+Copied 500 files
+Copied 600 files
+Copied 700 files
+Copied 800 files
+Copied 804 files for the website content
+    Last step completed in 00:00:09.6449
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.9071
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 02/02/2016 07:31 AM.  Total time: 00:02:36.3367
+
+</buildStep>
+</shfbBuild>

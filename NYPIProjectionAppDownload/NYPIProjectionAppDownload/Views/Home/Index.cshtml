@@ -1,0 +1,90 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+
+<!-- Main -->
+<div id="main">
+    <div class="inner">
+
+        <!-- Boxes -->
+        <div class="thumbnails">
+            
+            <div class="box">
+                <a class="image fit"><img  style="margin-left: auto;margin-right: auto;width: 70%;height:70%; max-width:95%; max-height:95%;"  src="~/images/android-logo.png" alt="" /></a>
+                <div class="inner">
+                    <h3>Android NYP iProjection App</h3>
+                    <p>Designed for a smartphone or a tablet PC running on the Android OS.</p>
+                    <p>
+                        <font size="3" color="yellow">
+                            <i>
+
+                                Once downloaded, to install, go to phone’s File Manager/My Files and click on the downloaded apk to install.
+
+                            </i>
+                        </font>
+                    </p>
+                    @using (Html.BeginForm("downloadAndroidFile", "Home", FormMethod.Get))
+                    {
+                        <input type="submit" value="Install Android APK" class="button fit" data-poptrox="youtube,800x400" />
+                       
+                     }
+                </div>
+            </div>
+
+            <div class="box">
+                <a class="image fit"><img style="margin-left: auto;margin-right: auto;width: 100%;height:100%; max-width:70%; max-height:70%;" src="~/images/ios-logo.png" alt="" /></a>
+                <div class="inner">
+                    <h3>iOS NYP iProjection App</h3>
+                    <p>Designed for mobile devices, including the iPhone, iPad, and iPod Touch running on the iOS</p>
+                    <p>
+                        <font size="3" color="yellow">
+                            <i>
+
+                                Once downloaded, to install, go to Settings > Profiles and Device management > Nanyang Polytechnic and click "trust".
+
+                            </i>
+                        </font>
+                    </p>
+
+                    @using (Html.BeginForm("downloadIOSFile", "Home", FormMethod.Get))
+    {
+                <input type="submit" value="Get iOS App" class="button style2 fit" data-poptrox="youtube,800x400" />
+
+}
+                   
+                </div>
+            </div>
+            
+            <div class="box">
+                <a class="image fit"><img style="margin-left: auto;margin-right: auto;width: 90%;height:100%; max-width:95%; max-height:95%;" src="~/images/pwalogo.png" alt="" /></a>
+                <div class="inner">
+                    <h3>NYP iProjection PWA</h3>
+                    <p>Progressive Web Application (Only for windows computers and android mobile devices)</p>
+                    <p>
+                        <font size="3" color="yellow">
+                            <i>
+
+
+                                Click on the view in browser and mobile web for PWA.
+
+                            </i>
+                        </font>
+                    </p>
+                    @using (Html.BeginForm("OpenPWALink", "Home", FormMethod.Post, new { target = "_blank" }))
+    {
+                <input type="submit" value="View in browser" class="button style3 fit" data-poptrox="youtube,800x400" />
+}
+
+                    
+                </div>
+            </div>
+          
+
+
+        </div>
+
+    </div>
+</div>
