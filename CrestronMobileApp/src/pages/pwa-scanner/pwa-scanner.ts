@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, Platform, AlertController, App } from 'ionic-angular';
 import { GeneralControlPage } from '../general-control/general-control';
 import { ProjectorApiProvider } from '../../providers/projector-api/projector-api';
-import QRReader from '../../../Custom-modules/barcode-scanner-master/app/js/vendor/qrscan.js';
+import QRReader from '../../../node_modules/Custom-modules/barcode-scanner-master/app/js/vendor/qrscan.js';
 
 /**
  * Generated class for the PwaScannerPage page.
