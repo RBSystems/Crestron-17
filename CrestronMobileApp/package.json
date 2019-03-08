@@ -20,6 +20,9 @@
     "@angular/http": "5.0.3",
     "@angular/platform-browser": "5.0.3",
     "@angular/platform-browser-dynamic": "5.0.3",
+    "@capacitor/android": "^1.0.0-beta.18",
+    "@capacitor/cli": "1.0.0-beta.18",
+    "@capacitor/core": "1.0.0-beta.18",
     "@ionic-native/background-mode": "^4.7.0",
     "@ionic-native/barcode-scanner": "^4.5.3",
     "@ionic-native/core": "4.4.0",
@@ -35,7 +38,6 @@
     "@ng-idle/core": "^2.0.0-beta.15",
     "@ng-idle/keepalive": "^2.0.0-beta.15",
     "angular2-moment": "^1.8.0",
-    "com.pylonproducts.wifiwizard": "~0.2.11",
     "cordova-android": "7.0.0",
     "cordova-browser": "5.0.3",
     "cordova-open-native-settings": "^1.5.0",
@@ -91,7 +93,7 @@
       "cordova-plugin-local-notification": {},
       "cordova.plugins.diagnostic": {},
       "cordova-open-native-settings": {},
-      "com.pylonproducts.wifiwizard": {},
+      "wifiwizard": {},
       "cordova-plugin-background-mode": {}
     },
     "platforms": [

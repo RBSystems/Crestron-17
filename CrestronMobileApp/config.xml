@@ -97,7 +97,7 @@
     <plugin name="cordova-plugin-local-notification" spec="^0.9.0-beta.2" />
     <plugin name="cordova.plugins.diagnostic" spec="^4.0.5" />
     <plugin name="cordova-open-native-settings" spec="^1.5.0" />
-    <plugin name="com.pylonproducts.wifiwizard" spec="~0.2.11" />
+    <plugin name="wifiwizard" spec="~0.2.11" />
     <plugin name="cordova-plugin-geolocation" spec="^4.0.1">
         <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="To locate you" />
     </plugin>
