@@ -213,4 +213,4 @@ QRReader.scan = function (callback) {
 	newDecoderFrame();
 }
 
-export default QRReader;
+//export default QRReader;
