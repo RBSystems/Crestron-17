@@ -492,9 +492,13 @@ export class GeneralControlPage {
     if (this.ProjectorMuteColor === '#70c9e3') {
       this.turnOn(this.ProjectorMuteColor);
       this.printStatus("Projector is muted");
+
+      this.activateProjectorFunc("5415dc35-3dd0-42ed-b702-38ad1314f983", "true", "Projector is muted");
     } else {
       this.turnOff(this.ProjectorMuteColor);
       this.printStatus("Projector is umuted");
+
+      this.activateProjectorFunc("81a3869b-d6be-4d54-9491-366bc1bda52e ", "true", "Projector is unmuted");
     }
 
   }
@@ -521,9 +525,13 @@ export class GeneralControlPage {
       this.turnOn(this.ScreenUpDownColor);
       this.printStatus("Screen is going down");
 
+      this.activateProjectorFunc("c93e210e-91d9-4890-afc6-0de3923b665d", "true", "Screen Down");
+
     } else {
       this.turnOff(this.ScreenUpDownColor);
       this.printStatus("Screen is going up");
+
+      this.activateProjectorFunc("84b833e7-78bb-43f1-a4a7-4241cec76424 ", "true", "Screen Up");
     }
   }
 
