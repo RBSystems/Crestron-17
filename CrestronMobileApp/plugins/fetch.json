@@ -53,9 +53,7 @@
       "id": "cordova-plugin-geolocation@^4.0.1"
     },
     "is_top_level": true,
-    "variables": {
-      "GEOLOCATION_USAGE_DESCRIPTION": "To locate you"
-    }
+    "variables": {}
   },
   "cordova-wifiinfo-plugin": {
     "source": {
