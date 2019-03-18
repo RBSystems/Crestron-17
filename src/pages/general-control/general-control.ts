@@ -479,7 +479,10 @@ export class GeneralControlPage {
       this.turnOff(this.Aux1Color);
       this.printStatus("VGA is on");
 
-      this.remoteCtrlService.sendRemoteCommand(this.signalID, "VGA%20/%20Visualiser", "true").subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
+      //this.remoteCtrlService.sendRemoteCommand(this.signalID, "VGA%20/%20Visualiser", "true").subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
+      
+      //try changing to vga with activateProjectorFunc
+      this.activateProjectorFunc("0cdf6517-e3f8-44b7-b475-782122cb3e6b", "true", "Switched to VGA");
       
     } else {
 
