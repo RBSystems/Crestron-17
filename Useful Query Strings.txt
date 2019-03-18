@@ -25,6 +25,34 @@ value=true&auth=Crestron1%200BF34A53-3DD3-438D-B88F-BEC77EAB3009
 
 Example : http://172.20.192.54/fusion/apiservice/signalvalues/a2ceabfb-79d9-4cf3-894e-451a9e391093/SystemPowerOff?
 value=true&auth=Crestron1%200BF34A53-3DD3-438D-B88F-BEC77EAB3009
+------------------------------------------------------------------------------------------------------------------------------
+Important Query URLs for faster testing:
+-Retrieving attributes and symbol_guid of L640 (GET)
+http://172.20.192.54/fusion/apiservice/rooms/00d6781d-01-62256ea2-ea5b-470d-9b09-ea4c6f6c45bb?auth=Crestron1%200BF34A53-3DD3-438D-B88F-BEC77EAB3009
+-Remote control (PUT)
+http://172.20.192.54/fusion/apiservice/signalvalues/66944a37-f816-49e1-879e-93c105c6b984/SYSTEM_POWER?value=true&auth=Crestron1%200BF34A53-3DD3-438D-B88F-BEC77EAB3009
+
+
+All possible commands(attribute_id):
+Format: [AttributeID] : [Command]
+-------------------------------------------------------------------------------------------------------------------------------
+- HDMI : switch to HDMI view
+- 84b833e7-78bb-43f1-a4a7-4241cec76424 : Screen Up
+- c93e210e-91d9-4890-afc6-0de3923b665d : Screen Down
+- Volume : change volume
+- Wireless Presenter : switch to wireless presenter view
+- 81a3869b-d6be-4d54-9491-366bc1bda52e : Projector Mute Off
+- 5415dc35-3dd0-42ed-b702-38ad1314f983 : Projector Mute On
+- SystemPowerOff : SystemPowerOff
+- SYSTEM_POWER : visualiser on/off
+- DisplayPowerOff : DisplayPowerOff
+- 0cdf6517-e3f8-44b7-b475-782122cb3e6b : switch to VGA view
+- Aux 1 : switch to aux view
+- PC : Switch to PC view
+- Autolock Off AV Rack : switch off autolock mode on AV rack
+- 9f42843a-be1b-4002-a262-d4b09fe3ef57: switch autolock on 
+
+
 
 
 
