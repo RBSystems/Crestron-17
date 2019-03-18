@@ -1,0 +1,56 @@
+{
+  "_from": "cordova-wifiinfo-plugin",
+  "_id": "cordova-wifiinfo-plugin@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-nVG3Obhg9ByzTEEpyb4mvezVlHk=",
+  "_location": "/cordova-wifiinfo-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-wifiinfo-plugin",
+    "name": "cordova-wifiinfo-plugin",
+    "escapedName": "cordova-wifiinfo-plugin",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-wifiinfo-plugin/-/cordova-wifiinfo-plugin-0.1.0.tgz",
+  "_shasum": "9d51b739b860f41cb34c4129c9be26bdecd59479",
+  "_spec": "cordova-wifiinfo-plugin",
+  "_where": "C:\\Users\\Thura_98\\Desktop\\CrestronMobileApp",
+  "author": {
+    "name": "HSC"
+  },
+  "bugs": {
+    "url": "https://github.com/hsccorp/cordova-wifiinfo-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-wifiinfo-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova WifiInfo Plugin",
+  "homepage": "https://github.com/hsccorp/cordova-wifiinfo-plugin#readme",
+  "keywords": [
+    "cordova",
+    "wifiinfo",
+    "wifi",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "cordova-wifiinfo-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsccorp/cordova-wifiinfo-plugin.git"
+  },
+  "version": "0.1.0"
+}
