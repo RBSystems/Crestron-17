@@ -1,0 +1,62 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.pylonproducts.wifiwizard": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "cordova-open-native-settings": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "cordova-plugin-background-mode": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "cordova-plugin-hotspot": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "cordova-plugin-networkinterface": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "cordova-wifiinfo-plugin": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    }
+  }
+}
