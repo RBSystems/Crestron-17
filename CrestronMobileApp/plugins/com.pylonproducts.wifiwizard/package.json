@@ -1,19 +1,19 @@
 {
-  "_from": "wifiwizard",
+  "_from": "wifiwizard@^0.2.11",
   "_id": "wifiwizard@0.2.11",
   "_inBundle": false,
   "_integrity": "sha1-7S20e8SsYhwS3h1u9ZSIIulk3xQ=",
   "_location": "/wifiwizard",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "wifiwizard",
+    "raw": "wifiwizard@^0.2.11",
     "name": "wifiwizard",
     "escapedName": "wifiwizard",
-    "rawSpec": "",
+    "rawSpec": "^0.2.11",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^0.2.11"
   },
   "_requiredBy": [
     "#USER",
@@ -21,8 +21,8 @@
   ],
   "_resolved": "https://registry.npmjs.org/wifiwizard/-/wifiwizard-0.2.11.tgz",
   "_shasum": "ed2db47bc4ac621c12de1d6ef5948822e964df14",
-  "_spec": "wifiwizard",
-  "_where": "C:\\Users\\Thura_98\\Desktop\\CrestronMobileApp",
+  "_spec": "wifiwizard@^0.2.11",
+  "_where": "C:\\Project\\Crestron\\CrestronMobileApp",
   "author": {
     "name": "Matt Parsons"
   },

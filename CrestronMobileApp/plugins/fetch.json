@@ -122,7 +122,7 @@
   "com.pylonproducts.wifiwizard": {
     "source": {
       "type": "registry",
-      "id": "wifiwizard"
+      "id": "wifiwizard@^0.2.11"
     },
     "is_top_level": true,
     "variables": {}
