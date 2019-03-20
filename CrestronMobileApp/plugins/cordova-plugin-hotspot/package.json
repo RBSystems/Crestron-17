@@ -1,0 +1,85 @@
+{
+  "_from": "cordova-plugin-hotspot",
+  "_id": "cordova-plugin-hotspot@1.2.10",
+  "_inBundle": false,
+  "_integrity": "sha1-JuI5Z3JTlJIFS0bnYQ+b8np0YxQ=",
+  "_location": "/cordova-plugin-hotspot",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-hotspot",
+    "name": "cordova-plugin-hotspot",
+    "escapedName": "cordova-plugin-hotspot",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-hotspot/-/cordova-plugin-hotspot-1.2.10.tgz",
+  "_shasum": "26e2396772539492054b46e7610f9bf27a746314",
+  "_spec": "cordova-plugin-hotspot",
+  "_where": "C:\\Users\\Thura_98\\Desktop\\CrestronMobileApp",
+  "author": {
+    "name": "Martin Reinhardt"
+  },
+  "bugs": {
+    "url": "https://github.com/hypery2k/cordova-hotspot-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-hotspot",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova WiFi Hotspot Plugin",
+  "devDependencies": {
+    "conventional-changelog-cli": "1.3.5",
+    "cordova-plugin-xml": "0.1.2",
+    "ink-docstrap": "1.3.2",
+    "jsdoc": "3.5.5",
+    "jsdoc-to-markdown": "3.0.3",
+    "xml2js": "0.4.19"
+  },
+  "homepage": "https://github.com/hypery2k/cordova-hotspot-plugin#readme",
+  "keywords": [
+    "cordova",
+    "hotspot",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-hotspot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypery2k/cordova-hotspot-plugin.git"
+  },
+  "scripts": {
+    "build": "echo ''",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "changelog:add": "git add plugin.xml && git add CHANGELOG.md && git commit -m 'chore(changelog): Updated CHANGELOG.md'",
+    "clean": "echo ''",
+    "jsdoc": "jsdoc -c ./jsdoc.json -t ./node_modules/ink-docstrap/template -R README.md ./src && jsdoc2md www/HotSpotPlugin.js | sed s/hotSpotPlugin/cordova.plugins.hotspot/g | sed s/HotSpotPlugin/cordova.plugins.hotspot/g > PLUGIN_USAGE.MD",
+    "posttest": "jsdoc -c jsdoc.json && jsdoc2md www/HotSpotPlugin.js | sed s/hotSpotPlugin/cordova.plugins.hotspot/g | sed s/HotSpotPlugin/cordova.plugins.hotspot/g > PLUGIN_USAGE.MD",
+    "prepare:sdk": "mkdir -p tmp && cd tmp && git clone https://github.com/simpligility/maven-android-sdk-deployer.git && cd maven-android-sdk-deployer/ && mvn install -P 6.0 && ls ~/.m2/repository/android/android/",
+    "prepare:test-app": "rm -rf tmp && mkdir -p tmp && cd tmp && git clone https://github.com/apache/cordova-app-hello-world.git && cd cordova-app-hello-world && mv template_src/* . && cordova platform add android@5 && cordova plugin add cordova-plugin-compat && cordova build",
+    "pretest": "npm run prepare:test-app",
+    "publish-and-merge": "git checkout master && git merge develop && npm publish && git push && git checkout develop",
+    "release:major": "npm run release:pre && npm version major && npm run release:post && git push origin && git push origin --tags && npm run version-and-push",
+    "release:minor": "npm run release:pre && npm version minor && npm run release:post && git push origin && git push origin --tags && npm run version-and-push",
+    "release:patch": "npm run release:pre && npm version patch && npm run release:post && git push origin && git push origin --tags && npm run version-and-push",
+    "release:post": "npm run version && npm run changelog && npm run changelog:add",
+    "release:pre": "npm run clean && npm run build && npm run test",
+    "test": "npm run test:unit && npm run test:plugin",
+    "test:plugin": "cd tmp/cordova-app-hello-world && cordova plugin add ../..",
+    "test:unit": "cd test/android && ./gradlew clean build",
+    "version": "cordova-plugin-xml setVersion",
+    "version-and-push": "git push origin && git push origin --tags && npm run publish-and-merge"
+  },
+  "version": "1.2.10"
+}

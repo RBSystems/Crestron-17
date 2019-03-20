@@ -1,0 +1,216 @@
+<ion-content class="bg">
+  <h5 class="roomName">Welcome to {{roomID}}</h5>
+  <div class="col2">
+    <ion-card class="offStatus" *ngIf="!PowerColor">
+      <ion-card-content>
+        <ion-label (click)="systemToggle()">System is {{systemStatus}}</ion-label>
+      </ion-card-content>
+    </ion-card>
+    <ion-card class="onStatus" *ngIf="PowerColor">
+      <ion-card-content>
+        <ion-label (click)="systemToggle()">System is {{systemStatus}}</ion-label>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <div class="row">
+    <div class="col">
+      <ion-card class="offStatus" *ngIf="!ProjectorOnColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/projector.png">
+          <ion-label (click)="ProjectorOn()" class="buttonLabel">
+            Projector
+            <br>On
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="onStatus" *ngIf="ProjectorOnColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/projector.png">
+          <ion-label (click)="ProjectorOn()" class="buttonLabel">
+            Projector
+            <br>On
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <div class="col">
+      <ion-card class="offStatus" *ngIf="!ProjectorOffColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/projector.png">
+          <ion-label (click)="ProjectorOff()" class="buttonLabel">
+            Projector
+            <br>Off
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="onStatus" *ngIf="ProjectorOffColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/projector.png">
+          <ion-label (click)="ProjectorOff()" class="buttonLabel">
+            Projector
+            <br>Off
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <div class="col">
+      <ion-card class="offStatus" *ngIf="!ProjectorMuteColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/projector.png">
+          <ion-label (click)="ProjectorMute()" class="buttonLabel">
+            Projector
+            <br>Mute
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="onStatus" *ngIf="ProjectorMuteColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/projector.png">
+          <ion-label (click)="ProjectorMute()" class="buttonLabel">
+            Projector
+            <br>Mute
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <ion-card class="offStatus" *ngIf="!VGAColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/vga.png">
+          <ion-label (click)="VGA()" class="buttonLabel">
+            Visualizer
+            <br>VGA
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="onStatus" *ngIf="VGAColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/vga.png">
+          <ion-label (click)="VGA()" class="buttonLabel">
+            Visualizer
+            <br>VGA
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <div class="col">
+      <ion-card class="offStatus" *ngIf="!PCColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/pc.png">
+          <ion-label (click)="PC()" class="buttonLabel">PC</ion-label>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="onStatus" *ngIf="PCColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/pc.png">
+          <ion-label (click)="PC()" class="buttonLabel">PC</ion-label>
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <div class="col">
+      <ion-card class="offStatus" *ngIf="!HDMIColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/hdmi.png">
+          <ion-label (click)="HDMI()" class="buttonLabel">HDMI</ion-label>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="onStatus" *ngIf="HDMIColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/hdmi.png">
+          <ion-label (click)="HDMI()" class="buttonLabel">HDMI</ion-label>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <ion-card class="offStatus" *ngIf="!WirelessPresenterColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/remote.png">
+          <ion-label (click)="WirelessPresenter()" class="buttonLabel">
+            Wireless
+            <br>Presenter
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="onStatus" *ngIf="WirelessPresenterColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/remote.png">
+          <ion-label (click)="WirelessPresenter()" class="buttonLabel">
+            Wireless
+            <br>Presenter
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <div class="col">
+      <ion-card class="offStatus" *ngIf="!Aux1Color">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/auxcable.png">
+          <ion-label (click)="Aux1()" class="buttonLabel">AUX</ion-label>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="onStatus" *ngIf="Aux1Color">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/auxcable.png">
+          <ion-label (click)="Aux1()" class="buttonLabel">AUX</ion-label>
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <div class="col">
+      <ion-card class="offStatus" *ngIf="!AutoLockColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/autolock.png">
+          <ion-label (click)="AutoLock()" class="buttonLabel">
+            Auto
+            <br>Lock
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="onStatus" *ngIf="AutoLockColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/autolock.png">
+          <ion-label (click)="AutoLock()" class="buttonLabel">
+            Auto
+            <br>Lock
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-s">
+      <ion-card class="offStatus" *ngIf="!ScreenUpDownColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/screen.png">
+          <ion-label (click)="ScreenUpDown()" class="buttonLabel">
+            Screen
+            <br>Up/Down
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="onStatus" *ngIf="ScreenUpDownColor">
+        <ion-card-content>
+          <img class="imageButton" src="assets/imgs/screen.png">
+          <ion-label (click)="ScreenUpDown()" class="buttonLabel">
+            Screen
+            <br>Up/Down
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <div class="col2">
+      <ion-card class="offStatus">
+        <ion-card-content>
+          <ion-item>
+            <ion-range [(ngModel)]="singleValue" color="secondary" pin="true" ng-change="setVolume()">
+              <ion-icon small range-left color="light" name="volume-down"></ion-icon>
+              <ion-icon range-right color="light" name="volume-up"></ion-icon>  
+            </ion-range>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
