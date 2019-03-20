@@ -574,9 +574,13 @@ export class GeneralControlPage {
     if (this.AutoLockColor === '#70c9e3') {
       this.turnOn(this.Aux1Color);
       this.printStatus("Autolock is on");
+
+      this.activateProjectorFunc("9f42843a-be1b-4002-a262-d4b09fe3ef57", "true", "Autolock is on");
     }
     else {
-      this.printStatus("Autolock is already on");
+      this.printStatus("AV Rack unlocked");
+
+      this.activateProjectorFunc("Autolock Off AV Rack", "true", "AV Rack unlocked");
     }
   }
 
