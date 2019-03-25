@@ -1,0 +1,12 @@
+Prequisites:
+Ionic version 4.1.2 (some of versin 3 will do too)
+NodeJs installed
+Cordova installed
+
+1. Copy node_modules folder from https://drive.google.com/open?id=1S-844dOre3fPSHVp7llYCrvVMfCsT_xy to your ionic project folder CrestronMobileApp
+2. Enter ionic serve in the terminal
+3. Resolve the errors if any until ionic serve is successful. Below are some useful commands:
+	npm install typescript
+	npm rebuild node-sass
+4. Generate your android project using ionic cordova prepare android
+5. The android studio project is in CrestronMobileApp\platforms\android use Android Studio to open it
