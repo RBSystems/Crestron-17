@@ -326,27 +326,6 @@ export class GeneralControlPage {
 
           if (wifiAvailability == 1) {
             loadingMessage.dismiss();
-            let alertMessage = this.alertCtrl.create({
-              title: "Please try either of the following or all of it:<br>",
-              subTitle: "1) Turn on your device's location services<br>" +
-                "2) Give this app access to your device's location<br>",
-              buttons: [{
-                text: 'No thanks',
-                handler: () => {
-                }
-              }, {
-                text: 'Open Application Settings',
-                handler: () => {
-                  this.openNativeSettings.open("application_details");
-                }
-              }, {
-                text: 'Open Location settings',
-                handler: () => {
-                  this.openNativeSettings.open('location');
-                }
-              }]
-            });
-            alertMessage.present();
           }
         });
       } else {
@@ -500,7 +479,10 @@ export class GeneralControlPage {
       this.turnOff(this.Aux1Color);
       this.printStatus("VGA is on");
 
-      this.remoteCtrlService.sendRemoteCommand(this.signalID, "VGA%20/%20Visualiser", "true").subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
+      //this.remoteCtrlService.sendRemoteCommand(this.signalID, "VGA%20/%20Visualiser", "true").subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
+      
+      //try changing to vga with activateProjectorFunc
+      this.activateProjectorFunc("0cdf6517-e3f8-44b7-b475-782122cb3e6b", "true", "Switched to VGA");
       
     } else {
 
@@ -513,11 +495,25 @@ export class GeneralControlPage {
     if (this.ProjectorMuteColor === '#70c9e3') {
       this.turnOn(this.ProjectorMuteColor);
       this.printStatus("Projector is muted");
+
+      this.activateProjectorFunc("5415dc35-3dd0-42ed-b702-38ad1314f983", "true", "Projector is muted");
     } else {
       this.turnOff(this.ProjectorMuteColor);
-      this.printStatus("Projector is umuted");
+      this.printStatus("Projector is unmuted");
     }
 
+  }
+
+  ProjectorUnMute() {
+    if (this.ProjectorMuteColor === '#70c9e3') {
+      this.turnOff(this.ProjectorMuteColor);
+      this.printStatus("Projector is unmuted");
+
+      this.activateProjectorFunc("81a3869b-d6be-4d54-9491-366bc1bda52e", "true", "Projector is unmuted");
+    } else {
+      this.turnOn(this.ProjectorMuteColor);
+      this.printStatus("Screen is still muted");
+    }
   }
 
   HDMI() {
@@ -536,15 +532,29 @@ export class GeneralControlPage {
     }
   }
 
-  ScreenUpDown() {
-
+  ScreenDown() {
     if (this.ScreenUpDownColor === '#70c9e3') {
       this.turnOn(this.ScreenUpDownColor);
       this.printStatus("Screen is going down");
 
+      this.activateProjectorFunc("c93e210e-91d9-4890-afc6-0de3923b665d", "true", "Screen Down");
+
     } else {
       this.turnOff(this.ScreenUpDownColor);
+      this.printStatus("Screen is already down");
+    }
+  }
+
+  ScreenUp() {
+    if (this.ScreenUpDownColor === '#70c9e3') {
+      this.turnOff(this.ScreenUpDownColor);
       this.printStatus("Screen is going up");
+
+      this.activateProjectorFunc("84b833e7-78bb-43f1-a4a7-4241cec76424", "true", "Screen Down");
+
+    } else {
+      this.turnOn(this.ScreenUpDownColor);
+      this.printStatus("Screen is already up");
     }
   }
 
@@ -582,40 +592,55 @@ export class GeneralControlPage {
 
   AutoLock() {
     if (this.AutoLockColor === '#70c9e3') {
-      this.turnOn(this.Aux1Color);
+      this.turnOn(this.AutoLockColor);
       this.printStatus("Autolock is on");
+
+      this.activateProjectorFunc("9f42843a-be1b-4002-a262-d4b09fe3ef57", "true", "Autolock is on");
     }
     else {
-      this.printStatus("Autolock is already on");
+      this.turnOff(this.AutoLockColor);
+      this.printStatus("AV Rack already locked");
+    }
+  }
+  
+  UnlockAV() {
+    if (this.AutoLockColor === '#70c9e3') {
+      this.turnOff(this.AutoLockColor);
+      this.printStatus("AV rack unlocked");
+
+      this.activateProjectorFunc("Autolock Off AV Rack", "true", "Autolock is on");
+    }
+    else {
+      this.turnOn(this.AutoLockColor);
+      this.printStatus("AV Rack still locked");
     }
   }
 
-  //Power() {
-  //  if (this.PowerColor === '#70c9e3') {
-  //    this.turnOn(this.PCColor);
-  //    this.checked = true;
-  //    this.printStatus("Power is on");
+  PowerOn() {
+    if (this.PowerColor === '#70c9e3') {
+      this.turnOn(this.PowerColor);
+      this.printStatus("System Power On");
 
-  //    this.remoteCtrlService.sendRemoteCommand(this.signalID, "SYSTEM_POWER", "true").subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
-  //  }
-  //  else {
-  //    this.turnOff(this.PCColor);
-  //    this.turnOff(this.ProjectorOnColor);
-  //    this.turnOff(this.VGAColor);
-  //    this.turnOff(this.ProjectorOffColor);
-  //    this.turnOff(this.HDMIColor);
-  //    this.turnOff(this.ProjectorMuteColor);
-  //    this.turnOff(this.WirelessPresenterColor);
-  //    this.turnOff(this.ScreenUpDownColor);
-  //    this.turnOff(this.Aux1Color);
-  //    this.turnOff(this.PowerColor);
-  //    this.turnOff(this.AutoLockColor);
-  //    this.checked = false;
-  //    this.printStatus("Power is off");
+      this.activateProjectorFunc("SYSTEM_POWER", "true", "System Power On");
+    }
+    else {
+      this.turnOff(this.PowerColor);
+      this.printStatus("System already on");
+    }
+  }
 
-  //    this.remoteCtrlService.sendRemoteCommand(this.signalID, "SYSTEM_POWER", "false").subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
-  //  }
-  //}
+  PowerOff() {
+    if (this.PowerColor === '#70c9e3') {
+      this.turnOff(this.PowerColor);
+      this.printStatus("System Power Off");
+
+      this.activateProjectorFunc("SYSTEM_POWER", "false", "System Power Off");
+    }
+    else {
+      this.turnOff(this.PowerColor);
+      this.printStatus("System Power already off");
+    }
+  }
 
   ionViewWillUnload() {
     console.log('ionViewWillUnload general-ControlPage');

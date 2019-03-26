@@ -37,6 +37,9 @@
     "cordova-plugin-networkinterface": {
       "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
     },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
+    },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
     },
@@ -48,9 +51,6 @@
     },
     "phonegap-plugin-barcodescanner": {
       "ANDROID_SUPPORT_V4_VERSION": "27.+",
-      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
-    },
-    "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
     }
   },

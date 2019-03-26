@@ -10,6 +10,7 @@ webpackJsonp([2],{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__general_control_general_control__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_projector_api_projector_api__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js__ = __webpack_require__(309);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -50,7 +51,7 @@ var PwaScannerPage = /** @class */ (function () {
         var helpText = document.querySelector('.app__help-text');
         var videoElement = document.querySelector('video');
         window.appOverlay = document.querySelector('.app__overlay');
-        __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js__["a" /* default */].init();
+        __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js___default.a.init();
         setTimeout(function () {
             _this.setCameraOverlay();
             if (!_this.platform.is('ios')) {
@@ -76,7 +77,7 @@ var PwaScannerPage = /** @class */ (function () {
         if (!this.platform.is('ios')) {
             scanningEle.style.display = 'block';
         }
-        __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js__["a" /* default */].scan(function (result) {
+        __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js___default.a.scan(function (result) {
             _this.ProjectorApiService.getProjectors(result).subscribe(function (data) {
                 if (data != null) {
                     _this.ProjectorApiService.InsertRoomNum(data.RoomNum, _this.username).subscribe(function (result) { return console.log("Result:" + result); }, function (error) { return console.log("Error" + error); });
@@ -85,7 +86,7 @@ var PwaScannerPage = /** @class */ (function () {
                         console.log(UsageData.CurrentUser);
                         if (UsageData.CurrentlyUsed == false) {
                             _this.ProjectorApiService.updateUsage(data.RoomNum, _this.username).subscribe(function (result) { return console.log("Result:" + result); }, function (error) { return console.log("Error" + error); });
-                            __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js__["a" /* default */].stopCamera();
+                            __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js___default.a.stopCamera();
                             _this.app.getRootNav().push(__WEBPACK_IMPORTED_MODULE_2__general_control_general_control__["a" /* GeneralControlPage */], {
                                 'username': _this.username,
                                 'roomID': data.RoomNum,
@@ -93,7 +94,7 @@ var PwaScannerPage = /** @class */ (function () {
                             });
                         }
                         else if (UsageData.CurrentUser == _this.username) {
-                            __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js__["a" /* default */].stopCamera();
+                            __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js___default.a.stopCamera();
                             _this.app.getRootNav().push(__WEBPACK_IMPORTED_MODULE_2__general_control_general_control__["a" /* GeneralControlPage */], {
                                 'username': _this.username,
                                 'roomID': data.RoomNum,
@@ -107,7 +108,7 @@ var PwaScannerPage = /** @class */ (function () {
                                 buttons: [{
                                         text: 'NO',
                                         handler: function () {
-                                            __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js__["a" /* default */].stopCamera();
+                                            __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js___default.a.stopCamera();
                                             _this.navCtrl.pop();
                                         }
                                     },
@@ -115,7 +116,7 @@ var PwaScannerPage = /** @class */ (function () {
                                         text: 'YES',
                                         handler: function () {
                                             _this.ProjectorApiService.updateUsage(data.RoomNum, _this.username).subscribe(function (result) { return console.log("Result:" + result); }, function (error) { return console.log("Error" + error); });
-                                            __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js__["a" /* default */].stopCamera();
+                                            __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js___default.a.stopCamera();
                                             _this.app.getRootNav().push(__WEBPACK_IMPORTED_MODULE_2__general_control_general_control__["a" /* GeneralControlPage */], {
                                                 'username': _this.username,
                                                 'roomID': data.RoomNum,
@@ -135,7 +136,7 @@ var PwaScannerPage = /** @class */ (function () {
                         buttons: [{
                                 text: 'OK',
                                 handler: function () {
-                                    __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js__["a" /* default */].stopCamera();
+                                    __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js___default.a.stopCamera();
                                     _this.navCtrl.pop();
                                 }
                             }]
@@ -191,7 +192,7 @@ var PwaScannerPage = /** @class */ (function () {
     };
     PwaScannerPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-pwa-scanner',template:/*ion-inline-start:"C:\NYPiProjection\CrestronMobileApp\src\pages\pwa-scanner\pwa-scanner.html"*/'<!DOCTYPE html>\n\n<html lang="en">\n\n<head>\n\n  <meta charset="utf-8">\n\n  <title>QR Code Scanner</title>\n\n  <meta http-equiv=X-UA-Compatible content="IE=edge">\n\n  <meta name=description content="QR Code Scanner is the fastest and most user-friendly web application.">\n\n  <meta name="viewport" content="width=device-width,initial-scale=1.0">\n\n  <meta name="mobile-web-app-capable" content="yes">\n\n  <meta name="apple-mobile-web-app-title" content="QR Scanner" />\n\n  <meta name="apple-mobile-web-app-status-bar-style" content="#e4e4e4">\n\n  <meta name="apple-mobile-web-app-capable" content="yes">\n\n  <meta name="application-name" content="QR Scanner" />\n\n  <meta name="msapplication-TileColor" content="#e4e4e4" />\n\n  <meta name="msapplication-TileImage" content="/images/touch/mstile-150x150.png" />\n\n  <meta name="theme-color" content="#fff" />\n\n  <link rel="apple-touch-icon" href="/images/touch/apple-touch-icon.jpg" />\n\n  <link rel="icon" type="image/png" href="/images/touch/favicon-32x32.png" sizes="32x32" />\n\n  <link rel="icon" type="image/png" href="/images/touch/favicon-16x16.png" sizes="16x16" />\n\n  <link rel="shortcut icon" href="/images/touch/favicon.ico">\n\n  <link rel="manifest" href="/manifest.json">\n\n</head>\n\n<body>\n\n  <div class="app__layout">\n\n\n\n    <main class="app__layout-content">\n\n      <video autoplay></video>\n\n\n\n      <!-- Dialog  -->\n\n      <div class="app__dialog app__dialog--hide">\n\n        <div class="app__dialog-content">\n\n          <h5>QR Code</h5>\n\n          <input type="text" id="result">\n\n        </div>\n\n        <div class="app__dialog-actions">\n\n          <button type="button" class="app__dialog-open">Open</button>\n\n          <button type="button" class="app__dialog-close">Close</button>\n\n        </div>\n\n      </div>\n\n      <div class="app__dialog-overlay app__dialog--hide"></div>\n\n      <!-- Snackbar -->\n\n      <div class="app__snackbar"></div>\n\n    </main>\n\n  </div>\n\n  <div class="app__overlay">\n\n    <div class="app__overlay-frame"></div>\n\n    <!-- Scanner animation -->\n\n    <div class="custom-scanner"></div>\n\n    <div class="app__help-text">Point your camera at a QR Code</div>\n\n    <div class="app__select-photos">Select from photos</div>\n\n  </div>\n\n\n\n  <script>\n\n    if (location.hostname !== "localhost") {\n\n      (function (i, s, o, g, r, a, m) {\n\n        i[\'GoogleAnalyticsObject\'] = r; i[r] = i[r] || function () {\n\n          (i[r].q = i[r].q || []).push(arguments)\n\n        }, i[r].l = 1 * new Date(); a = s.createElement(o),\n\n          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)\n\n      })(window, document, \'script\', \'//www.google-analytics.com/analytics.js\', \'ga\');\n\n      ga(\'create\', \'pageview\');\n\n    }\n\n  </script>\n\n</body>\n\n</html>\n\n\n\n'/*ion-inline-end:"C:\NYPiProjection\CrestronMobileApp\src\pages\pwa-scanner\pwa-scanner.html"*/,
+            selector: 'page-pwa-scanner',template:/*ion-inline-start:"C:\Projects\Crestron\CrestronMobileApp\src\pages\pwa-scanner\pwa-scanner.html"*/'<!DOCTYPE html>\n\n<html lang="en">\n\n<head>\n\n  <meta charset="utf-8">\n\n  <title>QR Code Scanner</title>\n\n  <meta http-equiv=X-UA-Compatible content="IE=edge">\n\n  <meta name=description content="QR Code Scanner is the fastest and most user-friendly web application.">\n\n  <meta name="viewport" content="width=device-width,initial-scale=1.0">\n\n  <meta name="mobile-web-app-capable" content="yes">\n\n  <meta name="apple-mobile-web-app-title" content="QR Scanner" />\n\n  <meta name="apple-mobile-web-app-status-bar-style" content="#e4e4e4">\n\n  <meta name="apple-mobile-web-app-capable" content="yes">\n\n  <meta name="application-name" content="QR Scanner" />\n\n  <meta name="msapplication-TileColor" content="#e4e4e4" />\n\n  <meta name="msapplication-TileImage" content="/images/touch/mstile-150x150.png" />\n\n  <meta name="theme-color" content="#fff" />\n\n  <link rel="apple-touch-icon" href="/images/touch/apple-touch-icon.jpg" />\n\n  <link rel="icon" type="image/png" href="/images/touch/favicon-32x32.png" sizes="32x32" />\n\n  <link rel="icon" type="image/png" href="/images/touch/favicon-16x16.png" sizes="16x16" />\n\n  <link rel="shortcut icon" href="/images/touch/favicon.ico">\n\n  <link rel="manifest" href="/manifest.json">\n\n</head>\n\n<body>\n\n  <div class="app__layout">\n\n\n\n    <main class="app__layout-content">\n\n      <video autoplay></video>\n\n\n\n      <!-- Dialog  -->\n\n      <div class="app__dialog app__dialog--hide">\n\n        <div class="app__dialog-content">\n\n          <h5>QR Code</h5>\n\n          <input type="text" id="result">\n\n        </div>\n\n        <div class="app__dialog-actions">\n\n          <button type="button" class="app__dialog-open">Open</button>\n\n          <button type="button" class="app__dialog-close">Close</button>\n\n        </div>\n\n      </div>\n\n      <div class="app__dialog-overlay app__dialog--hide"></div>\n\n      <!-- Snackbar -->\n\n      <div class="app__snackbar"></div>\n\n    </main>\n\n  </div>\n\n  <div class="app__overlay">\n\n    <div class="app__overlay-frame"></div>\n\n    <!-- Scanner animation -->\n\n    <div class="custom-scanner"></div>\n\n    <div class="app__help-text">Point your camera at a QR Code</div>\n\n    <div class="app__select-photos">Select from photos</div>\n\n  </div>\n\n\n\n  <script>\n\n    if (location.hostname !== "localhost") {\n\n      (function (i, s, o, g, r, a, m) {\n\n        i[\'GoogleAnalyticsObject\'] = r; i[r] = i[r] || function () {\n\n          (i[r].q = i[r].q || []).push(arguments)\n\n        }, i[r].l = 1 * new Date(); a = s.createElement(o),\n\n          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)\n\n      })(window, document, \'script\', \'//www.google-analytics.com/analytics.js\', \'ga\');\n\n      ga(\'create\', \'pageview\');\n\n    }\n\n  </script>\n\n</body>\n\n</html>\n\n\n\n'/*ion-inline-end:"C:\Projects\Crestron\CrestronMobileApp\src\pages\pwa-scanner\pwa-scanner.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */], __WEBPACK_IMPORTED_MODULE_3__providers_projector_api_projector_api__["a" /* ProjectorApiProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* App */]])
     ], PwaScannerPage);
@@ -373,7 +374,7 @@ var ScanPage = /** @class */ (function () {
     };
     ScanPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-scan',template:/*ion-inline-start:"C:\NYPiProjection\CrestronMobileApp\src\pages\scan\scan.html"*/'<ion-content class=bg>\n\n  <img style="display: block;\n\n      margin-left: auto;\n\n      margin-right: auto;\n\n      position: relative;\n\n      top:100px;" src="assets/imgs/scanwhite.png" />\n\n  <div text-center>\n\n    <p class="a">Scan QR Code to proceed</p>\n\n  </div>\n\n  <button class="b" style="display: block;\n\n  margin-left: auto;\n\n  margin-right: auto;\n\n  position: relative;\n\n  top:150px;" ion-button color=light round outline (click)="scanCode()">\n\n    SCAN\n\n  </button>\n\n</ion-content>\n'/*ion-inline-end:"C:\NYPiProjection\CrestronMobileApp\src\pages\scan\scan.html"*/,
+            selector: 'page-scan',template:/*ion-inline-start:"C:\Projects\Crestron\CrestronMobileApp\src\pages\scan\scan.html"*/'<ion-content class=bg>\n\n  <img style="display: block;\n\n      margin-left: auto;\n\n      margin-right: auto;\n\n      position: relative;\n\n      top:100px;" src="assets/imgs/scanwhite.png" />\n\n  <div text-center>\n\n    <p class="a">Scan QR Code to proceed</p>\n\n  </div>\n\n  <button class="b" style="display: block;\n\n  margin-left: auto;\n\n  margin-right: auto;\n\n  position: relative;\n\n  top:150px;" ion-button color=light round outline (click)="scanCode()">\n\n    SCAN\n\n  </button>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Projects\Crestron\CrestronMobileApp\src\pages\scan\scan.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* App */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */], __WEBPACK_IMPORTED_MODULE_5__providers_projector_api_projector_api__["a" /* ProjectorApiProvider */]])
     ], ScanPage);
@@ -610,7 +611,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\NYPiProjection\CrestronMobileApp\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n\n\n<div *ngIf="showSplash" class="splash">\n\n  <img style="display:block;\n\n        top:5%;\n\n        margin-left:auto;\n\n        margin-right:auto;\n\n        position:relative;" width="100" height="100" src="assets/imgs/nyplogo.png">\n\n  <h1 text-center><b>iProjection</b></h1>\n\n  <h5 text-center>Smart Control</h5>\n\n  <div class="spinner"></div>\n\n\n\n  <div class="spinner">\n\n    <div class="rect1"></div>\n\n    <div class="rect2"></div>\n\n    <div class="rect3"></div>\n\n    <div class="rect4"></div>\n\n    <div class="rect5"></div>\n\n  </div>\n\n\n\n</div>\n\n\n\n'/*ion-inline-end:"C:\NYPiProjection\CrestronMobileApp\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Projects\Crestron\CrestronMobileApp\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n\n\n<div *ngIf="showSplash" class="splash">\n\n  <img style="display:block;\n\n        top:5%;\n\n        margin-left:auto;\n\n        margin-right:auto;\n\n        position:relative;" width="100" height="100" src="assets/imgs/nyplogo.png">\n\n  <h1 text-center><b>iProjection</b></h1>\n\n  <h5 text-center>Smart Control</h5>\n\n  <div class="spinner"></div>\n\n\n\n  <div class="spinner">\n\n    <div class="rect1"></div>\n\n    <div class="rect2"></div>\n\n    <div class="rect3"></div>\n\n    <div class="rect4"></div>\n\n    <div class="rect5"></div>\n\n  </div>\n\n\n\n</div>\n\n\n\n'/*ion-inline-end:"C:\Projects\Crestron\CrestronMobileApp\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -834,7 +835,7 @@ var LoginPage = /** @class */ (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"C:\NYPiProjection\CrestronMobileApp\src\pages\login\login.html"*/'<ion-content text-center class="bg">\n\n  <img style="display:block;\n\n      top:5%;\n\n      margin-left:auto;\n\n      margin-right:auto;\n\n      position:relative;" width="100" height="100" src="assets/imgs/nyplogo.png">\n\n  <div class="head" text-center>\n\n    <h1>\n\n      <b>iProjection</b>\n\n    </h1>\n\n    <h5>Smart Control</h5>\n\n  </div>\n\n  <div text-center class="inputs">\n\n    <form (submit)="doLogin()">\n\n      <ion-item>\n\n        <ion-label stacked>Username</ion-label>\n\n        <ion-input [(ngModel)]="loginData.username" (ngModelChange)="loginData.username = $event.toLocaleUpperCase()" name="username" type="text"></ion-input>\n\n      </ion-item>\n\n      <ion-item class="pass">\n\n        <ion-label stacked>Password</ion-label>\n\n        <ion-input [(ngModel)]="loginData.password" name="password" type="password"></ion-input>\n\n      </ion-item>\n\n      <button ion-button block round type="submit">\n\n        Login\n\n      </button>\n\n    </form>\n\n    <p>*SIT Domain Account ID & Password</p>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\NYPiProjection\CrestronMobileApp\src\pages\login\login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"C:\Projects\Crestron\CrestronMobileApp\src\pages\login\login.html"*/'<ion-content text-center class="bg">\n\n  <img style="display:block;\n\n      top:5%;\n\n      margin-left:auto;\n\n      margin-right:auto;\n\n      position:relative;" width="100" height="100" src="assets/imgs/nyplogo.png">\n\n  <div class="head" text-center>\n\n    <h1>\n\n      <b>iProjection</b>\n\n    </h1>\n\n    <h5>Smart Control</h5>\n\n  </div>\n\n  <div text-center class="inputs">\n\n    <form (submit)="doLogin()">\n\n      <ion-item>\n\n        <ion-label stacked>Username</ion-label>\n\n        <ion-input [(ngModel)]="loginData.username" (ngModelChange)="loginData.username = $event.toLocaleUpperCase()" name="username" type="text"></ion-input>\n\n      </ion-item>\n\n      <ion-item class="pass">\n\n        <ion-label stacked>Password</ion-label>\n\n        <ion-input [(ngModel)]="loginData.password" name="password" type="password"></ion-input>\n\n      </ion-item>\n\n      <button ion-button block round type="submit">\n\n        Login\n\n      </button>\n\n    </form>\n\n    <p>*SIT Domain Account ID & Password</p>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Projects\Crestron\CrestronMobileApp\src\pages\login\login.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */], __WEBPACK_IMPORTED_MODULE_5__providers_authentication_authentication__["a" /* AuthenticationProvider */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_diagnostic__["a" /* Diagnostic */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_open_native_settings__["a" /* OpenNativeSettings */]])
     ], LoginPage);
@@ -1196,27 +1197,6 @@ var GeneralControlPage = /** @class */ (function () {
                     }
                     if (wifiAvailability == 1) {
                         loadingMessage.dismiss();
-                        var alertMessage = _this.alertCtrl.create({
-                            title: "Please try either of the following or all of it:<br>",
-                            subTitle: "1) Turn on your device's location services<br>" +
-                                "2) Give this app access to your device's location<br>",
-                            buttons: [{
-                                    text: 'No thanks',
-                                    handler: function () {
-                                    }
-                                }, {
-                                    text: 'Open Application Settings',
-                                    handler: function () {
-                                        _this.openNativeSettings.open("application_details");
-                                    }
-                                }, {
-                                    text: 'Open Location settings',
-                                    handler: function () {
-                                        _this.openNativeSettings.open('location');
-                                    }
-                                }]
-                        });
-                        alertMessage.present();
                     }
                 });
             }
@@ -1350,7 +1330,9 @@ var GeneralControlPage = /** @class */ (function () {
             this.turnOff(this.WirelessPresenterColor);
             this.turnOff(this.Aux1Color);
             this.printStatus("VGA is on");
-            this.remoteCtrlService.sendRemoteCommand(this.signalID, "VGA%20/%20Visualiser", "true").subscribe(function (result) { return console.log("Result:" + result); }, function (error) { return console.log("Error" + error); });
+            //this.remoteCtrlService.sendRemoteCommand(this.signalID, "VGA%20/%20Visualiser", "true").subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
+            //try changing to vga with activateProjectorFunc
+            this.activateProjectorFunc("0cdf6517-e3f8-44b7-b475-782122cb3e6b", "true", "Switched to VGA");
         }
         else {
             this.printStatus("VGA is already on");
@@ -1360,10 +1342,22 @@ var GeneralControlPage = /** @class */ (function () {
         if (this.ProjectorMuteColor === '#70c9e3') {
             this.turnOn(this.ProjectorMuteColor);
             this.printStatus("Projector is muted");
+            this.activateProjectorFunc("5415dc35-3dd0-42ed-b702-38ad1314f983", "true", "Projector is muted");
         }
         else {
             this.turnOff(this.ProjectorMuteColor);
-            this.printStatus("Projector is umuted");
+            this.printStatus("Projector is unmuted");
+        }
+    };
+    GeneralControlPage.prototype.ProjectorUnMute = function () {
+        if (this.ProjectorMuteColor === '#70c9e3') {
+            this.turnOff(this.ProjectorMuteColor);
+            this.printStatus("Projector is unmuted");
+            this.activateProjectorFunc("81a3869b-d6be-4d54-9491-366bc1bda52e", "true", "Projector is unmuted");
+        }
+        else {
+            this.turnOn(this.ProjectorMuteColor);
+            this.printStatus("Screen is still muted");
         }
     };
     GeneralControlPage.prototype.HDMI = function () {
@@ -1381,14 +1375,26 @@ var GeneralControlPage = /** @class */ (function () {
             this.printStatus("HDMI is aready on");
         }
     };
-    GeneralControlPage.prototype.ScreenUpDown = function () {
+    GeneralControlPage.prototype.ScreenDown = function () {
         if (this.ScreenUpDownColor === '#70c9e3') {
             this.turnOn(this.ScreenUpDownColor);
             this.printStatus("Screen is going down");
+            this.activateProjectorFunc("c93e210e-91d9-4890-afc6-0de3923b665d", "true", "Screen Down");
         }
         else {
             this.turnOff(this.ScreenUpDownColor);
+            this.printStatus("Screen is already down");
+        }
+    };
+    GeneralControlPage.prototype.ScreenUp = function () {
+        if (this.ScreenUpDownColor === '#70c9e3') {
+            this.turnOff(this.ScreenUpDownColor);
             this.printStatus("Screen is going up");
+            this.activateProjectorFunc("84b833e7-78bb-43f1-a4a7-4241cec76424", "true", "Screen Down");
+        }
+        else {
+            this.turnOn(this.ScreenUpDownColor);
+            this.printStatus("Screen is already up");
         }
     };
     GeneralControlPage.prototype.WirelessPresenter = function () {
@@ -1421,37 +1427,48 @@ var GeneralControlPage = /** @class */ (function () {
     };
     GeneralControlPage.prototype.AutoLock = function () {
         if (this.AutoLockColor === '#70c9e3') {
-            this.turnOn(this.Aux1Color);
+            this.turnOn(this.AutoLockColor);
             this.printStatus("Autolock is on");
+            this.activateProjectorFunc("9f42843a-be1b-4002-a262-d4b09fe3ef57", "true", "Autolock is on");
         }
         else {
-            this.printStatus("Autolock is already on");
+            this.turnOff(this.AutoLockColor);
+            this.printStatus("AV Rack already locked");
         }
     };
-    //Power() {
-    //  if (this.PowerColor === '#70c9e3') {
-    //    this.turnOn(this.PCColor);
-    //    this.checked = true;
-    //    this.printStatus("Power is on");
-    //    this.remoteCtrlService.sendRemoteCommand(this.signalID, "SYSTEM_POWER", "true").subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
-    //  }
-    //  else {
-    //    this.turnOff(this.PCColor);
-    //    this.turnOff(this.ProjectorOnColor);
-    //    this.turnOff(this.VGAColor);
-    //    this.turnOff(this.ProjectorOffColor);
-    //    this.turnOff(this.HDMIColor);
-    //    this.turnOff(this.ProjectorMuteColor);
-    //    this.turnOff(this.WirelessPresenterColor);
-    //    this.turnOff(this.ScreenUpDownColor);
-    //    this.turnOff(this.Aux1Color);
-    //    this.turnOff(this.PowerColor);
-    //    this.turnOff(this.AutoLockColor);
-    //    this.checked = false;
-    //    this.printStatus("Power is off");
-    //    this.remoteCtrlService.sendRemoteCommand(this.signalID, "SYSTEM_POWER", "false").subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
-    //  }
-    //}
+    GeneralControlPage.prototype.UnlockAV = function () {
+        if (this.AutoLockColor === '#70c9e3') {
+            this.turnOff(this.AutoLockColor);
+            this.printStatus("AV rack unlocked");
+            this.activateProjectorFunc("Autolock Off AV Rack", "true", "Autolock is on");
+        }
+        else {
+            this.turnOn(this.AutoLockColor);
+            this.printStatus("AV Rack still locked");
+        }
+    };
+    GeneralControlPage.prototype.PowerOn = function () {
+        if (this.PowerColor === '#70c9e3') {
+            this.turnOn(this.PowerColor);
+            this.printStatus("System Power On");
+            this.activateProjectorFunc("SYSTEM_POWER", "true", "System Power On");
+        }
+        else {
+            this.turnOff(this.PowerColor);
+            this.printStatus("System already on");
+        }
+    };
+    GeneralControlPage.prototype.PowerOff = function () {
+        if (this.PowerColor === '#70c9e3') {
+            this.turnOff(this.PowerColor);
+            this.printStatus("System Power Off");
+            this.activateProjectorFunc("SYSTEM_POWER", "false", "System Power Off");
+        }
+        else {
+            this.turnOff(this.PowerColor);
+            this.printStatus("System Power already off");
+        }
+    };
     GeneralControlPage.prototype.ionViewWillUnload = function () {
         console.log('ionViewWillUnload general-ControlPage');
         this.remoteCtrlService.updateUsageLeave(this.roomID, this.username).subscribe(function (result) { return console.log("Result:" + result); }, function (error) { return console.log("Error" + error); });
@@ -1462,7 +1479,7 @@ var GeneralControlPage = /** @class */ (function () {
     };
     GeneralControlPage = GeneralControlPage_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-general-control',template:/*ion-inline-start:"C:\NYPiProjection\CrestronMobileApp\src\pages\general-control\general-control.html"*/'<ion-content class="bg">\n\n  <h5 class="roomName">Welcome to {{roomID}}</h5>\n\n  <div class="col2">\n\n    <ion-card class="offStatus" *ngIf="!PowerColor">\n\n      <ion-card-content>\n\n        <ion-label (click)="systemToggle()">System is {{systemStatus}}</ion-label>\n\n      </ion-card-content>\n\n    </ion-card>\n\n    <ion-card class="onStatus" *ngIf="PowerColor">\n\n      <ion-card-content>\n\n        <ion-label (click)="systemToggle()">System is {{systemStatus}}</ion-label>\n\n      </ion-card-content>\n\n    </ion-card>\n\n  </div>\n\n  <div class="row">\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!ProjectorOnColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorOn()" class="buttonLabel">\n\n            Projector\n\n            <br>On\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="ProjectorOnColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorOn()" class="buttonLabel">\n\n            Projector\n\n            <br>On\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!ProjectorOffColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorOff()" class="buttonLabel">\n\n            Projector\n\n            <br>Off\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="ProjectorOffColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorOff()" class="buttonLabel">\n\n            Projector\n\n            <br>Off\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!ProjectorMuteColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorMute()" class="buttonLabel">\n\n            Projector\n\n            <br>Mute\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="ProjectorMuteColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorMute()" class="buttonLabel">\n\n            Projector\n\n            <br>Mute\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n  </div>\n\n  <div class="row">\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!VGAColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/vga.png">\n\n          <ion-label (click)="VGA()" class="buttonLabel">\n\n            Visualizer\n\n            <br>VGA\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="VGAColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/vga.png">\n\n          <ion-label (click)="VGA()" class="buttonLabel">\n\n            Visualizer\n\n            <br>VGA\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!PCColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/pc.png">\n\n          <ion-label (click)="PC()" class="buttonLabel">PC</ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="PCColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/pc.png">\n\n          <ion-label (click)="PC()" class="buttonLabel">PC</ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!HDMIColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/hdmi.png">\n\n          <ion-label (click)="HDMI()" class="buttonLabel">HDMI</ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="HDMIColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/hdmi.png">\n\n          <ion-label (click)="HDMI()" class="buttonLabel">HDMI</ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n  </div>\n\n  <div class="row">\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!WirelessPresenterColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/remote.png">\n\n          <ion-label (click)="WirelessPresenter()" class="buttonLabel">\n\n            Wireless\n\n            <br>Presenter\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="WirelessPresenterColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/remote.png">\n\n          <ion-label (click)="WirelessPresenter()" class="buttonLabel">\n\n            Wireless\n\n            <br>Presenter\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!Aux1Color">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/auxcable.png">\n\n          <ion-label (click)="Aux1()" class="buttonLabel">AUX</ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="Aux1Color">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/auxcable.png">\n\n          <ion-label (click)="Aux1()" class="buttonLabel">AUX</ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!AutoLockColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/autolock.png">\n\n          <ion-label (click)="AutoLock()" class="buttonLabel">\n\n            Auto\n\n            <br>Lock\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="AutoLockColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/autolock.png">\n\n          <ion-label (click)="AutoLock()" class="buttonLabel">\n\n            Auto\n\n            <br>Lock\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n  </div>\n\n  <div class="row">\n\n    <div class="col-s">\n\n      <ion-card class="offStatus" *ngIf="!ScreenUpDownColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/screen.png">\n\n          <ion-label (click)="ScreenUpDown()" class="buttonLabel">\n\n            Screen\n\n            <br>Up/Down\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="ScreenUpDownColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/screen.png">\n\n          <ion-label (click)="ScreenUpDown()" class="buttonLabel">\n\n            Screen\n\n            <br>Up/Down\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col2">\n\n      <ion-card class="offStatus">\n\n        <ion-card-content>\n\n          <ion-item>\n\n            <ion-range [(ngModel)]="singleValue" color="secondary" pin="true">\n\n              <ion-icon small range-left color="light" name="volume-down"></ion-icon>\n\n              <ion-icon range-right color="light" name="volume-up"></ion-icon>\n\n            </ion-range>\n\n          </ion-item>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n  </div>\n\n'/*ion-inline-end:"C:\NYPiProjection\CrestronMobileApp\src\pages\general-control\general-control.html"*/
+            selector: 'page-general-control',template:/*ion-inline-start:"C:\Projects\Crestron\CrestronMobileApp\src\pages\general-control\general-control.html"*/'<ion-content class="bg">\n\n  <h5 class="roomName">Welcome to {{roomID}}</h5>\n\n  <div class="col2">\n\n    <ion-card class="offStatus" *ngIf="!PowerColor">\n\n      <ion-card-content>\n\n        <ion-label (click)="systemToggle()">System is {{systemStatus}}</ion-label>\n\n      </ion-card-content>\n\n    </ion-card>\n\n    <ion-card class="onStatus" *ngIf="PowerColor">\n\n      <ion-card-content>\n\n        <ion-label (click)="systemToggle()">System is {{systemStatus}}</ion-label>\n\n      </ion-card-content>\n\n    </ion-card>\n\n  </div>\n\n  <div class="row">\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!ProjectorOnColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorOn()" class="buttonLabel">\n\n            Projector\n\n            <br>On\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="ProjectorOnColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorOn()" class="buttonLabel">\n\n            Projector\n\n            <br>On\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!ProjectorOffColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorOff()" class="buttonLabel">\n\n            Projector\n\n            <br>Off\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="ProjectorOffColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorOff()" class="buttonLabel">\n\n            Projector\n\n            <br>Off\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!ProjectorMuteColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorMute()" class="buttonLabel">\n\n            Projector\n\n            <br>Mute\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="ProjectorMuteColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorMute()" class="buttonLabel">\n\n            Projector\n\n            <br>Mute\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n  </div>\n\n  <div class="row">\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!VGAColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/vga.png">\n\n          <ion-label (click)="VGA()" class="buttonLabel">\n\n            Visualizer\n\n            <br>VGA\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="VGAColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/vga.png">\n\n          <ion-label (click)="VGA()" class="buttonLabel">\n\n            Visualizer\n\n            <br>VGA\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!PCColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/pc.png">\n\n          <ion-label (click)="PC()" class="buttonLabel">PC</ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="PCColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/pc.png">\n\n          <ion-label (click)="PC()" class="buttonLabel">PC</ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!HDMIColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/hdmi.png">\n\n          <ion-label (click)="HDMI()" class="buttonLabel">HDMI</ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="HDMIColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/hdmi.png">\n\n          <ion-label (click)="HDMI()" class="buttonLabel">HDMI</ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n  </div>\n\n  <div class="row">\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!WirelessPresenterColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/remote.png">\n\n          <ion-label (click)="WirelessPresenter()" class="buttonLabel">\n\n            Wireless\n\n            <br>Presenter\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="WirelessPresenterColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/remote.png">\n\n          <ion-label (click)="WirelessPresenter()" class="buttonLabel">\n\n            Wireless\n\n            <br>Presenter\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!Aux1Color">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/auxcable.png">\n\n          <ion-label (click)="Aux1()" class="buttonLabel">AUX</ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="Aux1Color">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/auxcable.png">\n\n          <ion-label (click)="Aux1()" class="buttonLabel">AUX</ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col">\n\n      <ion-card class="offStatus" *ngIf="!AutoLockColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/autolock.png">\n\n          <ion-label (click)="AutoLock()" class="buttonLabel">\n\n            Auto\n\n            <br>Lock\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="AutoLockColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/autolock.png">\n\n          <ion-label (click)="AutoLock()" class="buttonLabel">\n\n            Auto\n\n            <br>Lock\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n  </div>\n\n  <div class="row">\n\n    <div class="col-s">\n\n      <ion-card class="offStatus" *ngIf="!ScreenUpDownColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/screen.png">\n\n          <ion-label (click)="ScreenDown()" class="buttonLabel">\n\n            Screen\n\n            <br>Down\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="ScreenUpDownColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/screen.png">\n\n          <ion-label (click)="ScreenDown()" class="buttonLabel">\n\n            Screen\n\n            <br>Down\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col-s">\n\n      <ion-card class="offStatus" *ngIf="!ScreenUpDownColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/screen.png">\n\n          <ion-label (click)="ScreenUp()" class="buttonLabel">\n\n            Screen\n\n            <br>Up\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="ScreenUpDownColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/screen.png">\n\n          <ion-label (click)="ScreenUp()" class="buttonLabel">\n\n            Screen\n\n            <br>Up\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col-s">\n\n      <ion-card class="offStatus" *ngIf="!ProjectorMuteColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorUnMute()" class="buttonLabel">\n\n            Projector\n\n            <br>UnMute\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="ProjectorMuteColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/projector.png">\n\n          <ion-label (click)="ProjectorUnMute()" class="buttonLabel">\n\n            Projector\n\n            <br>UnMute\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n  </div>\n\n  <div class="row">\n\n    <div class="col-s">\n\n      <ion-card class="offStatus" *ngIf="!AutoLockColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/autolock.png">\n\n          <ion-label (click)="UnlockAV()" class="buttonLabel">\n\n            Unlock\n\n            <br>AV\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="AutoLockColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/autolock.png">\n\n          <ion-label (click)="UnlockAV()" class="buttonLabel">\n\n            Unlock\n\n            <br>AV\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col-s">\n\n      <ion-card class="offStatus" *ngIf="!PowerColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/onoff.png">\n\n          <ion-label (click)="PowerOn()" class="buttonLabel">\n\n            Power\n\n            <br>On\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="PowerColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/onoff.png">\n\n          <ion-label (click)="PowerOn()" class="buttonLabel">\n\n            Power\n\n            <br>On\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n    <div class="col-s">\n\n      <ion-card class="offStatus" *ngIf="!PowerColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/onoff.png">\n\n          <ion-label (click)="PowerOff()" class="buttonLabel">\n\n            Power\n\n            <br>Off\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n      <ion-card class="onStatus" *ngIf="PowerColor">\n\n        <ion-card-content>\n\n          <img class="imageButton" src="assets/imgs/onoff.png">\n\n          <ion-label (click)="PowerOff()" class="buttonLabel">\n\n            Power\n\n            <br>Off\n\n          </ion-label>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n  </div>\n\n  <div class="row">\n\n    <div class="col2">\n\n      <ion-card class="offStatus">\n\n        <ion-card-content>\n\n          <ion-item>\n\n            <ion-range [(ngModel)]="singleValue" color="secondary" pin="true">\n\n              <ion-icon small range-left color="light" name="volume-down"></ion-icon>\n\n              <ion-icon range-right color="light" name="volume-up"></ion-icon>\n\n            </ion-range>\n\n          </ion-item>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </div>\n\n  </div>\n\n\n\n'/*ion-inline-end:"C:\Projects\Crestron\CrestronMobileApp\src\pages\general-control\general-control.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* App */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */], __WEBPACK_IMPORTED_MODULE_11__providers_remote_control_remote_control__["a" /* RemoteControlProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_authentication_authentication__["a" /* AuthenticationProvider */], __WEBPACK_IMPORTED_MODULE_13__providers_projector_api_projector_api__["a" /* ProjectorApiProvider */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__["a" /* Geolocation */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_hotspot__["a" /* Hotspot */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_network_interface__["a" /* NetworkInterface */], __WEBPACK_IMPORTED_MODULE_5__ng_idle_core__["a" /* Idle */], __WEBPACK_IMPORTED_MODULE_10__ionic_native_local_notifications__["a" /* LocalNotifications */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_diagnostic__["a" /* Diagnostic */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_open_native_settings__["a" /* OpenNativeSettings */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_8__ionic_native_background_mode__["a" /* BackgroundMode */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ViewController */]])
     ], GeneralControlPage);
