@@ -240,13 +240,13 @@ export class GeneralControlPage {
               setTimeout(() => {
                 WifiWizard.getCurrentBSSID((bssid: string) => {
                   this.remoteCtrlService.sendRemoteCommand(this.signalID, attributeID, value).subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
-                  this.remoteCtrlService.sendEventLog(this.roomID, this.username, Projector_Event, pos.coords.latitude, pos.coords.longitude, bssid).subscribe(result => {
-                    loadingMessage.dismiss();
-                    console.log("Result:" + result);
-                  }, error => {
-                    loadingMessage.dismiss();
-                    console.log("Error" + error);
-                  });
+                  // this.remoteCtrlService.sendEventLog(this.roomID, this.username, Projector_Event, pos.coords.latitude, pos.coords.longitude, bssid).subscribe(result => {
+                  //   loadingMessage.dismiss();
+                  //   console.log("Result:" + result);
+                  // }, error => {
+                  //   loadingMessage.dismiss();
+                  //   console.log("Error" + error);
+                  // });
                 }, err => {
                   console.log("Wifiwizard error: " + err)
                 });
