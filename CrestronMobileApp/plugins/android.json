@@ -7,9 +7,6 @@
     "files": {}
   },
   "installed_plugins": {
-    "com.pylonproducts.wifiwizard": {
-      "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
-    },
     "cordova-open-native-settings": {
       "PACKAGE_NAME": "io.ionic.CrestronMobileApp"
     },

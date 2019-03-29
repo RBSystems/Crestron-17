@@ -16,7 +16,6 @@ import { RemoteControlProvider } from '../../providers/remote-control/remote-con
 import { AuthenticationProvider } from '../../providers/authentication/authentication';
 import { ProjectorApiProvider } from '../../providers/projector-api/projector-api';
 import { Cordova } from '@ionic-native/core';
-declare var WifiWizard: any;
 import QRReader from '../../../node_modules/Custom-modules/barcode-scanner-master/app/js/vendor/qrscan.js';
 
 @Component({
@@ -238,18 +237,7 @@ export class GeneralControlPage {
           this.diagnostic.isWifiAvailable().then(wifiAvailability => {
             if (wifiAvailability == 1) {
               setTimeout(() => {
-                WifiWizard.getCurrentBSSID((bssid: string) => {
-                  this.remoteCtrlService.sendRemoteCommand(this.signalID, attributeID, value).subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
-                  // this.remoteCtrlService.sendEventLog(this.roomID, this.username, Projector_Event, pos.coords.latitude, pos.coords.longitude, bssid).subscribe(result => {
-                  //   loadingMessage.dismiss();
-                  //   console.log("Result:" + result);
-                  // }, error => {
-                  //   loadingMessage.dismiss();
-                  //   console.log("Error" + error);
-                  // });
-                }, err => {
-                  console.log("Wifiwizard error: " + err)
-                });
+                this.remoteCtrlService.sendRemoteCommand(this.signalID, attributeID, value).subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
               }, 2000)
             }
 

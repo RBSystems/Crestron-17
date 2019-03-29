@@ -35,7 +35,6 @@
     "@ng-idle/core": "^2.0.0-beta.15",
     "@ng-idle/keepalive": "^2.0.0-beta.15",
     "angular2-moment": "^1.8.0",
-    "com.pylonproducts.wifiwizard": "~0.2.11",
     "cordova-android": "7.0.0",
     "cordova-browser": "5.0.3",
     "cordova-open-native-settings": "^1.5.0",
@@ -60,7 +59,6 @@
     "phonegap-plugin-barcodescanner": "^7.0.3",
     "rxjs": "5.5.2",
     "sw-toolbox": "3.6.0",
-    "wifiwizard": "^0.2.11",
     "zone.js": "0.8.18"
   },
   "devDependencies": {
@@ -91,7 +89,6 @@
       "cordova-plugin-local-notification": {},
       "cordova.plugins.diagnostic": {},
       "cordova-open-native-settings": {},
-      "com.pylonproducts.wifiwizard": {},
       "cordova-plugin-background-mode": {}
     },
     "platforms": [
