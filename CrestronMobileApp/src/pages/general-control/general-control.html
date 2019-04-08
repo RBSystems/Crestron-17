@@ -13,47 +13,47 @@
     </ion-card>
   </div>
   <div class="row">
-    <div class="col">
-      <ion-card class="offStatus" *ngIf="!ProjectorOnColor">
-        <ion-card-content>
-          <img class="imageButton" src="assets/imgs/projector.png">
-          <ion-label (click)="ProjectorOn()" class="buttonLabel">
-            Projector
-            <br>On
-          </ion-label>
-        </ion-card-content>
-      </ion-card>
-      <ion-card class="onStatus" *ngIf="ProjectorOnColor">
-        <ion-card-content>
-          <img class="imageButton" src="assets/imgs/projector.png">
-          <ion-label (click)="ProjectorOn()" class="buttonLabel">
-            Projector
-            <br>On
-          </ion-label>
-        </ion-card-content>
-      </ion-card>
-    </div>
-    <div class="col">
-      <ion-card class="offStatus" *ngIf="!ProjectorOffColor">
-        <ion-card-content>
-          <img class="imageButton" src="assets/imgs/projector.png">
-          <ion-label (click)="ProjectorOff()" class="buttonLabel">
-            Projector
-            <br>Off
-          </ion-label>
-        </ion-card-content>
-      </ion-card>
-      <ion-card class="onStatus" *ngIf="ProjectorOffColor">
-        <ion-card-content>
-          <img class="imageButton" src="assets/imgs/projector.png">
-          <ion-label (click)="ProjectorOff()" class="buttonLabel">
-            Projector
-            <br>Off
-          </ion-label>
-        </ion-card-content>
-      </ion-card>
-    </div>
-	<div class="col">
+      <div class="col">
+          <ion-card class="offStatus" *ngIf="!PowerColor">
+            <ion-card-content>
+              <img class="imageButton" src="assets/imgs/onoff.png">
+              <ion-label (click)="PowerOn()" ng-click="show = false;" class="buttonLabel">
+                Power
+                <br>On
+              </ion-label>
+            </ion-card-content>
+          </ion-card>
+          <ion-card class="onStatus" *ngIf="PowerColor">
+            <ion-card-content>
+              <img class="imageButton" src="assets/imgs/onoff.png">
+              <ion-label (click)="PowerOn()" ng-click="show = false;" class="buttonLabel">
+                Power
+                <br>On
+              </ion-label>
+            </ion-card-content>
+          </ion-card>
+        </div>
+        <div class="col">
+          <ion-card class="offStatus" *ngIf="!PowerColor">
+            <ion-card-content>
+              <img class="imageButton" src="assets/imgs/onoff.png">
+              <ion-label (click)="PowerOff()" ng-click="show = true;"  class="buttonLabel">
+                Power
+                <br>Off
+              </ion-label>
+            </ion-card-content>
+          </ion-card>
+          <ion-card class="onStatus" *ngIf="PowerColor">
+            <ion-card-content>
+              <img class="imageButton" src="assets/imgs/onoff.png">
+              <ion-label (click)="PowerOff()" ng-click="show = true;" class="buttonLabel">
+                Power
+                <br>Off
+              </ion-label>
+            </ion-card-content>
+          </ion-card>
+        </div>
+	<div class="col" ng-hide="show">
       <ion-card class="offStatus" *ngIf="!PCColor">
         <ion-card-content>
           <img class="imageButton" src="assets/imgs/pc.png">
@@ -68,47 +68,47 @@
       </ion-card>
     </div>
   </div>
-  <div class="row">
-	<div class="col">
-      <ion-card class="offStatus" *ngIf="!PowerColor">
-        <ion-card-content>
-          <img class="imageButton" src="assets/imgs/onoff.png">
-          <ion-label (click)="PowerOn()" class="buttonLabel">
-            Power
-            <br>On
-          </ion-label>
-        </ion-card-content>
-      </ion-card>
-      <ion-card class="onStatus" *ngIf="PowerColor">
-        <ion-card-content>
-          <img class="imageButton" src="assets/imgs/onoff.png">
-          <ion-label (click)="PowerOn()" class="buttonLabel">
-            Power
-            <br>On
-          </ion-label>
-        </ion-card-content>
-      </ion-card>
-    </div>
-    <div class="col">
-      <ion-card class="offStatus" *ngIf="!PowerColor">
-        <ion-card-content>
-          <img class="imageButton" src="assets/imgs/onoff.png">
-          <ion-label (click)="PowerOff()" class="buttonLabel">
-            Power
-            <br>Off
-          </ion-label>
-        </ion-card-content>
-      </ion-card>
-      <ion-card class="onStatus" *ngIf="PowerColor">
-        <ion-card-content>
-          <img class="imageButton" src="assets/imgs/onoff.png">
-          <ion-label (click)="PowerOff()" class="buttonLabel">
-            Power
-            <br>Off
-          </ion-label>
-        </ion-card-content>
-      </ion-card>
-    </div>
+  <div class="row" ng-hide="show">
+      <div class="col">
+          <ion-card class="offStatus" *ngIf="!ProjectorOnColor">
+            <ion-card-content>
+              <img class="imageButton" src="assets/imgs/projector.png">
+              <ion-label (click)="ProjectorOn()" class="buttonLabel">
+                Projector
+                <br>On
+              </ion-label>
+            </ion-card-content>
+          </ion-card>
+          <ion-card class="onStatus" *ngIf="ProjectorOnColor">
+            <ion-card-content>
+              <img class="imageButton" src="assets/imgs/projector.png">
+              <ion-label (click)="ProjectorOn()" class="buttonLabel">
+                Projector
+                <br>On
+              </ion-label>
+            </ion-card-content>
+          </ion-card>
+        </div>
+        <div class="col">
+          <ion-card class="offStatus" *ngIf="!ProjectorOffColor">
+            <ion-card-content>
+              <img class="imageButton" src="assets/imgs/projector.png">
+              <ion-label (click)="ProjectorOff()" class="buttonLabel">
+                Projector
+                <br>Off
+              </ion-label>
+            </ion-card-content>
+          </ion-card>
+          <ion-card class="onStatus" *ngIf="ProjectorOffColor">
+            <ion-card-content>
+              <img class="imageButton" src="assets/imgs/projector.png">
+              <ion-label (click)="ProjectorOff()" class="buttonLabel">
+                Projector
+                <br>Off
+              </ion-label>
+            </ion-card-content>
+          </ion-card>
+        </div>	
 	<div class="col">
       <ion-card class="offStatus" *ngIf="!HDMIColor">
         <ion-card-content>
@@ -124,7 +124,7 @@
       </ion-card>
     </div>
   </div>
-  <div class="row">
+  <div class="row" ng-hide="show">
 	<div class="col-s">
       <ion-card class="offStatus" *ngIf="!ProjectorMuteColor">
         <ion-card-content>
@@ -186,7 +186,7 @@
       </ion-card>
     </div>    
   </div>
-  <div class="row">
+  <div class="row" ng-hide="show">
     <div class="col">
       <ion-card class="offStatus" *ngIf="!ScreenUpDownColor">
         <ion-card-content>
@@ -248,7 +248,7 @@
       </ion-card>
     </div>	
   </div>
-  <div class="row">
+  <div class="row" ng-hide="show">
 	<div class="col">
       <ion-card class="offStatus" *ngIf="!Aux1Color">
         <ion-card-content>

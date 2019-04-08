@@ -28,6 +28,7 @@ export class GeneralControlPage {
   username: string = this.navParam.get('username');
   roomID: string = this.navParam.get('roomID');
   signalID: string = this.navParam.get('signalID');
+  systemStatus: string = this.navParam.get('systemStatus');
   checked: boolean = false;
   data: any;
   UsageData: any;
@@ -146,7 +147,8 @@ export class GeneralControlPage {
           this.app.getRootNav().push(GeneralControlPage, {
             'username': this.username,
             'roomID': this.roomID,
-            'signalID': this.signalID
+            'signalID': this.signalID,
+            'systemStatus': this.systemStatus
           });
         }
       });
