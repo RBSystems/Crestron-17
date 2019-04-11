@@ -1,0 +1,12 @@
+Source for exporting and importing database
+https://www.youtube.com/watch?v=QdKOqlD_3jw
+
+
+Source for IOS over the air distribution through iis server(Crestron server)
+https://stackoverflow.com/questions/10116091/ios-enterprise-ota-distribution-problems
+
+"nypIprojectionIOSdownload" must be hosted on IIS so that the app can be downloaded onto Iphone
+
+Crestron Server Microsoft Sql Server Account Details
+user id = sa
+password = P@ssw0rd
