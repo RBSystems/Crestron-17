@@ -13,11 +13,19 @@
     </ion-card>
   </div>
   <div class="row">
+    <div class="col">
+      <ion-item>
+        <ion-label>Power On/Off</ion-label>
+        <ion-toggle color="tertiary" [(ngModel)]="statusPower" (ionChange)="onChangePower()"></ion-toggle>
+      </ion-item>
+    </div>
+  </div>
+  <div class="row">
       <div class="col">
           <ion-card class="offStatus" *ngIf="!PowerColor">
             <ion-card-content>
               <img class="imageButton" src="assets/imgs/onoff.png">
-              <ion-label (click)="PowerOn()" ng-click="show = false;" class="buttonLabel">
+              <ion-label (click)="PowerOn()" class="buttonLabel">
                 Power
                 <br>On
               </ion-label>
@@ -26,7 +34,7 @@
           <ion-card class="onStatus" *ngIf="PowerColor">
             <ion-card-content>
               <img class="imageButton" src="assets/imgs/onoff.png">
-              <ion-label (click)="PowerOn()" ng-click="show = false;" class="buttonLabel">
+              <ion-label (click)="PowerOn()" class="buttonLabel">
                 Power
                 <br>On
               </ion-label>
@@ -37,7 +45,7 @@
           <ion-card class="offStatus" *ngIf="!PowerColor">
             <ion-card-content>
               <img class="imageButton" src="assets/imgs/onoff.png">
-              <ion-label (click)="PowerOff()" ng-click="show = true;"  class="buttonLabel">
+              <ion-label (click)="PowerOff()" class="buttonLabel">
                 Power
                 <br>Off
               </ion-label>
@@ -46,14 +54,14 @@
           <ion-card class="onStatus" *ngIf="PowerColor">
             <ion-card-content>
               <img class="imageButton" src="assets/imgs/onoff.png">
-              <ion-label (click)="PowerOff()" ng-click="show = true;" class="buttonLabel">
+              <ion-label (click)="PowerOff()" class="buttonLabel">
                 Power
                 <br>Off
               </ion-label>
             </ion-card-content>
           </ion-card>
         </div>
-	<div class="col" ng-hide="show">
+	<div class="col">
       <ion-card class="offStatus" *ngIf="!PCColor">
         <ion-card-content>
           <img class="imageButton" src="assets/imgs/pc.png">
@@ -68,7 +76,7 @@
       </ion-card>
     </div>
   </div>
-  <div class="row" ng-hide="show">
+  <div class="row">
       <div class="col">
           <ion-card class="offStatus" *ngIf="!ProjectorOnColor">
             <ion-card-content>
@@ -124,7 +132,7 @@
       </ion-card>
     </div>
   </div>
-  <div class="row" ng-hide="show">
+  <div class="row">
 	<div class="col-s">
       <ion-card class="offStatus" *ngIf="!ProjectorMuteColor">
         <ion-card-content>
@@ -186,7 +194,7 @@
       </ion-card>
     </div>    
   </div>
-  <div class="row" ng-hide="show">
+  <div class="row">
     <div class="col">
       <ion-card class="offStatus" *ngIf="!ScreenUpDownColor">
         <ion-card-content>
@@ -248,7 +256,7 @@
       </ion-card>
     </div>	
   </div>
-  <div class="row" ng-hide="show">
+  <div class="row">
 	<div class="col">
       <ion-card class="offStatus" *ngIf="!Aux1Color">
         <ion-card-content>

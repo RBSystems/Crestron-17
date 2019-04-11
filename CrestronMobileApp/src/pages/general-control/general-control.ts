@@ -606,6 +606,16 @@ export class GeneralControlPage {
     }
   }
 
+  statusPower = false;
+  onChangePower() {
+    if(this.statusPower){
+      this.PowerOn();
+    }
+    else{
+      this.PowerOff();
+    }
+  }
+
   PowerOn() {
     if (this.PowerColor === '#70c9e3') {
       this.turnOn(this.PowerColor);
