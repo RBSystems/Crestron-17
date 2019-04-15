@@ -1,0 +1,203 @@
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\ApplicationInsights.config
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\TestAPI.dll.config
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\TestAPI.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\TestAPI.pdb
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Antlr3.Runtime.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.AI.Web.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Newtonsoft.Json.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.Helpers.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.Http.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.Mvc.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.Optimization.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.Razor.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.WebPages.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\WebGrease.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Newtonsoft.Json.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.Helpers.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.Http.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.Mvc.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.Optimization.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.Razor.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.WebPages.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Antlr3.Runtime.pdb
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\bin\Microsoft.AI.Web.xml
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\obj\Debug\TestAPI.csprojResolveAssemblyReference.cache
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\obj\Debug\TestAPI.csproj.CoreCompileInputs.cache
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\obj\Debug\TestAPI.dll
+C:\Users\L30811\Desktop\testingapi\TestAPI\TestAPI\obj\Debug\TestAPI.pdb
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\ApplicationInsights.config
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\TestAPI.dll.config
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\TestAPI.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\TestAPI.pdb
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Antlr3.Runtime.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.Web.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Newtonsoft.Json.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Net.Http.Formatting.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.Helpers.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.Http.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.Http.WebHost.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.Mvc.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.Optimization.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.Razor.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.WebPages.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.WebPages.Razor.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\WebGrease.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Newtonsoft.Json.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Net.Http.Formatting.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.Helpers.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.Http.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.Http.WebHost.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.Mvc.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.Optimization.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.Razor.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.WebPages.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\System.Web.WebPages.Razor.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Antlr3.Runtime.pdb
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.Web.xml
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\obj\Debug\TestAPI.csprojResolveAssemblyReference.cache
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\obj\Debug\TestAPI.csproj.CoreCompileInputs.cache
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\obj\Debug\TestAPI.csproj.CopyComplete
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\obj\Debug\TestAPI.dll
+C:\Crestron Batch App 2\Project Codes\FYPJ API\TestAPI\TestAPI\obj\Debug\TestAPI.pdb
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\ApplicationInsights.config
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\TestAPI.dll.config
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\TestAPI.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\TestAPI.pdb
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Antlr3.Runtime.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.Web.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Newtonsoft.Json.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.Helpers.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.Http.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.Mvc.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.Optimization.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.Razor.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.WebPages.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\WebGrease.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Newtonsoft.Json.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.Helpers.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.Http.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.Mvc.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.Optimization.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.Razor.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.WebPages.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Antlr3.Runtime.pdb
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\Microsoft.AI.Web.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\obj\Debug\TestAPI.csprojResolveAssemblyReference.cache
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\obj\Debug\TestAPI.csproj.CoreCompileInputs.cache
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\obj\Debug\TestAPI.csproj.CopyComplete
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\obj\Debug\TestAPI.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\obj\Debug\TestAPI.pdb
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\PagedList.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\PagedList.Mvc.dll
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\PagedList.xml
+C:\Users\160902S\Desktop\FYPJ API\TestAPI\TestAPI\bin\PagedList.Mvc.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\ApplicationInsights.config
+C:\NYPiProjection\TestAPI\TestAPI\bin\TestAPI.dll.config
+C:\NYPiProjection\TestAPI\TestAPI\bin\TestAPI.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\TestAPI.pdb
+C:\NYPiProjection\TestAPI\TestAPI\bin\Antlr3.Runtime.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.AI.Web.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.ApplicationInsights.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\Newtonsoft.Json.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\PagedList.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\PagedList.Mvc.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Net.Http.Formatting.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.Helpers.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.Http.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.Http.WebHost.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.Mvc.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.Optimization.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.Razor.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.WebPages.Deployment.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.WebPages.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.WebPages.Razor.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\WebGrease.dll
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\PagedList.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\PagedList.Mvc.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\Newtonsoft.Json.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Net.Http.Formatting.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.Helpers.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.Http.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.Http.WebHost.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.Mvc.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.Optimization.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.Razor.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.WebPages.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.WebPages.Deployment.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\System.Web.WebPages.Razor.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\Antlr3.Runtime.pdb
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.ApplicationInsights.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\NYPiProjection\TestAPI\TestAPI\bin\Microsoft.AI.Web.xml
+C:\NYPiProjection\TestAPI\TestAPI\obj\Debug\TestAPI.csprojResolveAssemblyReference.cache
+C:\NYPiProjection\TestAPI\TestAPI\obj\Debug\TestAPI.csproj.CoreCompileInputs.cache
+C:\NYPiProjection\TestAPI\TestAPI\obj\Debug\TestAPI.csproj.CopyComplete
+C:\NYPiProjection\TestAPI\TestAPI\obj\Debug\TestAPI.dll
+C:\NYPiProjection\TestAPI\TestAPI\obj\Debug\TestAPI.pdb

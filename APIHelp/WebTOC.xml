@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="9663e1dd-bb09-49b0-b573-aecff7019910" Title="Crestron.Fusion.API" Url="html/R_Project_Crestron_Fusion_API.htm">
+    <HelpTOCNode Id="0e8cedeb-2603-4242-aabd-9bd55b69a59d" Title="Crestron.Fusion.API.ApiHelper Namespace" Url="html/N_Crestron_Fusion_API_ApiHelper.htm">
+      <HelpTOCNode Id="1569802b-ff16-435a-929e-4d9f070278c0" Title="ApiLog Class" Url="html/T_Crestron_Fusion_API_ApiHelper_ApiLog.htm">
+        <HelpTOCNode Title="ApiLog Members" Url="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_ApiLog.htm" />
+        <HelpTOCNode Id="5f51446e-029a-416a-8dd4-a65c590082bd" Title="ApiLog Fields" Url="html/Fields_T_Crestron_Fusion_API_ApiHelper_ApiLog.htm">
+          <HelpTOCNode Title="One Field" Url="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_One.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c236a1d6-224e-4160-a460-8e83e0557808" Title="ApiLog Methods" Url="html/Methods_T_Crestron_Fusion_API_ApiHelper_ApiLog.htm">
+          <HelpTOCNode Title="Assert Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Assert.htm" />
+          <HelpTOCNode Title="Close Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Close.htm" />
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Dispose.htm" />
+          <HelpTOCNode Title="Fail Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Fail.htm" />
+          <HelpTOCNode Title="Flush Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Flush.htm" />
+          <HelpTOCNode Title="IndicatorToTypeCode Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_IndicatorToTypeCode.htm" />
+          <HelpTOCNode Title="SetLogDetails Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_SetLogDetails.htm" />
+          <HelpTOCNode Title="ToString Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_ToString.htm" />
+          <HelpTOCNode Title="WriteDebug Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteDebug.htm" />
+          <HelpTOCNode Title="WriteDebugExtra Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteDebugExtra.htm" />
+          <HelpTOCNode Id="a2eaa66c-6c72-4347-b8e3-706ad5646fcf" Title="WriteEvent Method " Url="html/Overload_Crestron_Fusion_API_ApiHelper_ApiLog_WriteEvent.htm">
+            <HelpTOCNode Title="WriteEvent Method (String, EventLogEntryType)" Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteEvent.htm" />
+            <HelpTOCNode Title="WriteEvent Method (String, EventLogEntryType, String)" Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteEvent_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="WriteException Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteException.htm" />
+          <HelpTOCNode Title="WriteNormal Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteNormal.htm" />
+          <HelpTOCNode Id="46e0254b-03a4-439c-8880-92d291d34cf3" Title="WriteVaried Method " Url="html/Overload_Crestron_Fusion_API_ApiHelper_ApiLog_WriteVaried.htm">
+            <HelpTOCNode Title="WriteVaried Method (ApiLog.LoggingLevel, String, ApiLog.MsgType)" Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteVaried.htm" />
+            <HelpTOCNode Title="WriteVaried Method (ApiLog.LoggingLevel, String, ApiLog.MsgType, String)" Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteVaried_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="WriteVerbose Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteVerbose.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8719279e-483f-4913-b3cd-e2463b6fe51a" Title="ApiLog Properties" Url="html/Properties_T_Crestron_Fusion_API_ApiHelper_ApiLog.htm">
+          <HelpTOCNode Title="Capacity Property " Url="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_Capacity.htm" />
+          <HelpTOCNode Title="Count Property " Url="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_Count.htm" />
+          <HelpTOCNode Title="FlushSeconds Property " Url="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_FlushSeconds.htm" />
+          <HelpTOCNode Title="FullPathName Property " Url="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_FullPathName.htm" />
+          <HelpTOCNode Title="IsActive Property " Url="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_IsActive.htm" />
+          <HelpTOCNode Title="LogLevel Property " Url="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_LogLevel.htm" />
+          <HelpTOCNode Title="LogsToKeep Property " Url="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_LogsToKeep.htm" />
+          <HelpTOCNode Title="MaxCachedLines Property " Url="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_MaxCachedLines.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_Name.htm" />
+          <HelpTOCNode Title="Path Property " Url="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_Path.htm" />
+          <HelpTOCNode Title="ProcessInfo Property " Url="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_ProcessInfo.htm" />
+          <HelpTOCNode Title="WriteToConsole Property " Url="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_WriteToConsole.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0a455102-10b7-4915-8a96-3c8fcf07df89" Title="ApiLog Events" Url="html/Events_T_Crestron_Fusion_API_ApiHelper_ApiLog.htm">
+          <HelpTOCNode Title="OnLogMessage Event" Url="html/E_Crestron_Fusion_API_ApiHelper_ApiLog_OnLogMessage.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="ApiLog.LoggingLevel Enumeration" Url="html/T_Crestron_Fusion_API_ApiHelper_ApiLog_LoggingLevel.htm" />
+      <HelpTOCNode Title="ApiLog.LogMessageHandler Delegate" Url="html/T_Crestron_Fusion_API_ApiHelper_ApiLog_LogMessageHandler.htm" />
+      <HelpTOCNode Id="9912eb80-a514-4044-8d2c-96215aa1ae4c" Title="ApiLog.Msg Class" Url="html/T_Crestron_Fusion_API_ApiHelper_ApiLog_Msg.htm">
+        <HelpTOCNode Title="ApiLog.Msg Members" Url="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_ApiLog_Msg.htm" />
+        <HelpTOCNode Title="ApiLog.Msg Constructor " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Msg__ctor.htm" />
+        <HelpTOCNode Id="f3098aa0-0c12-4097-b2bd-3f56f0b7abba" Title="ApiLog.Msg Fields" Url="html/Fields_T_Crestron_Fusion_API_ApiHelper_ApiLog_Msg.htm">
+          <HelpTOCNode Title="Caller Field" Url="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_Caller.htm" />
+          <HelpTOCNode Title="Level Field" Url="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_Level.htm" />
+          <HelpTOCNode Title="Text Field" Url="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_Text.htm" />
+          <HelpTOCNode Title="ThreadID Field" Url="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_ThreadID.htm" />
+          <HelpTOCNode Title="TimeStamp Field" Url="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_TimeStamp.htm" />
+          <HelpTOCNode Title="Type Field" Url="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_Type.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="99d6b587-5f03-41b1-acff-9fb7709559eb" Title="ApiLog.Msg Methods" Url="html/Methods_T_Crestron_Fusion_API_ApiHelper_ApiLog_Msg.htm">
+          <HelpTOCNode Title="ToString Method " Url="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_ToString.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="ApiLog.MsgType Enumeration" Url="html/T_Crestron_Fusion_API_ApiHelper_ApiLog_MsgType.htm" />
+      <HelpTOCNode Id="3bd31d63-04a5-436f-956a-cc2805616820" Title="DateTimeExtension Class" Url="html/T_Crestron_Fusion_API_ApiHelper_DateTimeExtension.htm">
+        <HelpTOCNode Title="DateTimeExtension Members" Url="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_DateTimeExtension.htm" />
+        <HelpTOCNode Id="3d7feb87-a737-44d7-9d10-1d52fdc813f9" Title="DateTimeExtension Methods" Url="html/Methods_T_Crestron_Fusion_API_ApiHelper_DateTimeExtension.htm">
+          <HelpTOCNode Title="ToRfc3339 Method " Url="html/M_Crestron_Fusion_API_ApiHelper_DateTimeExtension_ToRfc3339.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f5855748-40c3-4aa9-b14d-101ee64b0437" Title="Encryption Class" Url="html/T_Crestron_Fusion_API_ApiHelper_Encryption.htm">
+        <HelpTOCNode Title="Encryption Members" Url="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_Encryption.htm" />
+        <HelpTOCNode Id="fd34ae56-7d41-44f6-acb0-a96620406911" Title="Encryption Methods" Url="html/Methods_T_Crestron_Fusion_API_ApiHelper_Encryption.htm">
+          <HelpTOCNode Title="Decrypt Method " Url="html/M_Crestron_Fusion_API_ApiHelper_Encryption_Decrypt.htm" />
+          <HelpTOCNode Title="Encrypt Method " Url="html/M_Crestron_Fusion_API_ApiHelper_Encryption_Encrypt.htm" />
+          <HelpTOCNode Title="GenerateSecurityToken Method " Url="html/M_Crestron_Fusion_API_ApiHelper_Encryption_GenerateSecurityToken.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f61d02fc-95d9-439c-8770-75ca49a5622f" Title="LogEntry Class" Url="html/T_Crestron_Fusion_API_ApiHelper_LogEntry.htm">
+        <HelpTOCNode Title="LogEntry Members" Url="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_LogEntry.htm" />
+        <HelpTOCNode Title="LogEntry Constructor " Url="html/M_Crestron_Fusion_API_ApiHelper_LogEntry__ctor.htm" />
+        <HelpTOCNode Id="8dd84308-958d-48cd-9cc1-bd3b07477594" Title="LogEntry Properties" Url="html/Properties_T_Crestron_Fusion_API_ApiHelper_LogEntry.htm">
+          <HelpTOCNode Title="Action Property " Url="html/P_Crestron_Fusion_API_ApiHelper_LogEntry_Action.htm" />
+          <HelpTOCNode Title="Message Property " Url="html/P_Crestron_Fusion_API_ApiHelper_LogEntry_Message.htm" />
+          <HelpTOCNode Title="timeStamp Property " Url="html/P_Crestron_Fusion_API_ApiHelper_LogEntry_timeStamp.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="2177a5c1-64ad-4a56-9613-bb4b58a02921" Title="LogHelper Class" Url="html/T_Crestron_Fusion_API_ApiHelper_LogHelper.htm">
+        <HelpTOCNode Title="LogHelper Members" Url="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_LogHelper.htm" />
+        <HelpTOCNode Id="3c6ae2d4-8d3f-44a0-ba16-f373cc554be6" Title="LogHelper Methods" Url="html/Methods_T_Crestron_Fusion_API_ApiHelper_LogHelper.htm">
+          <HelpTOCNode Title="DumpString Method " Url="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_DumpString.htm" />
+          <HelpTOCNode Title="LogDeserialization Method " Url="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_LogDeserialization.htm" />
+          <HelpTOCNode Title="LogRequest Method " Url="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_LogRequest.htm" />
+          <HelpTOCNode Id="57f9dfe6-1908-4183-94cf-87efc6ff9cb8" Title="LogResponse Method " Url="html/Overload_Crestron_Fusion_API_ApiHelper_LogHelper_LogResponse.htm">
+            <HelpTOCNode Title="LogResponse Method (HttpWebResponse, List(LogEntry))" Url="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_LogResponse.htm" />
+            <HelpTOCNode Title="LogResponse Method (WebResponse, List(LogEntry))" Url="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_LogResponse_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="LogSerialization Method " Url="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_LogSerialization.htm" />
+          <HelpTOCNode Title="PopulateText Method " Url="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_PopulateText.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="a220ed5c-5ca1-4148-ae6c-b77d1eaf86e1" Title="StringExtension Class" Url="html/T_Crestron_Fusion_API_ApiHelper_StringExtension.htm">
+        <HelpTOCNode Title="StringExtension Members" Url="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_StringExtension.htm" />
+        <HelpTOCNode Id="0dc744f9-7c00-44bc-b8e6-e345b3d7ba81" Title="StringExtension Methods" Url="html/Methods_T_Crestron_Fusion_API_ApiHelper_StringExtension.htm">
+          <HelpTOCNode Title="FromRfc3339 Method " Url="html/M_Crestron_Fusion_API_ApiHelper_StringExtension_FromRfc3339.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="64952679-74b6-4691-bc38-83620037c4f0" Title="Utility Class" Url="html/T_Crestron_Fusion_API_ApiHelper_Utility.htm">
+        <HelpTOCNode Title="Utility Members" Url="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_Utility.htm" />
+        <HelpTOCNode Id="36aeb657-01e3-4262-bd41-0fd7916f863c" Title="Utility Methods" Url="html/Methods_T_Crestron_Fusion_API_ApiHelper_Utility.htm">
+          <HelpTOCNode Title="DumpObject Method " Url="html/M_Crestron_Fusion_API_ApiHelper_Utility_DumpObject.htm" />
+          <HelpTOCNode Title="GetConfigValue Method " Url="html/M_Crestron_Fusion_API_ApiHelper_Utility_GetConfigValue.htm" />
+          <HelpTOCNode Title="GetFunctionName Method " Url="html/M_Crestron_Fusion_API_ApiHelper_Utility_GetFunctionName.htm" />
+          <HelpTOCNode Title="ToByteArray Method " Url="html/M_Crestron_Fusion_API_ApiHelper_Utility_ToByteArray.htm" />
+          <HelpTOCNode Title="ToObject Method " Url="html/M_Crestron_Fusion_API_ApiHelper_Utility_ToObject.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6c3026c2-0146-4c09-8b29-76373ece18a2" Title="XMLHelper Class" Url="html/T_Crestron_Fusion_API_ApiHelper_XMLHelper.htm">
+        <HelpTOCNode Title="XMLHelper Members" Url="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_XMLHelper.htm" />
+        <HelpTOCNode Id="9fbc5293-c40a-477e-adf8-e08299f4892e" Title="XMLHelper Methods" Url="html/Methods_T_Crestron_Fusion_API_ApiHelper_XMLHelper.htm">
+          <HelpTOCNode Title="Deserialize(T) Method " Url="html/M_Crestron_Fusion_API_ApiHelper_XMLHelper_Deserialize__1.htm" />
+          <HelpTOCNode Title="Serialize(T) Method " Url="html/M_Crestron_Fusion_API_ApiHelper_XMLHelper_Serialize__1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="08aaf015-5af5-42c7-9c47-90503eb4da9d" Title="Crestron.Fusion.API.Entities Namespace" Url="html/N_Crestron_Fusion_API_Entities.htm">
+      <HelpTOCNode Id="3e823839-a613-450a-ac4f-24799c116b6f" Title="API_Action Class" Url="html/T_Crestron_Fusion_API_Entities_API_Action.htm">
+        <HelpTOCNode Title="API_Action Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Action.htm" />
+        <HelpTOCNode Title="API_Action Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Action__ctor.htm" />
+        <HelpTOCNode Id="bd54068e-dd93-4b22-8d64-df938abfcdfc" Title="API_Action Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Action.htm">
+          <HelpTOCNode Title="ActionDescription Property " Url="html/P_Crestron_Fusion_API_Entities_API_Action_ActionDescription.htm" />
+          <HelpTOCNode Title="ActionID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Action_ActionID.htm" />
+          <HelpTOCNode Title="ActionName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Action_ActionName.htm" />
+          <HelpTOCNode Title="IsOverride Property " Url="html/P_Crestron_Fusion_API_Entities_API_Action_IsOverride.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_Action_LastModified.htm" />
+          <HelpTOCNode Title="OffsetMinutes Property " Url="html/P_Crestron_Fusion_API_Entities_API_Action_OffsetMinutes.htm" />
+          <HelpTOCNode Title="OverriddenActionID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Action_OverriddenActionID.htm" />
+          <HelpTOCNode Title="StepList Property " Url="html/P_Crestron_Fusion_API_Entities_API_Action_StepList.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="82e1d8bc-3fc4-4308-a322-9dc13390d7e7" Title="API_ActionStep Class" Url="html/T_Crestron_Fusion_API_Entities_API_ActionStep.htm">
+        <HelpTOCNode Title="API_ActionStep Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_ActionStep.htm" />
+        <HelpTOCNode Title="API_ActionStep Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_ActionStep__ctor.htm" />
+        <HelpTOCNode Id="a36c3759-da2e-4adb-b6e8-7b707c2795b8" Title="API_ActionStep Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_ActionStep.htm">
+          <HelpTOCNode Title="AnalogValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_ActionStep_AnalogValue.htm" />
+          <HelpTOCNode Title="AttributeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_ActionStep_AttributeID.htm" />
+          <HelpTOCNode Title="AttributeType Property " Url="html/P_Crestron_Fusion_API_Entities_API_ActionStep_AttributeType.htm" />
+          <HelpTOCNode Title="DigitalValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_ActionStep_DigitalValue.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_ActionStep_LastModified.htm" />
+          <HelpTOCNode Title="OrderIndex Property " Url="html/P_Crestron_Fusion_API_Entities_API_ActionStep_OrderIndex.htm" />
+          <HelpTOCNode Title="SerialValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_ActionStep_SerialValue.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ba4e7555-3b06-4b78-9a82-aeff5a8d739c" Title="API_AlertRule Class" Url="html/T_Crestron_Fusion_API_Entities_API_AlertRule.htm">
+        <HelpTOCNode Title="API_AlertRule Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_AlertRule.htm" />
+        <HelpTOCNode Title="API_AlertRule Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_AlertRule__ctor.htm" />
+        <HelpTOCNode Id="8f665b1f-86e9-4e48-b1eb-8be157136dce" Title="API_AlertRule Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_AlertRule.htm">
+          <HelpTOCNode Title="AlertAlways Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRule_AlertAlways.htm" />
+          <HelpTOCNode Title="AlertOnce Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRule_AlertOnce.htm" />
+          <HelpTOCNode Title="AlertOperator Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRule_AlertOperator.htm" />
+          <HelpTOCNode Title="AlertRuleCriteria Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRule_AlertRuleCriteria.htm" />
+          <HelpTOCNode Title="AlertRuleID Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRule_AlertRuleID.htm" />
+          <HelpTOCNode Title="AttributeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRule_AttributeID.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRule_LastModified.htm" />
+          <HelpTOCNode Title="LogAttributeInDatabase Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRule_LogAttributeInDatabase.htm" />
+          <HelpTOCNode Title="LogAttributeInEventLog Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRule_LogAttributeInEventLog.htm" />
+          <HelpTOCNode Title="NodeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRule_NodeID.htm" />
+          <HelpTOCNode Title="NodeText Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRule_NodeText.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fc8bb0e6-68aa-4297-9e54-05c54f020159" Title="API_AlertRuleCriteria Class" Url="html/T_Crestron_Fusion_API_Entities_API_AlertRuleCriteria.htm">
+        <HelpTOCNode Title="API_AlertRuleCriteria Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_AlertRuleCriteria.htm" />
+        <HelpTOCNode Title="API_AlertRuleCriteria Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_AlertRuleCriteria__ctor.htm" />
+        <HelpTOCNode Id="0fc2dd19-7843-4bf7-8708-bff10ad971f4" Title="API_AlertRuleCriteria Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_AlertRuleCriteria.htm">
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRuleCriteria_LastModified.htm" />
+          <HelpTOCNode Title="MaxThreshold Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRuleCriteria_MaxThreshold.htm" />
+          <HelpTOCNode Title="MinThreshold Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRuleCriteria_MinThreshold.htm" />
+          <HelpTOCNode Title="Operator Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRuleCriteria_Operator.htm" />
+          <HelpTOCNode Title="RuleCriteriaID Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRuleCriteria_RuleCriteriaID.htm" />
+          <HelpTOCNode Title="Unit Property " Url="html/P_Crestron_Fusion_API_Entities_API_AlertRuleCriteria_Unit.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="cbe6d9e6-b3f9-4dfd-93c6-67ab412e4147" Title="API_Appointment Class" Url="html/T_Crestron_Fusion_API_Entities_API_Appointment.htm">
+        <HelpTOCNode Title="API_Appointment Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Appointment.htm" />
+        <HelpTOCNode Title="API_Appointment Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Appointment__ctor.htm" />
+        <HelpTOCNode Id="b47dfcd6-c6e5-4ce5-968f-c329d53bba1f" Title="API_Appointment Methods" Url="html/Methods_T_Crestron_Fusion_API_Entities_API_Appointment.htm">
+          <HelpTOCNode Title="Copy Method " Url="html/M_Crestron_Fusion_API_Entities_API_Appointment_Copy.htm" />
+          <HelpTOCNode Title="ToString Method " Url="html/M_Crestron_Fusion_API_Entities_API_Appointment_ToString.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d62372d2-d9fd-4138-b4ed-5405b3478748" Title="API_Appointment Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Appointment.htm">
+          <HelpTOCNode Title="Actions Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_Actions.htm" />
+          <HelpTOCNode Title="AltID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_AltID.htm" />
+          <HelpTOCNode Title="Attendees Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_Attendees.htm" />
+          <HelpTOCNode Title="Connections Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_Connections.htm" />
+          <HelpTOCNode Title="End Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_End.htm" />
+          <HelpTOCNode Title="EventOrMeeting Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_EventOrMeeting.htm" />
+          <HelpTOCNode Title="GW_MeetingID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_GW_MeetingID.htm" />
+          <HelpTOCNode Title="IsPrivate Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_IsPrivate.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_LastModified.htm" />
+          <HelpTOCNode Title="Location Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_Location.htm" />
+          <HelpTOCNode Title="MeetingComment Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_MeetingComment.htm" />
+          <HelpTOCNode Title="MeetingSubject Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_MeetingSubject.htm" />
+          <HelpTOCNode Title="MeetingType Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_MeetingType.htm" />
+          <HelpTOCNode Title="NotifyAction Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_NotifyAction.htm" />
+          <HelpTOCNode Title="Organizer Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_Organizer.htm" />
+          <HelpTOCNode Title="Preset Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_Preset.htm" />
+          <HelpTOCNode Title="RolesForMeeting Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_RolesForMeeting.htm" />
+          <HelpTOCNode Title="RoomID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_RoomID.htm" />
+          <HelpTOCNode Title="RRule Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_RRule.htm" />
+          <HelpTOCNode Title="RV_MeetingID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_RV_MeetingID.htm" />
+          <HelpTOCNode Title="Start Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_Start.htm" />
+          <HelpTOCNode Title="TimeZoneId Property " Url="html/P_Crestron_Fusion_API_Entities_API_Appointment_TimeZoneId.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="90d67f87-b945-4246-8ea9-4db024c0a416" Title="API_AppointmentComparer Class" Url="html/T_Crestron_Fusion_API_Entities_API_AppointmentComparer.htm">
+        <HelpTOCNode Title="API_AppointmentComparer Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_AppointmentComparer.htm" />
+        <HelpTOCNode Title="API_AppointmentComparer Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_AppointmentComparer__ctor.htm" />
+        <HelpTOCNode Id="3d1e949c-5b35-4cce-9b2a-f02fe40db92c" Title="API_AppointmentComparer Methods" Url="html/Methods_T_Crestron_Fusion_API_Entities_API_AppointmentComparer.htm">
+          <HelpTOCNode Title="Compare Method " Url="html/M_Crestron_Fusion_API_Entities_API_AppointmentComparer_Compare.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b33040ef-3a1c-47d6-8c0c-b78ec325a338" Title="API_Asset Class" Url="html/T_Crestron_Fusion_API_Entities_API_Asset.htm">
+        <HelpTOCNode Title="API_Asset Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Asset.htm" />
+        <HelpTOCNode Title="API_Asset Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Asset__ctor.htm" />
+        <HelpTOCNode Id="4c765036-e56d-4815-94e9-3d4a5194336c" Title="API_Asset Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Asset.htm">
+          <HelpTOCNode Title="AssetCustomFields Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_AssetCustomFields.htm" />
+          <HelpTOCNode Title="AssetID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_AssetID.htm" />
+          <HelpTOCNode Title="AssetName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_AssetName.htm" />
+          <HelpTOCNode Title="AssetTag Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_AssetTag.htm" />
+          <HelpTOCNode Title="AssetTypeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_AssetTypeID.htm" />
+          <HelpTOCNode Title="AssetTypeName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_AssetTypeName.htm" />
+          <HelpTOCNode Title="ConnType Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_ConnType.htm" />
+          <HelpTOCNode Title="DateOfPurchase Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_DateOfPurchase.htm" />
+          <HelpTOCNode Title="DriverID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_DriverID.htm" />
+          <HelpTOCNode Title="IPAddress Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_IPAddress.htm" />
+          <HelpTOCNode Title="IPID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_IPID.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_LastModified.htm" />
+          <HelpTOCNode Title="LastService Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_LastService.htm" />
+          <HelpTOCNode Title="LifeSpanYears Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_LifeSpanYears.htm" />
+          <HelpTOCNode Title="MACAddress Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_MACAddress.htm" />
+          <HelpTOCNode Title="MaintenanceContractID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_MaintenanceContractID.htm" />
+          <HelpTOCNode Title="Make Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_Make.htm" />
+          <HelpTOCNode Title="Model Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_Model.htm" />
+          <HelpTOCNode Title="Notes Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_Notes.htm" />
+          <HelpTOCNode Title="Password Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_Password.htm" />
+          <HelpTOCNode Title="Port Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_Port.htm" />
+          <HelpTOCNode Title="RoomID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_RoomID.htm" />
+          <HelpTOCNode Title="SerialNumber Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_SerialNumber.htm" />
+          <HelpTOCNode Title="ServiceInterval Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_ServiceInterval.htm" />
+          <HelpTOCNode Title="ServiceIntervalIncrement Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_ServiceIntervalIncrement.htm" />
+          <HelpTOCNode Title="SSL Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_SSL.htm" />
+          <HelpTOCNode Title="Status Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_Status.htm" />
+          <HelpTOCNode Title="WarrantyExpiration Property " Url="html/P_Crestron_Fusion_API_Entities_API_Asset_WarrantyExpiration.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3f1bea37-fb0d-410f-9912-da9c04c09836" Title="API_AssetCustomField Class" Url="html/T_Crestron_Fusion_API_Entities_API_AssetCustomField.htm">
+        <HelpTOCNode Title="API_AssetCustomField Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_AssetCustomField.htm" />
+        <HelpTOCNode Title="API_AssetCustomField Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_AssetCustomField__ctor.htm" />
+        <HelpTOCNode Id="70dcc351-a468-4841-a494-0bd85a46b7b3" Title="API_AssetCustomField Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_AssetCustomField.htm">
+          <HelpTOCNode Title="BoolValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_BoolValue.htm" />
+          <HelpTOCNode Title="CustomFieldID Property " Url="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_CustomFieldID.htm" />
+          <HelpTOCNode Title="CustomFieldType Property " Url="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_CustomFieldType.htm" />
+          <HelpTOCNode Title="DateTimeValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_DateTimeValue.htm" />
+          <HelpTOCNode Title="IntValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_IntValue.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_LastModified.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_Name.htm" />
+          <HelpTOCNode Title="StringValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_StringValue.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="22705166-7eec-492d-9a49-e0a1837528e4" Title="API_AssetType Class" Url="html/T_Crestron_Fusion_API_Entities_API_AssetType.htm">
+        <HelpTOCNode Title="API_AssetType Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_AssetType.htm" />
+        <HelpTOCNode Title="API_AssetType Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_AssetType__ctor.htm" />
+        <HelpTOCNode Id="bb818fb5-9869-4fef-bc94-6fb68023bf85" Title="API_AssetType Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_AssetType.htm">
+          <HelpTOCNode Title="Desc Property " Url="html/P_Crestron_Fusion_API_Entities_API_AssetType_Desc.htm" />
+          <HelpTOCNode Title="ID Property " Url="html/P_Crestron_Fusion_API_Entities_API_AssetType_ID.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Crestron_Fusion_API_Entities_API_AssetType_Name.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="5b59b703-8fdd-4e46-a614-c74b452ccdf5" Title="API_Attribute Class" Url="html/T_Crestron_Fusion_API_Entities_API_Attribute.htm">
+        <HelpTOCNode Title="API_Attribute Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Attribute.htm" />
+        <HelpTOCNode Title="API_Attribute Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Attribute__ctor.htm" />
+        <HelpTOCNode Id="fce13f6f-6c11-4a5a-ab1c-66fd9cce1121" Title="API_Attribute Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Attribute.htm">
+          <HelpTOCNode Title="AssetID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_AssetID.htm" />
+          <HelpTOCNode Title="AttributeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_AttributeID.htm" />
+          <HelpTOCNode Title="AttributeName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_AttributeName.htm" />
+          <HelpTOCNode Title="AttributeType Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_AttributeType.htm" />
+          <HelpTOCNode Title="ButtonChangeText Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_ButtonChangeText.htm" />
+          <HelpTOCNode Title="ButtonOffText Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_ButtonOffText.htm" />
+          <HelpTOCNode Title="ButtonOnText Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_ButtonOnText.htm" />
+          <HelpTOCNode Title="Default Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_Default.htm" />
+          <HelpTOCNode Title="DefaultIOMask Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_DefaultIOMask.htm" />
+          <HelpTOCNode Title="DefaultJoin Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_DefaultJoin.htm" />
+          <HelpTOCNode Title="DefaultMaxValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_DefaultMaxValue.htm" />
+          <HelpTOCNode Title="DefaultMinValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_DefaultMinValue.htm" />
+          <HelpTOCNode Title="DefaultSlot Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_DefaultSlot.htm" />
+          <HelpTOCNode Title="GraphicSetID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_GraphicSetID.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_LastModified.htm" />
+          <HelpTOCNode Title="LogDB Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_LogDB.htm" />
+          <HelpTOCNode Title="LogNTEvent Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_LogNTEvent.htm" />
+          <HelpTOCNode Title="Reserved Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_Reserved.htm" />
+          <HelpTOCNode Title="XmlName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Attribute_XmlName.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="d4375521-0441-4377-a161-bdefcc0bc5b0" Title="API_Availability Class" Url="html/T_Crestron_Fusion_API_Entities_API_Availability.htm">
+        <HelpTOCNode Title="API_Availability Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Availability.htm" />
+        <HelpTOCNode Title="API_Availability Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Availability__ctor.htm" />
+        <HelpTOCNode Id="e2cec18c-a422-4018-b615-e93e61381dd4" Title="API_Availability Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Availability.htm">
+          <HelpTOCNode Title="RoomID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Availability_RoomID.htm" />
+          <HelpTOCNode Title="Status Property " Url="html/P_Crestron_Fusion_API_Entities_API_Availability_Status.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="66481328-0f93-4744-9f42-5b6a21a5afc6" Title="API_BlueToothDevice Class" Url="html/T_Crestron_Fusion_API_Entities_API_BlueToothDevice.htm">
+        <HelpTOCNode Title="API_BlueToothDevice Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_BlueToothDevice.htm" />
+        <HelpTOCNode Title="API_BlueToothDevice Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_BlueToothDevice__ctor.htm" />
+        <HelpTOCNode Id="99184a9f-a2bf-4f1a-bc36-7ab6d3f4387a" Title="API_BlueToothDevice Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_BlueToothDevice.htm">
+          <HelpTOCNode Title="BlueToothName Property " Url="html/P_Crestron_Fusion_API_Entities_API_BlueToothDevice_BlueToothName.htm" />
+          <HelpTOCNode Title="MajorID Property " Url="html/P_Crestron_Fusion_API_Entities_API_BlueToothDevice_MajorID.htm" />
+          <HelpTOCNode Title="MinorID Property " Url="html/P_Crestron_Fusion_API_Entities_API_BlueToothDevice_MinorID.htm" />
+          <HelpTOCNode Title="Power Property " Url="html/P_Crestron_Fusion_API_Entities_API_BlueToothDevice_Power.htm" />
+          <HelpTOCNode Title="UUID Property " Url="html/P_Crestron_Fusion_API_Entities_API_BlueToothDevice_UUID.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="d9abca2b-1b5c-444f-9846-788ecf6d4aec" Title="API_Card Class" Url="html/T_Crestron_Fusion_API_Entities_API_Card.htm">
+        <HelpTOCNode Title="API_Card Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Card.htm" />
+        <HelpTOCNode Title="API_Card Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Card__ctor.htm" />
+        <HelpTOCNode Id="00ed956d-6358-415b-a904-4ba627f33d63" Title="API_Card Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Card.htm">
+          <HelpTOCNode Title="cardName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Card_cardName.htm" />
+          <HelpTOCNode Title="Enabled Property " Url="html/P_Crestron_Fusion_API_Entities_API_Card_Enabled.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8f0ca46e-6af4-4edb-b798-7b2227c183f4" Title="API_Configuration Class" Url="html/T_Crestron_Fusion_API_Entities_API_Configuration.htm">
+        <HelpTOCNode Title="API_Configuration Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Configuration.htm" />
+        <HelpTOCNode Title="API_Configuration Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Configuration__ctor.htm" />
+        <HelpTOCNode Id="012d48c2-dc09-4508-a907-3947be1c7764" Title="API_Configuration Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Configuration.htm">
+          <HelpTOCNode Title="CompanyName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Configuration_CompanyName.htm" />
+          <HelpTOCNode Title="ConfigurationID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Configuration_ConfigurationID.htm" />
+          <HelpTOCNode Title="DefaultProvider Property " Url="html/P_Crestron_Fusion_API_Entities_API_Configuration_DefaultProvider.htm" />
+          <HelpTOCNode Title="DefaultSubject Property " Url="html/P_Crestron_Fusion_API_Entities_API_Configuration_DefaultSubject.htm" />
+          <HelpTOCNode Title="RegexStrings Property " Url="html/P_Crestron_Fusion_API_Entities_API_Configuration_RegexStrings.htm" />
+          <HelpTOCNode Title="SSLValidation Property " Url="html/P_Crestron_Fusion_API_Entities_API_Configuration_SSLValidation.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="32491304-26d3-4cbe-8be9-f68fed339612" Title="API_Connection Class" Url="html/T_Crestron_Fusion_API_Entities_API_Connection.htm">
+        <HelpTOCNode Title="API_Connection Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Connection.htm" />
+        <HelpTOCNode Title="API_Connection Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Connection__ctor.htm" />
+        <HelpTOCNode Id="9ac5d829-f744-4647-9c84-32d223bd5ae5" Title="API_Connection Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Connection.htm">
+          <HelpTOCNode Title="ConnectionID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Connection_ConnectionID.htm" />
+          <HelpTOCNode Title="IconImage Property " Url="html/P_Crestron_Fusion_API_Entities_API_Connection_IconImage.htm" />
+          <HelpTOCNode Title="RegexString Property " Url="html/P_Crestron_Fusion_API_Entities_API_Connection_RegexString.htm" />
+          <HelpTOCNode Title="RoomID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Connection_RoomID.htm" />
+          <HelpTOCNode Title="Signals Property " Url="html/P_Crestron_Fusion_API_Entities_API_Connection_Signals.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8b2c341d-cac4-4a98-b543-0e073e413ac8" Title="API_EndpointType Class" Url="html/T_Crestron_Fusion_API_Entities_API_EndpointType.htm">
+        <HelpTOCNode Title="API_EndpointType Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_EndpointType.htm" />
+        <HelpTOCNode Title="API_EndpointType Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_EndpointType__ctor.htm" />
+        <HelpTOCNode Id="e5fcb31f-33d8-402e-8196-64e3b21d4974" Title="API_EndpointType Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_EndpointType.htm">
+          <HelpTOCNode Title="EndpointTypeDesc Property " Url="html/P_Crestron_Fusion_API_Entities_API_EndpointType_EndpointTypeDesc.htm" />
+          <HelpTOCNode Title="EndpointTypeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_EndpointType_EndpointTypeID.htm" />
+          <HelpTOCNode Title="EndpointTypeName Property " Url="html/P_Crestron_Fusion_API_Entities_API_EndpointType_EndpointTypeName.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="API_Enum_AlertOperator Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_AlertOperator.htm" />
+      <HelpTOCNode Title="API_Enum_AlertRuleUnit Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_AlertRuleUnit.htm" />
+      <HelpTOCNode Title="API_Enum_AppType Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_AppType.htm" />
+      <HelpTOCNode Title="API_Enum_AssetConnectionType Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_AssetConnectionType.htm" />
+      <HelpTOCNode Title="API_Enum_AssetStatus Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_AssetStatus.htm" />
+      <HelpTOCNode Title="API_Enum_AttributeIOMask Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_AttributeIOMask.htm" />
+      <HelpTOCNode Title="API_Enum_AttributeType Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_AttributeType.htm" />
+      <HelpTOCNode Title="API_Enum_AttributeTypes Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_AttributeTypes.htm" />
+      <HelpTOCNode Title="API_Enum_CustomFieldType Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_CustomFieldType.htm" />
+      <HelpTOCNode Title="API_Enum_EventOrMeeting Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_EventOrMeeting.htm" />
+      <HelpTOCNode Title="API_Enum_LogicalOperator Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_LogicalOperator.htm" />
+      <HelpTOCNode Title="API_Enum_MeetingEventType Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_MeetingEventType.htm" />
+      <HelpTOCNode Title="API_Enum_MeetingResults Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_MeetingResults.htm" />
+      <HelpTOCNode Title="API_Enum_MeetingType Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_MeetingType.htm" />
+      <HelpTOCNode Title="API_Enum_NodeType Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_NodeType.htm" />
+      <HelpTOCNode Title="API_Enum_PushNotifyAction Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_PushNotifyAction.htm" />
+      <HelpTOCNode Title="API_Enum_Status Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_Enum_Status.htm" />
+      <HelpTOCNode Id="adb989af-a3a7-4210-854b-fc3b7f0d6eb9" Title="API_Image Class" Url="html/T_Crestron_Fusion_API_Entities_API_Image.htm">
+        <HelpTOCNode Title="API_Image Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Image.htm" />
+        <HelpTOCNode Title="API_Image Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Image__ctor.htm" />
+        <HelpTOCNode Id="cfa2f389-c880-4db0-b375-5ecbbbf26ebc" Title="API_Image Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Image.htm">
+          <HelpTOCNode Title="Desc Property " Url="html/P_Crestron_Fusion_API_Entities_API_Image_Desc.htm" />
+          <HelpTOCNode Title="FloorPlanDefaultURL Property " Url="html/P_Crestron_Fusion_API_Entities_API_Image_FloorPlanDefaultURL.htm" />
+          <HelpTOCNode Title="ID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Image_ID.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Crestron_Fusion_API_Entities_API_Image_Name.htm" />
+          <HelpTOCNode Title="RoomID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Image_RoomID.htm" />
+          <HelpTOCNode Title="RoomImageDefaultURL Property " Url="html/P_Crestron_Fusion_API_Entities_API_Image_RoomImageDefaultURL.htm" />
+          <HelpTOCNode Title="URL Property " Url="html/P_Crestron_Fusion_API_Entities_API_Image_URL.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ad0c9915-7a0c-485d-a82c-0b03c4fbe04c" Title="API_Location Class" Url="html/T_Crestron_Fusion_API_Entities_API_Location.htm">
+        <HelpTOCNode Title="API_Location Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Location.htm" />
+        <HelpTOCNode Title="API_Location Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Location__ctor.htm" />
+        <HelpTOCNode Id="040c0a0b-b7e3-431f-aea3-bdf6ec24ba4d" Title="API_Location Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Location.htm">
+          <HelpTOCNode Title="DisplayName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Location_DisplayName.htm" />
+          <HelpTOCNode Title="EntryIsEmpty Property " Url="html/P_Crestron_Fusion_API_Entities_API_Location_EntryIsEmpty.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_Location_LastModified.htm" />
+          <HelpTOCNode Title="LocationTypeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Location_LocationTypeID.htm" />
+          <HelpTOCNode Title="ManualEntry Property " Url="html/P_Crestron_Fusion_API_Entities_API_Location_ManualEntry.htm" />
+          <HelpTOCNode Title="NodeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Location_NodeID.htm" />
+          <HelpTOCNode Title="NodeText Property " Url="html/P_Crestron_Fusion_API_Entities_API_Location_NodeText.htm" />
+          <HelpTOCNode Title="ParentLocationTypeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Location_ParentLocationTypeID.htm" />
+          <HelpTOCNode Title="Value Property " Url="html/P_Crestron_Fusion_API_Entities_API_Location_Value.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="59741c98-3ed5-4e97-971f-459dd975a109" Title="API_Node Class" Url="html/T_Crestron_Fusion_API_Entities_API_Node.htm">
+        <HelpTOCNode Title="API_Node Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Node.htm" />
+        <HelpTOCNode Title="API_Node Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Node__ctor.htm" />
+        <HelpTOCNode Id="09a4d331-f6e2-4545-b5df-dbea30a170a6" Title="API_Node Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Node.htm">
+          <HelpTOCNode Title="HasChildren Property " Url="html/P_Crestron_Fusion_API_Entities_API_Node_HasChildren.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_Node_LastModified.htm" />
+          <HelpTOCNode Title="MajorID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Node_MajorID.htm" />
+          <HelpTOCNode Title="NodeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Node_NodeID.htm" />
+          <HelpTOCNode Title="NodeName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Node_NodeName.htm" />
+          <HelpTOCNode Title="NodePath Property " Url="html/P_Crestron_Fusion_API_Entities_API_Node_NodePath.htm" />
+          <HelpTOCNode Title="NodeType Property " Url="html/P_Crestron_Fusion_API_Entities_API_Node_NodeType.htm" />
+          <HelpTOCNode Title="ParentNodeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Node_ParentNodeID.htm" />
+          <HelpTOCNode Title="TreeNodeChildren Property " Url="html/P_Crestron_Fusion_API_Entities_API_Node_TreeNodeChildren.htm" />
+          <HelpTOCNode Title="TreeNodeRooms Property " Url="html/P_Crestron_Fusion_API_Entities_API_Node_TreeNodeRooms.htm" />
+          <HelpTOCNode Title="UUID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Node_UUID.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="API_OperationLevel Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_OperationLevel.htm" />
+      <HelpTOCNode Id="d68d95c4-0667-4fe4-9258-1f26af426f3f" Title="API_Person Class" Url="html/T_Crestron_Fusion_API_Entities_API_Person.htm">
+        <HelpTOCNode Title="API_Person Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Person.htm" />
+        <HelpTOCNode Title="API_Person Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Person__ctor.htm" />
+        <HelpTOCNode Id="1d9443f4-1340-4d12-96c7-a39af0a9efb4" Title="API_Person Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Person.htm">
+          <HelpTOCNode Title="Name Property " Url="html/P_Crestron_Fusion_API_Entities_API_Person_Name.htm" />
+          <HelpTOCNode Title="Role Property " Url="html/P_Crestron_Fusion_API_Entities_API_Person_Role.htm" />
+          <HelpTOCNode Title="RoleID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Person_RoleID.htm" />
+          <HelpTOCNode Title="UserID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Person_UserID.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="18b87cb7-c4c8-4758-8ccb-2aa77219da1f" Title="API_Preset Class" Url="html/T_Crestron_Fusion_API_Entities_API_Preset.htm">
+        <HelpTOCNode Title="API_Preset Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Preset.htm" />
+        <HelpTOCNode Title="API_Preset Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Preset__ctor.htm" />
+        <HelpTOCNode Id="091dcce0-0ca4-4d38-baae-7ec549dd15ba" Title="API_Preset Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Preset.htm">
+          <HelpTOCNode Title="Enabled Property " Url="html/P_Crestron_Fusion_API_Entities_API_Preset_Enabled.htm" />
+          <HelpTOCNode Title="ImageSource1 Property " Url="html/P_Crestron_Fusion_API_Entities_API_Preset_ImageSource1.htm" />
+          <HelpTOCNode Title="ImageSource2 Property " Url="html/P_Crestron_Fusion_API_Entities_API_Preset_ImageSource2.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_Preset_LastModified.htm" />
+          <HelpTOCNode Title="MaximumPresets Property " Url="html/P_Crestron_Fusion_API_Entities_API_Preset_MaximumPresets.htm" />
+          <HelpTOCNode Title="PresetFields Property " Url="html/P_Crestron_Fusion_API_Entities_API_Preset_PresetFields.htm" />
+          <HelpTOCNode Title="PresetName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Preset_PresetName.htm" />
+          <HelpTOCNode Title="PresetSlot Property " Url="html/P_Crestron_Fusion_API_Entities_API_Preset_PresetSlot.htm" />
+          <HelpTOCNode Title="WelcomeMessage Property " Url="html/P_Crestron_Fusion_API_Entities_API_Preset_WelcomeMessage.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="592681cb-d7da-4873-abd9-8d5c1335fb80" Title="API_PresetField Class" Url="html/T_Crestron_Fusion_API_Entities_API_PresetField.htm">
+        <HelpTOCNode Title="API_PresetField Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_PresetField.htm" />
+        <HelpTOCNode Title="API_PresetField Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_PresetField__ctor.htm" />
+        <HelpTOCNode Id="9df09ea8-d97f-4442-8636-71cd20a11db9" Title="API_PresetField Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_PresetField.htm">
+          <HelpTOCNode Title="FieldLabel Property " Url="html/P_Crestron_Fusion_API_Entities_API_PresetField_FieldLabel.htm" />
+          <HelpTOCNode Title="FieldSlot Property " Url="html/P_Crestron_Fusion_API_Entities_API_PresetField_FieldSlot.htm" />
+          <HelpTOCNode Title="FieldValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_PresetField_FieldValue.htm" />
+          <HelpTOCNode Title="MaximumFields Property " Url="html/P_Crestron_Fusion_API_Entities_API_PresetField_MaximumFields.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b08db7a0-97d7-4874-8ec1-24c517cb651b" Title="API_Processor Class" Url="html/T_Crestron_Fusion_API_Entities_API_Processor.htm">
+        <HelpTOCNode Title="API_Processor Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Processor.htm" />
+        <HelpTOCNode Title="API_Processor Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Processor__ctor.htm" />
+        <HelpTOCNode Id="ac4047f4-f8f3-49ca-826c-f531100502bb" Title="API_Processor Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Processor.htm">
+          <HelpTOCNode Title="Autodiscover Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_Autodiscover.htm" />
+          <HelpTOCNode Title="Connected Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_Connected.htm" />
+          <HelpTOCNode Title="ConnectInfo Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_ConnectInfo.htm" />
+          <HelpTOCNode Title="ConnectSSL Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_ConnectSSL.htm" />
+          <HelpTOCNode Title="IPID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_IPID.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_LastModified.htm" />
+          <HelpTOCNode Title="Location Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_Location.htm" />
+          <HelpTOCNode Title="ParentID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_ParentID.htm" />
+          <HelpTOCNode Title="Password Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_Password.htm" />
+          <HelpTOCNode Title="Port Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_Port.htm" />
+          <HelpTOCNode Title="ProcessorID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_ProcessorID.htm" />
+          <HelpTOCNode Title="ProcessorName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_ProcessorName.htm" />
+          <HelpTOCNode Title="SecurePort Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_SecurePort.htm" />
+          <HelpTOCNode Title="Symbols Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_Symbols.htm" />
+          <HelpTOCNode Title="Username Property " Url="html/P_Crestron_Fusion_API_Entities_API_Processor_Username.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="2b8cc4bb-dcc1-4e28-9394-3a2fe2179802" Title="API_Result Class" Url="html/T_Crestron_Fusion_API_Entities_API_Result.htm">
+        <HelpTOCNode Title="API_Result Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Result.htm" />
+        <HelpTOCNode Id="cf81f782-a720-4cab-9bef-80f51ba58dcb" Title="API_Result Constructor " Url="html/Overload_Crestron_Fusion_API_Entities_API_Result__ctor.htm">
+          <HelpTOCNode Title="API_Result Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Result__ctor.htm" />
+          <HelpTOCNode Title="API_Result Constructor (String, String, String, String)" Url="html/M_Crestron_Fusion_API_Entities_API_Result__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="854cfd21-601e-48c6-b336-d76b06659fa1" Title="API_Result Methods" Url="html/Methods_T_Crestron_Fusion_API_Entities_API_Result.htm">
+          <HelpTOCNode Title="ToString Method " Url="html/M_Crestron_Fusion_API_Entities_API_Result_ToString.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="4c34294d-c59a-4e0f-928e-91165b9b19b3" Title="API_Result Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Result.htm">
+          <HelpTOCNode Title="API_Actions Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_Actions.htm" />
+          <HelpTOCNode Title="API_Appointments Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_Appointments.htm" />
+          <HelpTOCNode Title="API_Assets Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_Assets.htm" />
+          <HelpTOCNode Title="API_AssetTypes Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_AssetTypes.htm" />
+          <HelpTOCNode Title="API_Attributes Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_Attributes.htm" />
+          <HelpTOCNode Title="API_Availabilities Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_Availabilities.htm" />
+          <HelpTOCNode Title="API_BlueToothDevices Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_BlueToothDevices.htm" />
+          <HelpTOCNode Title="API_Configurations Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_Configurations.htm" />
+          <HelpTOCNode Title="API_Connections Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_Connections.htm" />
+          <HelpTOCNode Title="API_EndpointTypes Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_EndpointTypes.htm" />
+          <HelpTOCNode Title="API_Nodes Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_Nodes.htm" />
+          <HelpTOCNode Title="API_RoomCategories Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_RoomCategories.htm" />
+          <HelpTOCNode Title="API_Rooms Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_Rooms.htm" />
+          <HelpTOCNode Title="API_Signals Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_Signals.htm" />
+          <HelpTOCNode Title="API_Users Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_Users.htm" />
+          <HelpTOCNode Title="API_Versions Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_API_Versions.htm" />
+          <HelpTOCNode Title="Message Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_Message.htm" />
+          <HelpTOCNode Title="PageNumber Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_PageNumber.htm" />
+          <HelpTOCNode Title="Source Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_Source.htm" />
+          <HelpTOCNode Title="StackTrace Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_StackTrace.htm" />
+          <HelpTOCNode Title="Status Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_Status.htm" />
+          <HelpTOCNode Title="TotalRecords Property " Url="html/P_Crestron_Fusion_API_Entities_API_Result_TotalRecords.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="470f121e-5d25-47af-a91e-47ccb57a01f7" Title="API_Role Class" Url="html/T_Crestron_Fusion_API_Entities_API_Role.htm">
+        <HelpTOCNode Title="API_Role Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Role.htm" />
+        <HelpTOCNode Title="API_Role Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Role__ctor.htm" />
+        <HelpTOCNode Id="7ae04cbc-b10d-495f-8f97-874b103f7e26" Title="API_Role Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Role.htm">
+          <HelpTOCNode Title="Contacts Property " Url="html/P_Crestron_Fusion_API_Entities_API_Role_Contacts.htm" />
+          <HelpTOCNode Title="IsBuiltIn Property " Url="html/P_Crestron_Fusion_API_Entities_API_Role_IsBuiltIn.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_Role_LastModified.htm" />
+          <HelpTOCNode Title="NodeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Role_NodeID.htm" />
+          <HelpTOCNode Title="NodeText Property " Url="html/P_Crestron_Fusion_API_Entities_API_Role_NodeText.htm" />
+          <HelpTOCNode Title="Options Property " Url="html/P_Crestron_Fusion_API_Entities_API_Role_Options.htm" />
+          <HelpTOCNode Title="RoleID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Role_RoleID.htm" />
+          <HelpTOCNode Title="RoleName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Role_RoleName.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ba7b4f95-e0f3-48f2-b1b1-a5cae1ae3ad6" Title="API_RoleContact Class" Url="html/T_Crestron_Fusion_API_Entities_API_RoleContact.htm">
+        <HelpTOCNode Title="API_RoleContact Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_RoleContact.htm" />
+        <HelpTOCNode Title="API_RoleContact Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_RoleContact__ctor.htm" />
+        <HelpTOCNode Id="c86bdfab-517a-48ca-a5f3-396f47292ab4" Title="API_RoleContact Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_RoleContact.htm">
+          <HelpTOCNode Title="ContactID Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoleContact_ContactID.htm" />
+          <HelpTOCNode Title="IsRoomViewUser Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoleContact_IsRoomViewUser.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoleContact_Name.htm" />
+          <HelpTOCNode Title="SmtpAddress Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoleContact_SmtpAddress.htm" />
+          <HelpTOCNode Title="UseHtml Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoleContact_UseHtml.htm" />
+          <HelpTOCNode Title="UserID Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoleContact_UserID.htm" />
+          <HelpTOCNode Title="WebClientUserID Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoleContact_WebClientUserID.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="794fde88-e7a5-4dc2-9948-cb3ad13df34f" Title="API_RoleOption Class" Url="html/T_Crestron_Fusion_API_Entities_API_RoleOption.htm">
+        <HelpTOCNode Title="API_RoleOption Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_RoleOption.htm" />
+        <HelpTOCNode Title="API_RoleOption Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_RoleOption__ctor.htm" />
+        <HelpTOCNode Id="65c51527-bcd3-49dd-9249-9a9979dbea16" Title="API_RoleOption Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_RoleOption.htm">
+          <HelpTOCNode Title="Created Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoleOption_Created.htm" />
+          <HelpTOCNode Title="EmailTemplateID Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoleOption_EmailTemplateID.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoleOption_LastModified.htm" />
+          <HelpTOCNode Title="MeetingNotificationOption Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoleOption_MeetingNotificationOption.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="4b905104-f7e1-40aa-b877-a07665171ffc" Title="API_Room Class" Url="html/T_Crestron_Fusion_API_Entities_API_Room.htm">
+        <HelpTOCNode Title="API_Room Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Room.htm" />
+        <HelpTOCNode Title="API_Room Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Room__ctor.htm" />
+        <HelpTOCNode Id="aa96d1a1-46b8-4783-951c-82858907385b" Title="API_Room Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Room.htm">
+          <HelpTOCNode Title="Actions Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Actions.htm" />
+          <HelpTOCNode Title="AdjacentToLocation Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_AdjacentToLocation.htm" />
+          <HelpTOCNode Title="AirMediaInfo Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_AirMediaInfo.htm" />
+          <HelpTOCNode Title="Alias Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Alias.htm" />
+          <HelpTOCNode Title="Appointments Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Appointments.htm" />
+          <HelpTOCNode Title="Assets Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Assets.htm" />
+          <HelpTOCNode Title="AssociatedBLDIDs Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_AssociatedBLDIDs.htm" />
+          <HelpTOCNode Title="Availability Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Availability.htm" />
+          <HelpTOCNode Title="Bookable Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Bookable.htm" />
+          <HelpTOCNode Title="BookedUntil Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_BookedUntil.htm" />
+          <HelpTOCNode Title="BookedUntilTime Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_BookedUntilTime.htm" />
+          <HelpTOCNode Title="BranchMajorID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_BranchMajorID.htm" />
+          <HelpTOCNode Title="BranchUUID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_BranchUUID.htm" />
+          <HelpTOCNode Title="Capacity Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Capacity.htm" />
+          <HelpTOCNode Title="Connections Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Connections.htm" />
+          <HelpTOCNode Title="CustomFields Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_CustomFields.htm" />
+          <HelpTOCNode Title="Description Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Description.htm" />
+          <HelpTOCNode Title="Distance Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Distance.htm" />
+          <HelpTOCNode Title="DistributionGroupID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_DistributionGroupID.htm" />
+          <HelpTOCNode Title="EControlLink Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_EControlLink.htm" />
+          <HelpTOCNode Title="EndPointType Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_EndPointType.htm" />
+          <HelpTOCNode Title="FutureAvailability Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_FutureAvailability.htm" />
+          <HelpTOCNode Title="FutureScheduledTime Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_FutureScheduledTime.htm" />
+          <HelpTOCNode Title="GroupwarePassword Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_GroupwarePassword.htm" />
+          <HelpTOCNode Title="GroupwareProviderType Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_GroupwareProviderType.htm" />
+          <HelpTOCNode Title="GroupwareURL Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_GroupwareURL.htm" />
+          <HelpTOCNode Title="GroupwareUserDomain Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_GroupwareUserDomain.htm" />
+          <HelpTOCNode Title="GroupwareUsername Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_GroupwareUsername.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_LastModified.htm" />
+          <HelpTOCNode Title="Latitude Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Latitude.htm" />
+          <HelpTOCNode Title="Location Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Location.htm" />
+          <HelpTOCNode Title="LocationMap Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_LocationMap.htm" />
+          <HelpTOCNode Title="Longitude Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Longitude.htm" />
+          <HelpTOCNode Title="Nearby Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Nearby.htm" />
+          <HelpTOCNode Title="Occupied Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Occupied.htm" />
+          <HelpTOCNode Title="ParentNodeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_ParentNodeID.htm" />
+          <HelpTOCNode Title="Persons Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Persons.htm" />
+          <HelpTOCNode Title="Region Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Region.htm" />
+          <HelpTOCNode Title="RoomCategory Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_RoomCategory.htm" />
+          <HelpTOCNode Title="RoomID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_RoomID.htm" />
+          <HelpTOCNode Title="RoomImageURLs Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_RoomImageURLs.htm" />
+          <HelpTOCNode Title="RoomName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_RoomName.htm" />
+          <HelpTOCNode Title="SMTPAddress Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_SMTPAddress.htm" />
+          <HelpTOCNode Title="State Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_State.htm" />
+          <HelpTOCNode Title="Status Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Status.htm" />
+          <HelpTOCNode Title="Symbols Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_Symbols.htm" />
+          <HelpTOCNode Title="TimeZoneID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_TimeZoneID.htm" />
+          <HelpTOCNode Title="WebCamLink Property " Url="html/P_Crestron_Fusion_API_Entities_API_Room_WebCamLink.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c0b8d19f-4a0e-4fef-baad-d030eee1bb8b" Title="API_RoomCategory Class" Url="html/T_Crestron_Fusion_API_Entities_API_RoomCategory.htm">
+        <HelpTOCNode Title="API_RoomCategory Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_RoomCategory.htm" />
+        <HelpTOCNode Title="API_RoomCategory Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_RoomCategory__ctor.htm" />
+        <HelpTOCNode Id="f103760f-987c-460c-80c9-5981de2b0d45" Title="API_RoomCategory Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_RoomCategory.htm">
+          <HelpTOCNode Title="CategoryID Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoomCategory_CategoryID.htm" />
+          <HelpTOCNode Title="CategoryName Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoomCategory_CategoryName.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="d6be3b55-081e-41e6-9c7f-f5d1ce793981" Title="API_RoomCustomField Class" Url="html/T_Crestron_Fusion_API_Entities_API_RoomCustomField.htm">
+        <HelpTOCNode Title="API_RoomCustomField Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_RoomCustomField.htm" />
+        <HelpTOCNode Title="API_RoomCustomField Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_RoomCustomField__ctor.htm" />
+        <HelpTOCNode Id="dd29b739-1a25-4d21-b158-6d98f453c7c7" Title="API_RoomCustomField Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_RoomCustomField.htm">
+          <HelpTOCNode Title="BoolValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_BoolValue.htm" />
+          <HelpTOCNode Title="CustomFieldID Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_CustomFieldID.htm" />
+          <HelpTOCNode Title="DateTimeValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_DateTimeValue.htm" />
+          <HelpTOCNode Title="IntValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_IntValue.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_LastModified.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_Name.htm" />
+          <HelpTOCNode Title="Searchable Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_Searchable.htm" />
+          <HelpTOCNode Title="StringValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_StringValue.htm" />
+          <HelpTOCNode Title="Type Property " Url="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_Type.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="API_SecurityLevel Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_SecurityLevel.htm" />
+      <HelpTOCNode Id="a144fee7-70f8-4e81-ab88-c8825534470b" Title="API_Signal Class" Url="html/T_Crestron_Fusion_API_Entities_API_Signal.htm">
+        <HelpTOCNode Title="API_Signal Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Signal.htm" />
+        <HelpTOCNode Title="API_Signal Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Signal__ctor.htm" />
+        <HelpTOCNode Id="9556806f-25d1-48f6-b43d-b9d814c82175" Title="API_Signal Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Signal.htm">
+          <HelpTOCNode Title="AttributeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_AttributeID.htm" />
+          <HelpTOCNode Title="AttributeName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_AttributeName.htm" />
+          <HelpTOCNode Title="AttributeType Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_AttributeType.htm" />
+          <HelpTOCNode Title="DefaultIOMask Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_DefaultIOMask.htm" />
+          <HelpTOCNode Title="JoinNumber Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_JoinNumber.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_LastModified.htm" />
+          <HelpTOCNode Title="LogicalOperator Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_LogicalOperator.htm" />
+          <HelpTOCNode Title="RawValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_RawValue.htm" />
+          <HelpTOCNode Title="Reserved Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_Reserved.htm" />
+          <HelpTOCNode Title="SignalID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_SignalID.htm" />
+          <HelpTOCNode Title="SignalMaxValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_SignalMaxValue.htm" />
+          <HelpTOCNode Title="SignalMinValue Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_SignalMinValue.htm" />
+          <HelpTOCNode Title="SignalName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_SignalName.htm" />
+          <HelpTOCNode Title="Slot Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_Slot.htm" />
+          <HelpTOCNode Title="SymbolID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_SymbolID.htm" />
+          <HelpTOCNode Title="SymbolName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_SymbolName.htm" />
+          <HelpTOCNode Title="XmlName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Signal_XmlName.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e0daffe0-c02f-4d55-84da-5bd221f65c3d" Title="API_Symbol Class" Url="html/T_Crestron_Fusion_API_Entities_API_Symbol.htm">
+        <HelpTOCNode Title="API_Symbol Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Symbol.htm" />
+        <HelpTOCNode Title="API_Symbol Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Symbol__ctor.htm" />
+        <HelpTOCNode Id="61878e33-646e-443f-a2b3-5356b7d2d3a9" Title="API_Symbol Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Symbol.htm">
+          <HelpTOCNode Title="ConnectInfo Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_ConnectInfo.htm" />
+          <HelpTOCNode Title="IPID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_IPID.htm" />
+          <HelpTOCNode Title="LastModified Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_LastModified.htm" />
+          <HelpTOCNode Title="NodeID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_NodeID.htm" />
+          <HelpTOCNode Title="NodeText Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_NodeText.htm" />
+          <HelpTOCNode Title="Password Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_Password.htm" />
+          <HelpTOCNode Title="Port Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_Port.htm" />
+          <HelpTOCNode Title="ProcessorID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_ProcessorID.htm" />
+          <HelpTOCNode Title="ProcessorName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_ProcessorName.htm" />
+          <HelpTOCNode Title="RoomID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_RoomID.htm" />
+          <HelpTOCNode Title="SecurePort Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_SecurePort.htm" />
+          <HelpTOCNode Title="Signals Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_Signals.htm" />
+          <HelpTOCNode Title="SymbolID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_SymbolID.htm" />
+          <HelpTOCNode Title="SymbolName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_SymbolName.htm" />
+          <HelpTOCNode Title="UserName Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_UserName.htm" />
+          <HelpTOCNode Title="UseSSL Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_UseSSL.htm" />
+          <HelpTOCNode Title="Version Property " Url="html/P_Crestron_Fusion_API_Entities_API_Symbol_Version.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="7295f279-0345-47ce-bc55-3f65d8b93c33" Title="API_TaggedSearch Class" Url="html/T_Crestron_Fusion_API_Entities_API_TaggedSearch.htm">
+        <HelpTOCNode Title="API_TaggedSearch Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_TaggedSearch.htm" />
+        <HelpTOCNode Title="API_TaggedSearch Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_TaggedSearch__ctor.htm" />
+        <HelpTOCNode Id="282c267b-3c7a-4d15-9ad3-9ff5a0c7dd39" Title="API_TaggedSearch Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_TaggedSearch.htm">
+          <HelpTOCNode Title="Description Property " Url="html/P_Crestron_Fusion_API_Entities_API_TaggedSearch_Description.htm" />
+          <HelpTOCNode Title="Tag Property " Url="html/P_Crestron_Fusion_API_Entities_API_TaggedSearch_Tag.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="34411da9-4036-4070-937b-07e56f5f7d85" Title="API_User Class" Url="html/T_Crestron_Fusion_API_Entities_API_User.htm">
+        <HelpTOCNode Title="API_User Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_User.htm" />
+        <HelpTOCNode Title="API_User Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_User__ctor.htm" />
+        <HelpTOCNode Id="82642564-2b65-44e4-bfd0-efaf51cc1b7c" Title="API_User Fields" Url="html/Fields_T_Crestron_Fusion_API_Entities_API_User.htm">
+          <HelpTOCNode Title="Cards Field" Url="html/F_Crestron_Fusion_API_Entities_API_User_Cards.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="4002e897-a699-46fb-a961-2b5b74c23e31" Title="API_User Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_User.htm">
+          <HelpTOCNode Title="Actions Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_Actions.htm" />
+          <HelpTOCNode Title="ExchangeAccount Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_ExchangeAccount.htm" />
+          <HelpTOCNode Title="FavoriteRoomList Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_FavoriteRoomList.htm" />
+          <HelpTOCNode Title="FavoriteRooms Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_FavoriteRooms.htm" />
+          <HelpTOCNode Title="FriendlyUserName Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_FriendlyUserName.htm" />
+          <HelpTOCNode Title="LastModifiedDate Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_LastModifiedDate.htm" />
+          <HelpTOCNode Title="PreferredAsset Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_PreferredAsset.htm" />
+          <HelpTOCNode Title="PreferredLocation Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_PreferredLocation.htm" />
+          <HelpTOCNode Title="PreferredRoom Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_PreferredRoom.htm" />
+          <HelpTOCNode Title="SavedSearches Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_SavedSearches.htm" />
+          <HelpTOCNode Title="SavedSearchesWithTags Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_SavedSearchesWithTags.htm" />
+          <HelpTOCNode Title="Subject Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_Subject.htm" />
+          <HelpTOCNode Title="TimeFormat Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_TimeFormat.htm" />
+          <HelpTOCNode Title="TimeZoneID Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_TimeZoneID.htm" />
+          <HelpTOCNode Title="UserGroup Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_UserGroup.htm" />
+          <HelpTOCNode Title="UserID Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_UserID.htm" />
+          <HelpTOCNode Title="UserIPAddress Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_UserIPAddress.htm" />
+          <HelpTOCNode Title="UserName Property " Url="html/P_Crestron_Fusion_API_Entities_API_User_UserName.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f17631cc-b80d-422b-894f-9b4a504f3eec" Title="API_Version Class" Url="html/T_Crestron_Fusion_API_Entities_API_Version.htm">
+        <HelpTOCNode Title="API_Version Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Version.htm" />
+        <HelpTOCNode Title="API_Version Constructor " Url="html/M_Crestron_Fusion_API_Entities_API_Version__ctor.htm" />
+        <HelpTOCNode Id="f1ac13d5-c6ea-476b-a35e-375b17cd7ca9" Title="API_Version Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_API_Version.htm">
+          <HelpTOCNode Title="ClientURLPath Property " Url="html/P_Crestron_Fusion_API_Entities_API_Version_ClientURLPath.htm" />
+          <HelpTOCNode Title="FusionBuildNumber Property " Url="html/P_Crestron_Fusion_API_Entities_API_Version_FusionBuildNumber.htm" />
+          <HelpTOCNode Title="ServerURLPath Property " Url="html/P_Crestron_Fusion_API_Entities_API_Version_ServerURLPath.htm" />
+          <HelpTOCNode Title="ServerVersionID Property " Url="html/P_Crestron_Fusion_API_Entities_API_Version_ServerVersionID.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="API_XWS_Resources Enumeration" Url="html/T_Crestron_Fusion_API_Entities_API_XWS_Resources.htm" />
+      <HelpTOCNode Id="0bb66aba-5db9-40cc-a4a8-e21d88f7d05b" Title="APIEntityValidation Class" Url="html/T_Crestron_Fusion_API_Entities_APIEntityValidation.htm">
+        <HelpTOCNode Title="APIEntityValidation Members" Url="html/AllMembers_T_Crestron_Fusion_API_Entities_APIEntityValidation.htm" />
+        <HelpTOCNode Title="APIEntityValidation Constructor " Url="html/M_Crestron_Fusion_API_Entities_APIEntityValidation__ctor.htm" />
+        <HelpTOCNode Id="f09744e4-ff05-459c-af0b-313694e27304" Title="APIEntityValidation Properties" Url="html/Properties_T_Crestron_Fusion_API_Entities_APIEntityValidation.htm">
+          <HelpTOCNode Title="IsRequired Property " Url="html/P_Crestron_Fusion_API_Entities_APIEntityValidation_IsRequired.htm" />
+          <HelpTOCNode Title="IsRequiredOnPostOnly Property " Url="html/P_Crestron_Fusion_API_Entities_APIEntityValidation_IsRequiredOnPostOnly.htm" />
+          <HelpTOCNode Title="IsRequiredOnPutOnly Property " Url="html/P_Crestron_Fusion_API_Entities_APIEntityValidation_IsRequiredOnPutOnly.htm" />
+          <HelpTOCNode Title="MaxLength Property " Url="html/P_Crestron_Fusion_API_Entities_APIEntityValidation_MaxLength.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="401d7cfa-4eda-4081-9718-8164ecc9b51b" Title="Crestron.Fusion.API.Resources Namespace" Url="html/N_Crestron_Fusion_API_Resources.htm">
+      <HelpTOCNode Id="dc36e4a2-8b44-4aab-8907-23834e9f055c" Title="ActionResource Class" Url="html/T_Crestron_Fusion_API_Resources_ActionResource.htm">
+        <HelpTOCNode Title="ActionResource Members" Url="html/AllMembers_T_Crestron_Fusion_API_Resources_ActionResource.htm" />
+        <HelpTOCNode Title="ActionResource Constructor " Url="html/M_Crestron_Fusion_API_Resources_ActionResource__ctor.htm" />
+        <HelpTOCNode Id="c7c8eab6-c05e-48b1-a5ee-1192199e882d" Title="ActionResource Methods" Url="html/Methods_T_Crestron_Fusion_API_Resources_ActionResource.htm">
+          <HelpTOCNode Title="DeleteAction Method " Url="html/M_Crestron_Fusion_API_Resources_ActionResource_DeleteAction.htm" />
+          <HelpTOCNode Title="GetAction Method " Url="html/M_Crestron_Fusion_API_Resources_ActionResource_GetAction.htm" />
+          <HelpTOCNode Title="GetActions Method " Url="html/M_Crestron_Fusion_API_Resources_ActionResource_GetActions.htm" />
+          <HelpTOCNode Title="PostAction Method " Url="html/M_Crestron_Fusion_API_Resources_ActionResource_PostAction.htm" />
+          <HelpTOCNode Title="PutAction Method " Url="html/M_Crestron_Fusion_API_Resources_ActionResource_PutAction.htm" />
+          <HelpTOCNode Title="SendAction Method " Url="html/M_Crestron_Fusion_API_Resources_ActionResource_SendAction.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="734076e6-1617-4bc2-98bc-2ec7848c6a98" Title="AppointmentResource Class" Url="html/T_Crestron_Fusion_API_Resources_AppointmentResource.htm">
+        <HelpTOCNode Title="AppointmentResource Members" Url="html/AllMembers_T_Crestron_Fusion_API_Resources_AppointmentResource.htm" />
+        <HelpTOCNode Title="AppointmentResource Constructor " Url="html/M_Crestron_Fusion_API_Resources_AppointmentResource__ctor.htm" />
+        <HelpTOCNode Id="510c6346-fb30-48fa-aba7-7ba018e07699" Title="AppointmentResource Methods" Url="html/Methods_T_Crestron_Fusion_API_Resources_AppointmentResource.htm">
+          <HelpTOCNode Title="DeleteAppointment Method " Url="html/M_Crestron_Fusion_API_Resources_AppointmentResource_DeleteAppointment.htm" />
+          <HelpTOCNode Title="GetAppointment Method " Url="html/M_Crestron_Fusion_API_Resources_AppointmentResource_GetAppointment.htm" />
+          <HelpTOCNode Title="GetAppointments Method " Url="html/M_Crestron_Fusion_API_Resources_AppointmentResource_GetAppointments.htm" />
+          <HelpTOCNode Title="PostAppointment Method " Url="html/M_Crestron_Fusion_API_Resources_AppointmentResource_PostAppointment.htm" />
+          <HelpTOCNode Title="PutAppointment Method " Url="html/M_Crestron_Fusion_API_Resources_AppointmentResource_PutAppointment.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="413485b5-82da-4e34-b026-835090eefb0e" Title="AssetResource Class" Url="html/T_Crestron_Fusion_API_Resources_AssetResource.htm">
+        <HelpTOCNode Title="AssetResource Members" Url="html/AllMembers_T_Crestron_Fusion_API_Resources_AssetResource.htm" />
+        <HelpTOCNode Title="AssetResource Constructor " Url="html/M_Crestron_Fusion_API_Resources_AssetResource__ctor.htm" />
+        <HelpTOCNode Id="ccd410ee-6520-4238-a1f8-f90a2f06e4f3" Title="AssetResource Methods" Url="html/Methods_T_Crestron_Fusion_API_Resources_AssetResource.htm">
+          <HelpTOCNode Title="DeleteAsset Method " Url="html/M_Crestron_Fusion_API_Resources_AssetResource_DeleteAsset.htm" />
+          <HelpTOCNode Title="GetAsset Method " Url="html/M_Crestron_Fusion_API_Resources_AssetResource_GetAsset.htm" />
+          <HelpTOCNode Title="GetAssets Method " Url="html/M_Crestron_Fusion_API_Resources_AssetResource_GetAssets.htm" />
+          <HelpTOCNode Title="PostAsset Method " Url="html/M_Crestron_Fusion_API_Resources_AssetResource_PostAsset.htm" />
+          <HelpTOCNode Title="PutAsset Method " Url="html/M_Crestron_Fusion_API_Resources_AssetResource_PutAsset.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="75a20654-2ab0-401b-83b6-71207a1349d4" Title="AttributeResource Class" Url="html/T_Crestron_Fusion_API_Resources_AttributeResource.htm">
+        <HelpTOCNode Title="AttributeResource Members" Url="html/AllMembers_T_Crestron_Fusion_API_Resources_AttributeResource.htm" />
+        <HelpTOCNode Title="AttributeResource Constructor " Url="html/M_Crestron_Fusion_API_Resources_AttributeResource__ctor.htm" />
+        <HelpTOCNode Id="36b429f4-cebb-40ea-9fff-ea1b22135cbe" Title="AttributeResource Methods" Url="html/Methods_T_Crestron_Fusion_API_Resources_AttributeResource.htm">
+          <HelpTOCNode Title="GetAttribute Method " Url="html/M_Crestron_Fusion_API_Resources_AttributeResource_GetAttribute.htm" />
+          <HelpTOCNode Title="GetAttributes Method " Url="html/M_Crestron_Fusion_API_Resources_AttributeResource_GetAttributes.htm" />
+          <HelpTOCNode Title="PutAttribute Method " Url="html/M_Crestron_Fusion_API_Resources_AttributeResource_PutAttribute.htm" />
+          <HelpTOCNode Title="SendAttribute Method " Url="html/M_Crestron_Fusion_API_Resources_AttributeResource_SendAttribute.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8fbcee33-c554-4cf3-9207-71f1d974220b" Title="AvailabilityResource Class" Url="html/T_Crestron_Fusion_API_Resources_AvailabilityResource.htm">
+        <HelpTOCNode Title="AvailabilityResource Members" Url="html/AllMembers_T_Crestron_Fusion_API_Resources_AvailabilityResource.htm" />
+        <HelpTOCNode Title="AvailabilityResource Constructor " Url="html/M_Crestron_Fusion_API_Resources_AvailabilityResource__ctor.htm" />
+        <HelpTOCNode Id="81808958-856c-4fbc-97f4-4e968d3ecb0f" Title="AvailabilityResource Methods" Url="html/Methods_T_Crestron_Fusion_API_Resources_AvailabilityResource.htm">
+          <HelpTOCNode Title="GetAvailability Method " Url="html/M_Crestron_Fusion_API_Resources_AvailabilityResource_GetAvailability.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="a787d801-72ab-448a-955e-4061b2f7f8b8" Title="NodeResource Class" Url="html/T_Crestron_Fusion_API_Resources_NodeResource.htm">
+        <HelpTOCNode Title="NodeResource Members" Url="html/AllMembers_T_Crestron_Fusion_API_Resources_NodeResource.htm" />
+        <HelpTOCNode Title="NodeResource Constructor " Url="html/M_Crestron_Fusion_API_Resources_NodeResource__ctor.htm" />
+        <HelpTOCNode Id="49830782-0016-4894-9ab1-d63f0b47ab6e" Title="NodeResource Methods" Url="html/Methods_T_Crestron_Fusion_API_Resources_NodeResource.htm">
+          <HelpTOCNode Title="GetNode Method " Url="html/M_Crestron_Fusion_API_Resources_NodeResource_GetNode.htm" />
+          <HelpTOCNode Title="GetNodes Method " Url="html/M_Crestron_Fusion_API_Resources_NodeResource_GetNodes.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="33cb5aa1-3829-4b9c-ab89-c3326ec49c69" Title="RoomResource Class" Url="html/T_Crestron_Fusion_API_Resources_RoomResource.htm">
+        <HelpTOCNode Title="RoomResource Members" Url="html/AllMembers_T_Crestron_Fusion_API_Resources_RoomResource.htm" />
+        <HelpTOCNode Title="RoomResource Constructor " Url="html/M_Crestron_Fusion_API_Resources_RoomResource__ctor.htm" />
+        <HelpTOCNode Id="c993517e-1ccc-4874-b9c8-2ec091bc32d2" Title="RoomResource Methods" Url="html/Methods_T_Crestron_Fusion_API_Resources_RoomResource.htm">
+          <HelpTOCNode Title="DeleteRoom Method " Url="html/M_Crestron_Fusion_API_Resources_RoomResource_DeleteRoom.htm" />
+          <HelpTOCNode Title="GetRoom Method " Url="html/M_Crestron_Fusion_API_Resources_RoomResource_GetRoom.htm" />
+          <HelpTOCNode Title="GetRooms Method " Url="html/M_Crestron_Fusion_API_Resources_RoomResource_GetRooms.htm" />
+          <HelpTOCNode Title="PostRoom Method " Url="html/M_Crestron_Fusion_API_Resources_RoomResource_PostRoom.htm" />
+          <HelpTOCNode Title="PutRoom Method " Url="html/M_Crestron_Fusion_API_Resources_RoomResource_PutRoom.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ae9f4e03-0495-42ab-808b-1deedfdc80cd" Title="SignalValueResource Class" Url="html/T_Crestron_Fusion_API_Resources_SignalValueResource.htm">
+        <HelpTOCNode Title="SignalValueResource Members" Url="html/AllMembers_T_Crestron_Fusion_API_Resources_SignalValueResource.htm" />
+        <HelpTOCNode Title="SignalValueResource Constructor " Url="html/M_Crestron_Fusion_API_Resources_SignalValueResource__ctor.htm" />
+        <HelpTOCNode Id="9dcd9047-38a5-4bc4-bf61-caebc4d1d618" Title="SignalValueResource Methods" Url="html/Methods_T_Crestron_Fusion_API_Resources_SignalValueResource.htm">
+          <HelpTOCNode Title="GetSignalValue Method " Url="html/M_Crestron_Fusion_API_Resources_SignalValueResource_GetSignalValue.htm" />
+          <HelpTOCNode Title="GetSignalValues Method " Url="html/M_Crestron_Fusion_API_Resources_SignalValueResource_GetSignalValues.htm" />
+          <HelpTOCNode Title="PutSignalValue Method " Url="html/M_Crestron_Fusion_API_Resources_SignalValueResource_PutSignalValue.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ebd94754-12c5-4557-b91a-2b7e76807789" Title="Crestron.Fusion.API.Security Namespace" Url="html/N_Crestron_Fusion_API_Security.htm">
+      <HelpTOCNode Id="89ec095d-de5e-49ac-9a85-e87041a157b4" Title="SecurityService Class" Url="html/T_Crestron_Fusion_API_Security_SecurityService.htm">
+        <HelpTOCNode Title="SecurityService Members" Url="html/AllMembers_T_Crestron_Fusion_API_Security_SecurityService.htm" />
+        <HelpTOCNode Title="SecurityService Constructor " Url="html/M_Crestron_Fusion_API_Security_SecurityService__ctor.htm" />
+        <HelpTOCNode Id="bb0f3439-7dea-4feb-94f3-51cf0d2027c4" Title="SecurityService Methods" Url="html/Methods_T_Crestron_Fusion_API_Security_SecurityService.htm">
+          <HelpTOCNode Title="SetupSecurity Method " Url="html/M_Crestron_Fusion_API_Security_SecurityService_SetupSecurity.htm" />
+          <HelpTOCNode Title="VerifyRequest Method " Url="html/M_Crestron_Fusion_API_Security_SecurityService_VerifyRequest.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

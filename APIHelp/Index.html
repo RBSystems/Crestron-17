@@ -1,0 +1,2425 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>Crestron Fusion API Online Help - Table of Content</title>
+<link rel="stylesheet" href="TOC.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script type="text/javascript" src="TOC.js"></script>
+</head>
+
+<body onload="javascript: Initialize('.aspx');" onresize="javascript: ResizeTree();">
+<form id="IndexForm" runat="server">
+
+<div id="TOCDiv" class="TOCDiv">
+
+<div id="divSearchOpts" class="SearchOpts" style="height: 100px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideSearch(false);"
+    src="CloseSearch.png" height="16" width="16" alt="Hide search" style="float: right;"/>
+Keyword(s) for which to search:
+<input id="txtSearchText" type="text" style="width: 100%;"
+  onkeypress="javascript: return OnSearchTextKeyPress(event);" /><br />
+<input id="chkSortByTitle" type="checkbox" /><label for="chkSortByTitle">&nbsp;Sort results by title</label><br />
+<input type="button" value="Search" onclick="javascript: return PerformSearch();" />
+</div>
+
+<div id="divIndexOpts" class="IndexOpts" style="height: 25px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+    src="CloseSearch.png" height="17" width="17" alt="Hide index" style="float: right;"/>
+Keyword Index
+</div>
+
+<div id="divNavOpts" class="NavOpts" style="height: 20px;">
+    <img class="TOCLink" onclick="javascript: SyncTOC();" src="SyncTOC.gif"
+        height="16" width="16" alt="Sync to TOC"/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+        src="ExpandAll.bmp" height="16" width="16" alt="Expand all "/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+        src="CollapseAll.bmp" height="16" width="16" alt="Collapse all" />
+    <a href="#" title="Click to obtain a direct link to the displayed topic"
+        style="margin-left: 10px; vertical-align: top;"
+        onclick="javascript: ShowDirectLink();">Direct Link</a>
+</div>
+
+<div class="Tree" id="divSearchResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divIndexResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divTree" onselectstart="javascript: return false;">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/R_Project_Crestron_Fusion_API.htm" target="TopicContent">Crestron.Fusion.API</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_Crestron_Fusion_API_ApiHelper.htm" target="TopicContent">Crestron.Fusion.API.ApiHelper Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_ApiHelper_ApiLog.htm" target="TopicContent">ApiLog Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_ApiLog.htm" target="TopicContent">ApiLog Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_Crestron_Fusion_API_ApiHelper_ApiLog.htm" target="TopicContent">ApiLog Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_One.htm" target="TopicContent">One Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_ApiHelper_ApiLog.htm" target="TopicContent">ApiLog Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Assert.htm" target="TopicContent">Assert Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Close.htm" target="TopicContent">Close Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Dispose.htm" target="TopicContent">Dispose Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Fail.htm" target="TopicContent">Fail Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Flush.htm" target="TopicContent">Flush Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_IndicatorToTypeCode.htm" target="TopicContent">IndicatorToTypeCode Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_SetLogDetails.htm" target="TopicContent">SetLogDetails Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_ToString.htm" target="TopicContent">ToString Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteDebug.htm" target="TopicContent">WriteDebug Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteDebugExtra.htm" target="TopicContent">WriteDebugExtra Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Crestron_Fusion_API_ApiHelper_ApiLog_WriteEvent.htm" target="TopicContent">WriteEvent Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteEvent.htm" target="TopicContent">WriteEvent Method (String, EventLogEntryType)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteEvent_1.htm" target="TopicContent">WriteEvent Method (String, EventLogEntryType, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteException.htm" target="TopicContent">WriteException Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteNormal.htm" target="TopicContent">WriteNormal Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Crestron_Fusion_API_ApiHelper_ApiLog_WriteVaried.htm" target="TopicContent">WriteVaried Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteVaried.htm" target="TopicContent">WriteVaried Method (ApiLog.LoggingLevel, String, ApiLog.MsgType)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteVaried_1.htm" target="TopicContent">WriteVaried Method (ApiLog.LoggingLevel, String, ApiLog.MsgType, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_WriteVerbose.htm" target="TopicContent">WriteVerbose Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_ApiHelper_ApiLog.htm" target="TopicContent">ApiLog Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_Capacity.htm" target="TopicContent">Capacity Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_Count.htm" target="TopicContent">Count Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_FlushSeconds.htm" target="TopicContent">FlushSeconds Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_FullPathName.htm" target="TopicContent">FullPathName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_IsActive.htm" target="TopicContent">IsActive Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_LogLevel.htm" target="TopicContent">LogLevel Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_LogsToKeep.htm" target="TopicContent">LogsToKeep Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_MaxCachedLines.htm" target="TopicContent">MaxCachedLines Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_Name.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_Path.htm" target="TopicContent">Path Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_ProcessInfo.htm" target="TopicContent">ProcessInfo Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_ApiLog_WriteToConsole.htm" target="TopicContent">WriteToConsole Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_Crestron_Fusion_API_ApiHelper_ApiLog.htm" target="TopicContent">ApiLog Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_Crestron_Fusion_API_ApiHelper_ApiLog_OnLogMessage.htm" target="TopicContent">OnLogMessage Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_ApiHelper_ApiLog_LoggingLevel.htm" target="TopicContent">ApiLog.LoggingLevel Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_ApiHelper_ApiLog_LogMessageHandler.htm" target="TopicContent">ApiLog.LogMessageHandler Delegate</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_ApiHelper_ApiLog_Msg.htm" target="TopicContent">ApiLog.Msg Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_ApiLog_Msg.htm" target="TopicContent">ApiLog.Msg Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Msg__ctor.htm" target="TopicContent">ApiLog.Msg Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_Crestron_Fusion_API_ApiHelper_ApiLog_Msg.htm" target="TopicContent">ApiLog.Msg Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_Caller.htm" target="TopicContent">Caller Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_Level.htm" target="TopicContent">Level Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_Text.htm" target="TopicContent">Text Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_ThreadID.htm" target="TopicContent">ThreadID Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_TimeStamp.htm" target="TopicContent">TimeStamp Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_Type.htm" target="TopicContent">Type Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_ApiHelper_ApiLog_Msg.htm" target="TopicContent">ApiLog.Msg Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_ApiLog_Msg_ToString.htm" target="TopicContent">ToString Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_ApiHelper_ApiLog_MsgType.htm" target="TopicContent">ApiLog.MsgType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_ApiHelper_DateTimeExtension.htm" target="TopicContent">DateTimeExtension Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_DateTimeExtension.htm" target="TopicContent">DateTimeExtension Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_ApiHelper_DateTimeExtension.htm" target="TopicContent">DateTimeExtension Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_DateTimeExtension_ToRfc3339.htm" target="TopicContent">ToRfc3339 Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_ApiHelper_Encryption.htm" target="TopicContent">Encryption Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_Encryption.htm" target="TopicContent">Encryption Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_ApiHelper_Encryption.htm" target="TopicContent">Encryption Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_Encryption_Decrypt.htm" target="TopicContent">Decrypt Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_Encryption_Encrypt.htm" target="TopicContent">Encrypt Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_Encryption_GenerateSecurityToken.htm" target="TopicContent">GenerateSecurityToken Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_ApiHelper_LogEntry.htm" target="TopicContent">LogEntry Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_LogEntry.htm" target="TopicContent">LogEntry Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_LogEntry__ctor.htm" target="TopicContent">LogEntry Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_ApiHelper_LogEntry.htm" target="TopicContent">LogEntry Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_LogEntry_Action.htm" target="TopicContent">Action Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_LogEntry_Message.htm" target="TopicContent">Message Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_ApiHelper_LogEntry_timeStamp.htm" target="TopicContent">timeStamp Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_ApiHelper_LogHelper.htm" target="TopicContent">LogHelper Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_LogHelper.htm" target="TopicContent">LogHelper Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_ApiHelper_LogHelper.htm" target="TopicContent">LogHelper Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_DumpString.htm" target="TopicContent">DumpString Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_LogDeserialization.htm" target="TopicContent">LogDeserialization Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_LogRequest.htm" target="TopicContent">LogRequest Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Crestron_Fusion_API_ApiHelper_LogHelper_LogResponse.htm" target="TopicContent">LogResponse Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_LogResponse.htm" target="TopicContent">LogResponse Method (HttpWebResponse, List(LogEntry))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_LogResponse_1.htm" target="TopicContent">LogResponse Method (WebResponse, List(LogEntry))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_LogSerialization.htm" target="TopicContent">LogSerialization Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_LogHelper_PopulateText.htm" target="TopicContent">PopulateText Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_ApiHelper_StringExtension.htm" target="TopicContent">StringExtension Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_StringExtension.htm" target="TopicContent">StringExtension Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_ApiHelper_StringExtension.htm" target="TopicContent">StringExtension Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_StringExtension_FromRfc3339.htm" target="TopicContent">FromRfc3339 Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_ApiHelper_Utility.htm" target="TopicContent">Utility Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_Utility.htm" target="TopicContent">Utility Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_ApiHelper_Utility.htm" target="TopicContent">Utility Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_Utility_DumpObject.htm" target="TopicContent">DumpObject Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_Utility_GetConfigValue.htm" target="TopicContent">GetConfigValue Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_Utility_GetFunctionName.htm" target="TopicContent">GetFunctionName Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_Utility_ToByteArray.htm" target="TopicContent">ToByteArray Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_Utility_ToObject.htm" target="TopicContent">ToObject Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_ApiHelper_XMLHelper.htm" target="TopicContent">XMLHelper Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_ApiHelper_XMLHelper.htm" target="TopicContent">XMLHelper Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_ApiHelper_XMLHelper.htm" target="TopicContent">XMLHelper Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_XMLHelper_Deserialize__1.htm" target="TopicContent">Deserialize(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_ApiHelper_XMLHelper_Serialize__1.htm" target="TopicContent">Serialize(T) Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_Crestron_Fusion_API_Entities.htm" target="TopicContent">Crestron.Fusion.API.Entities Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Action.htm" target="TopicContent">API_Action Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Action.htm" target="TopicContent">API_Action Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Action__ctor.htm" target="TopicContent">API_Action Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Action.htm" target="TopicContent">API_Action Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Action_ActionDescription.htm" target="TopicContent">ActionDescription Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Action_ActionID.htm" target="TopicContent">ActionID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Action_ActionName.htm" target="TopicContent">ActionName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Action_IsOverride.htm" target="TopicContent">IsOverride Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Action_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Action_OffsetMinutes.htm" target="TopicContent">OffsetMinutes Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Action_OverriddenActionID.htm" target="TopicContent">OverriddenActionID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Action_StepList.htm" target="TopicContent">StepList Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_ActionStep.htm" target="TopicContent">API_ActionStep Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_ActionStep.htm" target="TopicContent">API_ActionStep Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_ActionStep__ctor.htm" target="TopicContent">API_ActionStep Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_ActionStep.htm" target="TopicContent">API_ActionStep Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_ActionStep_AnalogValue.htm" target="TopicContent">AnalogValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_ActionStep_AttributeID.htm" target="TopicContent">AttributeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_ActionStep_AttributeType.htm" target="TopicContent">AttributeType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_ActionStep_DigitalValue.htm" target="TopicContent">DigitalValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_ActionStep_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_ActionStep_OrderIndex.htm" target="TopicContent">OrderIndex Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_ActionStep_SerialValue.htm" target="TopicContent">SerialValue Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_AlertRule.htm" target="TopicContent">API_AlertRule Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_AlertRule.htm" target="TopicContent">API_AlertRule Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_AlertRule__ctor.htm" target="TopicContent">API_AlertRule Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_AlertRule.htm" target="TopicContent">API_AlertRule Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRule_AlertAlways.htm" target="TopicContent">AlertAlways Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRule_AlertOnce.htm" target="TopicContent">AlertOnce Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRule_AlertOperator.htm" target="TopicContent">AlertOperator Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRule_AlertRuleCriteria.htm" target="TopicContent">AlertRuleCriteria Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRule_AlertRuleID.htm" target="TopicContent">AlertRuleID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRule_AttributeID.htm" target="TopicContent">AttributeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRule_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRule_LogAttributeInDatabase.htm" target="TopicContent">LogAttributeInDatabase Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRule_LogAttributeInEventLog.htm" target="TopicContent">LogAttributeInEventLog Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRule_NodeID.htm" target="TopicContent">NodeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRule_NodeText.htm" target="TopicContent">NodeText Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_AlertRuleCriteria.htm" target="TopicContent">API_AlertRuleCriteria Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_AlertRuleCriteria.htm" target="TopicContent">API_AlertRuleCriteria Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_AlertRuleCriteria__ctor.htm" target="TopicContent">API_AlertRuleCriteria Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_AlertRuleCriteria.htm" target="TopicContent">API_AlertRuleCriteria Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRuleCriteria_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRuleCriteria_MaxThreshold.htm" target="TopicContent">MaxThreshold Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRuleCriteria_MinThreshold.htm" target="TopicContent">MinThreshold Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRuleCriteria_Operator.htm" target="TopicContent">Operator Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRuleCriteria_RuleCriteriaID.htm" target="TopicContent">RuleCriteriaID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AlertRuleCriteria_Unit.htm" target="TopicContent">Unit Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Appointment.htm" target="TopicContent">API_Appointment Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Appointment.htm" target="TopicContent">API_Appointment Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Appointment__ctor.htm" target="TopicContent">API_Appointment Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_Entities_API_Appointment.htm" target="TopicContent">API_Appointment Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Appointment_Copy.htm" target="TopicContent">Copy Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Appointment_ToString.htm" target="TopicContent">ToString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Appointment.htm" target="TopicContent">API_Appointment Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_Actions.htm" target="TopicContent">Actions Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_AltID.htm" target="TopicContent">AltID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_Attendees.htm" target="TopicContent">Attendees Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_Connections.htm" target="TopicContent">Connections Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_End.htm" target="TopicContent">End Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_EventOrMeeting.htm" target="TopicContent">EventOrMeeting Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_GW_MeetingID.htm" target="TopicContent">GW_MeetingID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_IsPrivate.htm" target="TopicContent">IsPrivate Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_Location.htm" target="TopicContent">Location Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_MeetingComment.htm" target="TopicContent">MeetingComment Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_MeetingSubject.htm" target="TopicContent">MeetingSubject Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_MeetingType.htm" target="TopicContent">MeetingType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_NotifyAction.htm" target="TopicContent">NotifyAction Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_Organizer.htm" target="TopicContent">Organizer Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_Preset.htm" target="TopicContent">Preset Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_RolesForMeeting.htm" target="TopicContent">RolesForMeeting Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_RoomID.htm" target="TopicContent">RoomID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_RRule.htm" target="TopicContent">RRule Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_RV_MeetingID.htm" target="TopicContent">RV_MeetingID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_Start.htm" target="TopicContent">Start Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Appointment_TimeZoneId.htm" target="TopicContent">TimeZoneId Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_AppointmentComparer.htm" target="TopicContent">API_AppointmentComparer Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_AppointmentComparer.htm" target="TopicContent">API_AppointmentComparer Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_AppointmentComparer__ctor.htm" target="TopicContent">API_AppointmentComparer Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_Entities_API_AppointmentComparer.htm" target="TopicContent">API_AppointmentComparer Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_AppointmentComparer_Compare.htm" target="TopicContent">Compare Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Asset.htm" target="TopicContent">API_Asset Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Asset.htm" target="TopicContent">API_Asset Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Asset__ctor.htm" target="TopicContent">API_Asset Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Asset.htm" target="TopicContent">API_Asset Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_AssetCustomFields.htm" target="TopicContent">AssetCustomFields Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_AssetID.htm" target="TopicContent">AssetID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_AssetName.htm" target="TopicContent">AssetName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_AssetTag.htm" target="TopicContent">AssetTag Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_AssetTypeID.htm" target="TopicContent">AssetTypeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_AssetTypeName.htm" target="TopicContent">AssetTypeName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_ConnType.htm" target="TopicContent">ConnType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_DateOfPurchase.htm" target="TopicContent">DateOfPurchase Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_DriverID.htm" target="TopicContent">DriverID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_IPAddress.htm" target="TopicContent">IPAddress Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_IPID.htm" target="TopicContent">IPID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_LastService.htm" target="TopicContent">LastService Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_LifeSpanYears.htm" target="TopicContent">LifeSpanYears Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_MACAddress.htm" target="TopicContent">MACAddress Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_MaintenanceContractID.htm" target="TopicContent">MaintenanceContractID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_Make.htm" target="TopicContent">Make Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_Model.htm" target="TopicContent">Model Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_Notes.htm" target="TopicContent">Notes Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_Password.htm" target="TopicContent">Password Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_Port.htm" target="TopicContent">Port Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_RoomID.htm" target="TopicContent">RoomID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_SerialNumber.htm" target="TopicContent">SerialNumber Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_ServiceInterval.htm" target="TopicContent">ServiceInterval Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_ServiceIntervalIncrement.htm" target="TopicContent">ServiceIntervalIncrement Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_SSL.htm" target="TopicContent">SSL Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_Status.htm" target="TopicContent">Status Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Asset_WarrantyExpiration.htm" target="TopicContent">WarrantyExpiration Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_AssetCustomField.htm" target="TopicContent">API_AssetCustomField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_AssetCustomField.htm" target="TopicContent">API_AssetCustomField Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_AssetCustomField__ctor.htm" target="TopicContent">API_AssetCustomField Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_AssetCustomField.htm" target="TopicContent">API_AssetCustomField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_BoolValue.htm" target="TopicContent">BoolValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_CustomFieldID.htm" target="TopicContent">CustomFieldID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_CustomFieldType.htm" target="TopicContent">CustomFieldType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_DateTimeValue.htm" target="TopicContent">DateTimeValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_IntValue.htm" target="TopicContent">IntValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_Name.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AssetCustomField_StringValue.htm" target="TopicContent">StringValue Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_AssetType.htm" target="TopicContent">API_AssetType Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_AssetType.htm" target="TopicContent">API_AssetType Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_AssetType__ctor.htm" target="TopicContent">API_AssetType Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_AssetType.htm" target="TopicContent">API_AssetType Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AssetType_Desc.htm" target="TopicContent">Desc Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AssetType_ID.htm" target="TopicContent">ID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_AssetType_Name.htm" target="TopicContent">Name Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Attribute.htm" target="TopicContent">API_Attribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Attribute.htm" target="TopicContent">API_Attribute Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Attribute__ctor.htm" target="TopicContent">API_Attribute Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Attribute.htm" target="TopicContent">API_Attribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_AssetID.htm" target="TopicContent">AssetID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_AttributeID.htm" target="TopicContent">AttributeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_AttributeName.htm" target="TopicContent">AttributeName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_AttributeType.htm" target="TopicContent">AttributeType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_ButtonChangeText.htm" target="TopicContent">ButtonChangeText Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_ButtonOffText.htm" target="TopicContent">ButtonOffText Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_ButtonOnText.htm" target="TopicContent">ButtonOnText Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_Default.htm" target="TopicContent">Default Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_DefaultIOMask.htm" target="TopicContent">DefaultIOMask Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_DefaultJoin.htm" target="TopicContent">DefaultJoin Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_DefaultMaxValue.htm" target="TopicContent">DefaultMaxValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_DefaultMinValue.htm" target="TopicContent">DefaultMinValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_DefaultSlot.htm" target="TopicContent">DefaultSlot Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_GraphicSetID.htm" target="TopicContent">GraphicSetID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_LogDB.htm" target="TopicContent">LogDB Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_LogNTEvent.htm" target="TopicContent">LogNTEvent Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_Reserved.htm" target="TopicContent">Reserved Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Attribute_XmlName.htm" target="TopicContent">XmlName Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Availability.htm" target="TopicContent">API_Availability Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Availability.htm" target="TopicContent">API_Availability Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Availability__ctor.htm" target="TopicContent">API_Availability Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Availability.htm" target="TopicContent">API_Availability Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Availability_RoomID.htm" target="TopicContent">RoomID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Availability_Status.htm" target="TopicContent">Status Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_BlueToothDevice.htm" target="TopicContent">API_BlueToothDevice Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_BlueToothDevice.htm" target="TopicContent">API_BlueToothDevice Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_BlueToothDevice__ctor.htm" target="TopicContent">API_BlueToothDevice Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_BlueToothDevice.htm" target="TopicContent">API_BlueToothDevice Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_BlueToothDevice_BlueToothName.htm" target="TopicContent">BlueToothName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_BlueToothDevice_MajorID.htm" target="TopicContent">MajorID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_BlueToothDevice_MinorID.htm" target="TopicContent">MinorID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_BlueToothDevice_Power.htm" target="TopicContent">Power Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_BlueToothDevice_UUID.htm" target="TopicContent">UUID Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Card.htm" target="TopicContent">API_Card Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Card.htm" target="TopicContent">API_Card Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Card__ctor.htm" target="TopicContent">API_Card Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Card.htm" target="TopicContent">API_Card Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Card_cardName.htm" target="TopicContent">cardName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Card_Enabled.htm" target="TopicContent">Enabled Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Configuration.htm" target="TopicContent">API_Configuration Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Configuration.htm" target="TopicContent">API_Configuration Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Configuration__ctor.htm" target="TopicContent">API_Configuration Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Configuration.htm" target="TopicContent">API_Configuration Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Configuration_CompanyName.htm" target="TopicContent">CompanyName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Configuration_ConfigurationID.htm" target="TopicContent">ConfigurationID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Configuration_DefaultProvider.htm" target="TopicContent">DefaultProvider Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Configuration_DefaultSubject.htm" target="TopicContent">DefaultSubject Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Configuration_RegexStrings.htm" target="TopicContent">RegexStrings Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Configuration_SSLValidation.htm" target="TopicContent">SSLValidation Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Connection.htm" target="TopicContent">API_Connection Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Connection.htm" target="TopicContent">API_Connection Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Connection__ctor.htm" target="TopicContent">API_Connection Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Connection.htm" target="TopicContent">API_Connection Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Connection_ConnectionID.htm" target="TopicContent">ConnectionID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Connection_IconImage.htm" target="TopicContent">IconImage Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Connection_RegexString.htm" target="TopicContent">RegexString Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Connection_RoomID.htm" target="TopicContent">RoomID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Connection_Signals.htm" target="TopicContent">Signals Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_EndpointType.htm" target="TopicContent">API_EndpointType Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_EndpointType.htm" target="TopicContent">API_EndpointType Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_EndpointType__ctor.htm" target="TopicContent">API_EndpointType Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_EndpointType.htm" target="TopicContent">API_EndpointType Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_EndpointType_EndpointTypeDesc.htm" target="TopicContent">EndpointTypeDesc Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_EndpointType_EndpointTypeID.htm" target="TopicContent">EndpointTypeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_EndpointType_EndpointTypeName.htm" target="TopicContent">EndpointTypeName Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_AlertOperator.htm" target="TopicContent">API_Enum_AlertOperator Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_AlertRuleUnit.htm" target="TopicContent">API_Enum_AlertRuleUnit Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_AppType.htm" target="TopicContent">API_Enum_AppType Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_AssetConnectionType.htm" target="TopicContent">API_Enum_AssetConnectionType Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_AssetStatus.htm" target="TopicContent">API_Enum_AssetStatus Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_AttributeIOMask.htm" target="TopicContent">API_Enum_AttributeIOMask Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_AttributeType.htm" target="TopicContent">API_Enum_AttributeType Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_AttributeTypes.htm" target="TopicContent">API_Enum_AttributeTypes Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_CustomFieldType.htm" target="TopicContent">API_Enum_CustomFieldType Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_EventOrMeeting.htm" target="TopicContent">API_Enum_EventOrMeeting Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_LogicalOperator.htm" target="TopicContent">API_Enum_LogicalOperator Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_MeetingEventType.htm" target="TopicContent">API_Enum_MeetingEventType Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_MeetingResults.htm" target="TopicContent">API_Enum_MeetingResults Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_MeetingType.htm" target="TopicContent">API_Enum_MeetingType Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_NodeType.htm" target="TopicContent">API_Enum_NodeType Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_PushNotifyAction.htm" target="TopicContent">API_Enum_PushNotifyAction Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_Enum_Status.htm" target="TopicContent">API_Enum_Status Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Image.htm" target="TopicContent">API_Image Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Image.htm" target="TopicContent">API_Image Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Image__ctor.htm" target="TopicContent">API_Image Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Image.htm" target="TopicContent">API_Image Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Image_Desc.htm" target="TopicContent">Desc Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Image_FloorPlanDefaultURL.htm" target="TopicContent">FloorPlanDefaultURL Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Image_ID.htm" target="TopicContent">ID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Image_Name.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Image_RoomID.htm" target="TopicContent">RoomID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Image_RoomImageDefaultURL.htm" target="TopicContent">RoomImageDefaultURL Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Image_URL.htm" target="TopicContent">URL Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Location.htm" target="TopicContent">API_Location Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Location.htm" target="TopicContent">API_Location Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Location__ctor.htm" target="TopicContent">API_Location Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Location.htm" target="TopicContent">API_Location Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Location_DisplayName.htm" target="TopicContent">DisplayName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Location_EntryIsEmpty.htm" target="TopicContent">EntryIsEmpty Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Location_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Location_LocationTypeID.htm" target="TopicContent">LocationTypeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Location_ManualEntry.htm" target="TopicContent">ManualEntry Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Location_NodeID.htm" target="TopicContent">NodeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Location_NodeText.htm" target="TopicContent">NodeText Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Location_ParentLocationTypeID.htm" target="TopicContent">ParentLocationTypeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Location_Value.htm" target="TopicContent">Value Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Node.htm" target="TopicContent">API_Node Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Node.htm" target="TopicContent">API_Node Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Node__ctor.htm" target="TopicContent">API_Node Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Node.htm" target="TopicContent">API_Node Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Node_HasChildren.htm" target="TopicContent">HasChildren Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Node_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Node_MajorID.htm" target="TopicContent">MajorID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Node_NodeID.htm" target="TopicContent">NodeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Node_NodeName.htm" target="TopicContent">NodeName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Node_NodePath.htm" target="TopicContent">NodePath Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Node_NodeType.htm" target="TopicContent">NodeType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Node_ParentNodeID.htm" target="TopicContent">ParentNodeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Node_TreeNodeChildren.htm" target="TopicContent">TreeNodeChildren Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Node_TreeNodeRooms.htm" target="TopicContent">TreeNodeRooms Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Node_UUID.htm" target="TopicContent">UUID Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_OperationLevel.htm" target="TopicContent">API_OperationLevel Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Person.htm" target="TopicContent">API_Person Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Person.htm" target="TopicContent">API_Person Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Person__ctor.htm" target="TopicContent">API_Person Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Person.htm" target="TopicContent">API_Person Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Person_Name.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Person_Role.htm" target="TopicContent">Role Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Person_RoleID.htm" target="TopicContent">RoleID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Person_UserID.htm" target="TopicContent">UserID Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Preset.htm" target="TopicContent">API_Preset Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Preset.htm" target="TopicContent">API_Preset Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Preset__ctor.htm" target="TopicContent">API_Preset Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Preset.htm" target="TopicContent">API_Preset Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Preset_Enabled.htm" target="TopicContent">Enabled Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Preset_ImageSource1.htm" target="TopicContent">ImageSource1 Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Preset_ImageSource2.htm" target="TopicContent">ImageSource2 Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Preset_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Preset_MaximumPresets.htm" target="TopicContent">MaximumPresets Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Preset_PresetFields.htm" target="TopicContent">PresetFields Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Preset_PresetName.htm" target="TopicContent">PresetName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Preset_PresetSlot.htm" target="TopicContent">PresetSlot Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Preset_WelcomeMessage.htm" target="TopicContent">WelcomeMessage Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_PresetField.htm" target="TopicContent">API_PresetField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_PresetField.htm" target="TopicContent">API_PresetField Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_PresetField__ctor.htm" target="TopicContent">API_PresetField Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_PresetField.htm" target="TopicContent">API_PresetField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_PresetField_FieldLabel.htm" target="TopicContent">FieldLabel Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_PresetField_FieldSlot.htm" target="TopicContent">FieldSlot Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_PresetField_FieldValue.htm" target="TopicContent">FieldValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_PresetField_MaximumFields.htm" target="TopicContent">MaximumFields Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Processor.htm" target="TopicContent">API_Processor Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Processor.htm" target="TopicContent">API_Processor Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Processor__ctor.htm" target="TopicContent">API_Processor Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Processor.htm" target="TopicContent">API_Processor Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_Autodiscover.htm" target="TopicContent">Autodiscover Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_Connected.htm" target="TopicContent">Connected Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_ConnectInfo.htm" target="TopicContent">ConnectInfo Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_ConnectSSL.htm" target="TopicContent">ConnectSSL Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_IPID.htm" target="TopicContent">IPID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_Location.htm" target="TopicContent">Location Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_ParentID.htm" target="TopicContent">ParentID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_Password.htm" target="TopicContent">Password Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_Port.htm" target="TopicContent">Port Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_ProcessorID.htm" target="TopicContent">ProcessorID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_ProcessorName.htm" target="TopicContent">ProcessorName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_SecurePort.htm" target="TopicContent">SecurePort Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_Symbols.htm" target="TopicContent">Symbols Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Processor_Username.htm" target="TopicContent">Username Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Result.htm" target="TopicContent">API_Result Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Result.htm" target="TopicContent">API_Result Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Crestron_Fusion_API_Entities_API_Result__ctor.htm" target="TopicContent">API_Result Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Result__ctor.htm" target="TopicContent">API_Result Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Result__ctor_1.htm" target="TopicContent">API_Result Constructor (String, String, String, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_Entities_API_Result.htm" target="TopicContent">API_Result Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Result_ToString.htm" target="TopicContent">ToString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Result.htm" target="TopicContent">API_Result Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_Actions.htm" target="TopicContent">API_Actions Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_Appointments.htm" target="TopicContent">API_Appointments Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_Assets.htm" target="TopicContent">API_Assets Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_AssetTypes.htm" target="TopicContent">API_AssetTypes Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_Attributes.htm" target="TopicContent">API_Attributes Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_Availabilities.htm" target="TopicContent">API_Availabilities Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_BlueToothDevices.htm" target="TopicContent">API_BlueToothDevices Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_Configurations.htm" target="TopicContent">API_Configurations Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_Connections.htm" target="TopicContent">API_Connections Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_EndpointTypes.htm" target="TopicContent">API_EndpointTypes Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_Nodes.htm" target="TopicContent">API_Nodes Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_RoomCategories.htm" target="TopicContent">API_RoomCategories Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_Rooms.htm" target="TopicContent">API_Rooms Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_Signals.htm" target="TopicContent">API_Signals Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_Users.htm" target="TopicContent">API_Users Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_API_Versions.htm" target="TopicContent">API_Versions Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_Message.htm" target="TopicContent">Message Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_PageNumber.htm" target="TopicContent">PageNumber Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_Source.htm" target="TopicContent">Source Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_StackTrace.htm" target="TopicContent">StackTrace Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_Status.htm" target="TopicContent">Status Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Result_TotalRecords.htm" target="TopicContent">TotalRecords Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Role.htm" target="TopicContent">API_Role Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Role.htm" target="TopicContent">API_Role Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Role__ctor.htm" target="TopicContent">API_Role Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Role.htm" target="TopicContent">API_Role Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Role_Contacts.htm" target="TopicContent">Contacts Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Role_IsBuiltIn.htm" target="TopicContent">IsBuiltIn Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Role_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Role_NodeID.htm" target="TopicContent">NodeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Role_NodeText.htm" target="TopicContent">NodeText Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Role_Options.htm" target="TopicContent">Options Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Role_RoleID.htm" target="TopicContent">RoleID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Role_RoleName.htm" target="TopicContent">RoleName Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_RoleContact.htm" target="TopicContent">API_RoleContact Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_RoleContact.htm" target="TopicContent">API_RoleContact Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_RoleContact__ctor.htm" target="TopicContent">API_RoleContact Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_RoleContact.htm" target="TopicContent">API_RoleContact Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoleContact_ContactID.htm" target="TopicContent">ContactID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoleContact_IsRoomViewUser.htm" target="TopicContent">IsRoomViewUser Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoleContact_Name.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoleContact_SmtpAddress.htm" target="TopicContent">SmtpAddress Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoleContact_UseHtml.htm" target="TopicContent">UseHtml Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoleContact_UserID.htm" target="TopicContent">UserID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoleContact_WebClientUserID.htm" target="TopicContent">WebClientUserID Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_RoleOption.htm" target="TopicContent">API_RoleOption Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_RoleOption.htm" target="TopicContent">API_RoleOption Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_RoleOption__ctor.htm" target="TopicContent">API_RoleOption Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_RoleOption.htm" target="TopicContent">API_RoleOption Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoleOption_Created.htm" target="TopicContent">Created Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoleOption_EmailTemplateID.htm" target="TopicContent">EmailTemplateID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoleOption_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoleOption_MeetingNotificationOption.htm" target="TopicContent">MeetingNotificationOption Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Room.htm" target="TopicContent">API_Room Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Room.htm" target="TopicContent">API_Room Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Room__ctor.htm" target="TopicContent">API_Room Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Room.htm" target="TopicContent">API_Room Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Actions.htm" target="TopicContent">Actions Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_AdjacentToLocation.htm" target="TopicContent">AdjacentToLocation Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_AirMediaInfo.htm" target="TopicContent">AirMediaInfo Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Alias.htm" target="TopicContent">Alias Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Appointments.htm" target="TopicContent">Appointments Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Assets.htm" target="TopicContent">Assets Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_AssociatedBLDIDs.htm" target="TopicContent">AssociatedBLDIDs Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Availability.htm" target="TopicContent">Availability Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Bookable.htm" target="TopicContent">Bookable Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_BookedUntil.htm" target="TopicContent">BookedUntil Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_BookedUntilTime.htm" target="TopicContent">BookedUntilTime Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_BranchMajorID.htm" target="TopicContent">BranchMajorID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_BranchUUID.htm" target="TopicContent">BranchUUID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Capacity.htm" target="TopicContent">Capacity Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Connections.htm" target="TopicContent">Connections Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_CustomFields.htm" target="TopicContent">CustomFields Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Description.htm" target="TopicContent">Description Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Distance.htm" target="TopicContent">Distance Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_DistributionGroupID.htm" target="TopicContent">DistributionGroupID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_EControlLink.htm" target="TopicContent">EControlLink Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_EndPointType.htm" target="TopicContent">EndPointType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_FutureAvailability.htm" target="TopicContent">FutureAvailability Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_FutureScheduledTime.htm" target="TopicContent">FutureScheduledTime Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_GroupwarePassword.htm" target="TopicContent">GroupwarePassword Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_GroupwareProviderType.htm" target="TopicContent">GroupwareProviderType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_GroupwareURL.htm" target="TopicContent">GroupwareURL Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_GroupwareUserDomain.htm" target="TopicContent">GroupwareUserDomain Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_GroupwareUsername.htm" target="TopicContent">GroupwareUsername Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Latitude.htm" target="TopicContent">Latitude Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Location.htm" target="TopicContent">Location Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_LocationMap.htm" target="TopicContent">LocationMap Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Longitude.htm" target="TopicContent">Longitude Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Nearby.htm" target="TopicContent">Nearby Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Occupied.htm" target="TopicContent">Occupied Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_ParentNodeID.htm" target="TopicContent">ParentNodeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Persons.htm" target="TopicContent">Persons Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Region.htm" target="TopicContent">Region Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_RoomCategory.htm" target="TopicContent">RoomCategory Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_RoomID.htm" target="TopicContent">RoomID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_RoomImageURLs.htm" target="TopicContent">RoomImageURLs Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_RoomName.htm" target="TopicContent">RoomName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_SMTPAddress.htm" target="TopicContent">SMTPAddress Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_State.htm" target="TopicContent">State Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Status.htm" target="TopicContent">Status Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_Symbols.htm" target="TopicContent">Symbols Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_TimeZoneID.htm" target="TopicContent">TimeZoneID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Room_WebCamLink.htm" target="TopicContent">WebCamLink Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_RoomCategory.htm" target="TopicContent">API_RoomCategory Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_RoomCategory.htm" target="TopicContent">API_RoomCategory Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_RoomCategory__ctor.htm" target="TopicContent">API_RoomCategory Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_RoomCategory.htm" target="TopicContent">API_RoomCategory Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoomCategory_CategoryID.htm" target="TopicContent">CategoryID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoomCategory_CategoryName.htm" target="TopicContent">CategoryName Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_RoomCustomField.htm" target="TopicContent">API_RoomCustomField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_RoomCustomField.htm" target="TopicContent">API_RoomCustomField Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_RoomCustomField__ctor.htm" target="TopicContent">API_RoomCustomField Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_RoomCustomField.htm" target="TopicContent">API_RoomCustomField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_BoolValue.htm" target="TopicContent">BoolValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_CustomFieldID.htm" target="TopicContent">CustomFieldID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_DateTimeValue.htm" target="TopicContent">DateTimeValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_IntValue.htm" target="TopicContent">IntValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_Name.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_Searchable.htm" target="TopicContent">Searchable Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_StringValue.htm" target="TopicContent">StringValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_RoomCustomField_Type.htm" target="TopicContent">Type Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_SecurityLevel.htm" target="TopicContent">API_SecurityLevel Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Signal.htm" target="TopicContent">API_Signal Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Signal.htm" target="TopicContent">API_Signal Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Signal__ctor.htm" target="TopicContent">API_Signal Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Signal.htm" target="TopicContent">API_Signal Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_AttributeID.htm" target="TopicContent">AttributeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_AttributeName.htm" target="TopicContent">AttributeName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_AttributeType.htm" target="TopicContent">AttributeType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_DefaultIOMask.htm" target="TopicContent">DefaultIOMask Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_JoinNumber.htm" target="TopicContent">JoinNumber Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_LogicalOperator.htm" target="TopicContent">LogicalOperator Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_RawValue.htm" target="TopicContent">RawValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_Reserved.htm" target="TopicContent">Reserved Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_SignalID.htm" target="TopicContent">SignalID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_SignalMaxValue.htm" target="TopicContent">SignalMaxValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_SignalMinValue.htm" target="TopicContent">SignalMinValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_SignalName.htm" target="TopicContent">SignalName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_Slot.htm" target="TopicContent">Slot Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_SymbolID.htm" target="TopicContent">SymbolID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_SymbolName.htm" target="TopicContent">SymbolName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Signal_XmlName.htm" target="TopicContent">XmlName Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Symbol.htm" target="TopicContent">API_Symbol Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Symbol.htm" target="TopicContent">API_Symbol Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Symbol__ctor.htm" target="TopicContent">API_Symbol Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Symbol.htm" target="TopicContent">API_Symbol Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_ConnectInfo.htm" target="TopicContent">ConnectInfo Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_IPID.htm" target="TopicContent">IPID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_LastModified.htm" target="TopicContent">LastModified Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_NodeID.htm" target="TopicContent">NodeID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_NodeText.htm" target="TopicContent">NodeText Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_Password.htm" target="TopicContent">Password Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_Port.htm" target="TopicContent">Port Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_ProcessorID.htm" target="TopicContent">ProcessorID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_ProcessorName.htm" target="TopicContent">ProcessorName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_RoomID.htm" target="TopicContent">RoomID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_SecurePort.htm" target="TopicContent">SecurePort Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_Signals.htm" target="TopicContent">Signals Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_SymbolID.htm" target="TopicContent">SymbolID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_SymbolName.htm" target="TopicContent">SymbolName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_UserName.htm" target="TopicContent">UserName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_UseSSL.htm" target="TopicContent">UseSSL Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Symbol_Version.htm" target="TopicContent">Version Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_TaggedSearch.htm" target="TopicContent">API_TaggedSearch Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_TaggedSearch.htm" target="TopicContent">API_TaggedSearch Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_TaggedSearch__ctor.htm" target="TopicContent">API_TaggedSearch Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_TaggedSearch.htm" target="TopicContent">API_TaggedSearch Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_TaggedSearch_Description.htm" target="TopicContent">Description Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_TaggedSearch_Tag.htm" target="TopicContent">Tag Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_User.htm" target="TopicContent">API_User Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_User.htm" target="TopicContent">API_User Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_User__ctor.htm" target="TopicContent">API_User Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_Crestron_Fusion_API_Entities_API_User.htm" target="TopicContent">API_User Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_Crestron_Fusion_API_Entities_API_User_Cards.htm" target="TopicContent">Cards Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_User.htm" target="TopicContent">API_User Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_Actions.htm" target="TopicContent">Actions Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_ExchangeAccount.htm" target="TopicContent">ExchangeAccount Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_FavoriteRoomList.htm" target="TopicContent">FavoriteRoomList Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_FavoriteRooms.htm" target="TopicContent">FavoriteRooms Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_FriendlyUserName.htm" target="TopicContent">FriendlyUserName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_LastModifiedDate.htm" target="TopicContent">LastModifiedDate Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_PreferredAsset.htm" target="TopicContent">PreferredAsset Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_PreferredLocation.htm" target="TopicContent">PreferredLocation Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_PreferredRoom.htm" target="TopicContent">PreferredRoom Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_SavedSearches.htm" target="TopicContent">SavedSearches Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_SavedSearchesWithTags.htm" target="TopicContent">SavedSearchesWithTags Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_Subject.htm" target="TopicContent">Subject Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_TimeFormat.htm" target="TopicContent">TimeFormat Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_TimeZoneID.htm" target="TopicContent">TimeZoneID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_UserGroup.htm" target="TopicContent">UserGroup Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_UserID.htm" target="TopicContent">UserID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_UserIPAddress.htm" target="TopicContent">UserIPAddress Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_User_UserName.htm" target="TopicContent">UserName Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_API_Version.htm" target="TopicContent">API_Version Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_API_Version.htm" target="TopicContent">API_Version Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_API_Version__ctor.htm" target="TopicContent">API_Version Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_API_Version.htm" target="TopicContent">API_Version Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Version_ClientURLPath.htm" target="TopicContent">ClientURLPath Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Version_FusionBuildNumber.htm" target="TopicContent">FusionBuildNumber Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Version_ServerURLPath.htm" target="TopicContent">ServerURLPath Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_API_Version_ServerVersionID.htm" target="TopicContent">ServerVersionID Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Crestron_Fusion_API_Entities_API_XWS_Resources.htm" target="TopicContent">API_XWS_Resources Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Entities_APIEntityValidation.htm" target="TopicContent">APIEntityValidation Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Entities_APIEntityValidation.htm" target="TopicContent">APIEntityValidation Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Entities_APIEntityValidation__ctor.htm" target="TopicContent">APIEntityValidation Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Crestron_Fusion_API_Entities_APIEntityValidation.htm" target="TopicContent">APIEntityValidation Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_APIEntityValidation_IsRequired.htm" target="TopicContent">IsRequired Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_APIEntityValidation_IsRequiredOnPostOnly.htm" target="TopicContent">IsRequiredOnPostOnly Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_APIEntityValidation_IsRequiredOnPutOnly.htm" target="TopicContent">IsRequiredOnPutOnly Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Crestron_Fusion_API_Entities_APIEntityValidation_MaxLength.htm" target="TopicContent">MaxLength Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_Crestron_Fusion_API_Resources.htm" target="TopicContent">Crestron.Fusion.API.Resources Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Resources_ActionResource.htm" target="TopicContent">ActionResource Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Resources_ActionResource.htm" target="TopicContent">ActionResource Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_ActionResource__ctor.htm" target="TopicContent">ActionResource Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_Resources_ActionResource.htm" target="TopicContent">ActionResource Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_ActionResource_DeleteAction.htm" target="TopicContent">DeleteAction Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_ActionResource_GetAction.htm" target="TopicContent">GetAction Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_ActionResource_GetActions.htm" target="TopicContent">GetActions Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_ActionResource_PostAction.htm" target="TopicContent">PostAction Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_ActionResource_PutAction.htm" target="TopicContent">PutAction Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_ActionResource_SendAction.htm" target="TopicContent">SendAction Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Resources_AppointmentResource.htm" target="TopicContent">AppointmentResource Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Resources_AppointmentResource.htm" target="TopicContent">AppointmentResource Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AppointmentResource__ctor.htm" target="TopicContent">AppointmentResource Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_Resources_AppointmentResource.htm" target="TopicContent">AppointmentResource Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AppointmentResource_DeleteAppointment.htm" target="TopicContent">DeleteAppointment Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AppointmentResource_GetAppointment.htm" target="TopicContent">GetAppointment Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AppointmentResource_GetAppointments.htm" target="TopicContent">GetAppointments Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AppointmentResource_PostAppointment.htm" target="TopicContent">PostAppointment Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AppointmentResource_PutAppointment.htm" target="TopicContent">PutAppointment Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Resources_AssetResource.htm" target="TopicContent">AssetResource Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Resources_AssetResource.htm" target="TopicContent">AssetResource Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AssetResource__ctor.htm" target="TopicContent">AssetResource Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_Resources_AssetResource.htm" target="TopicContent">AssetResource Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AssetResource_DeleteAsset.htm" target="TopicContent">DeleteAsset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AssetResource_GetAsset.htm" target="TopicContent">GetAsset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AssetResource_GetAssets.htm" target="TopicContent">GetAssets Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AssetResource_PostAsset.htm" target="TopicContent">PostAsset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AssetResource_PutAsset.htm" target="TopicContent">PutAsset Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Resources_AttributeResource.htm" target="TopicContent">AttributeResource Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Resources_AttributeResource.htm" target="TopicContent">AttributeResource Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AttributeResource__ctor.htm" target="TopicContent">AttributeResource Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_Resources_AttributeResource.htm" target="TopicContent">AttributeResource Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AttributeResource_GetAttribute.htm" target="TopicContent">GetAttribute Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AttributeResource_GetAttributes.htm" target="TopicContent">GetAttributes Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AttributeResource_PutAttribute.htm" target="TopicContent">PutAttribute Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AttributeResource_SendAttribute.htm" target="TopicContent">SendAttribute Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Resources_AvailabilityResource.htm" target="TopicContent">AvailabilityResource Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Resources_AvailabilityResource.htm" target="TopicContent">AvailabilityResource Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AvailabilityResource__ctor.htm" target="TopicContent">AvailabilityResource Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_Resources_AvailabilityResource.htm" target="TopicContent">AvailabilityResource Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_AvailabilityResource_GetAvailability.htm" target="TopicContent">GetAvailability Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Resources_NodeResource.htm" target="TopicContent">NodeResource Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Resources_NodeResource.htm" target="TopicContent">NodeResource Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_NodeResource__ctor.htm" target="TopicContent">NodeResource Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_Resources_NodeResource.htm" target="TopicContent">NodeResource Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_NodeResource_GetNode.htm" target="TopicContent">GetNode Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_NodeResource_GetNodes.htm" target="TopicContent">GetNodes Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Resources_RoomResource.htm" target="TopicContent">RoomResource Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Resources_RoomResource.htm" target="TopicContent">RoomResource Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_RoomResource__ctor.htm" target="TopicContent">RoomResource Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_Resources_RoomResource.htm" target="TopicContent">RoomResource Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_RoomResource_DeleteRoom.htm" target="TopicContent">DeleteRoom Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_RoomResource_GetRoom.htm" target="TopicContent">GetRoom Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_RoomResource_GetRooms.htm" target="TopicContent">GetRooms Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_RoomResource_PostRoom.htm" target="TopicContent">PostRoom Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_RoomResource_PutRoom.htm" target="TopicContent">PutRoom Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Resources_SignalValueResource.htm" target="TopicContent">SignalValueResource Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Resources_SignalValueResource.htm" target="TopicContent">SignalValueResource Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_SignalValueResource__ctor.htm" target="TopicContent">SignalValueResource Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_Resources_SignalValueResource.htm" target="TopicContent">SignalValueResource Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_SignalValueResource_GetSignalValue.htm" target="TopicContent">GetSignalValue Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_SignalValueResource_GetSignalValues.htm" target="TopicContent">GetSignalValues Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Resources_SignalValueResource_PutSignalValue.htm" target="TopicContent">PutSignalValue Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_Crestron_Fusion_API_Security.htm" target="TopicContent">Crestron.Fusion.API.Security Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Crestron_Fusion_API_Security_SecurityService.htm" target="TopicContent">SecurityService Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Crestron_Fusion_API_Security_SecurityService.htm" target="TopicContent">SecurityService Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Security_SecurityService__ctor.htm" target="TopicContent">SecurityService Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Crestron_Fusion_API_Security_SecurityService.htm" target="TopicContent">SecurityService Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Security_SecurityService_SetupSecurity.htm" target="TopicContent">SetupSecurity Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Crestron_Fusion_API_Security_SecurityService_VerifyRequest.htm" target="TopicContent">VerifyRequest Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+
+<iframe id="TopicContent" name="TopicContent" class="TopicContent" src="html/R_Project_Crestron_Fusion_API.htm">
+This page uses an IFRAME but your browser does not support it.
+</iframe>
+
+</form>
+
+</body>
+
+</html>

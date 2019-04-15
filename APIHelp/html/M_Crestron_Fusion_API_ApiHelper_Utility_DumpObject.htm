@@ -1,0 +1,107 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp"><head><link rel="SHORTCUT ICON" href="./../icons/favicon.ico" /><style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style><link rel="stylesheet" type="text/css" href="./../styles/branding.css" /><link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" /><style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style><script src="./../scripts/branding.js" type="text/javascript"><!----></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Utility.DumpObject Method </title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="DumpObject method" /><meta name="System.Keywords" content="Utility.DumpObject method" /><meta name="Microsoft.Help.F1" content="Crestron.Fusion.API.ApiHelper.Utility.DumpObject" /><meta name="Microsoft.Help.Id" content="M:Crestron.Fusion.API.ApiHelper.Utility.DumpObject(System.Object,System.String,System.String,System.Int32,System.Boolean)" /><meta name="Description" content="Use reflection to print out all the fields of an object" /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="'true'" /><meta name="container" content="Crestron.Fusion.API.ApiHelper" /><meta name="file" content="M_Crestron_Fusion_API_ApiHelper_Utility_DumpObject" /><meta name="guid" content="M_Crestron_Fusion_API_ApiHelper_Utility_DumpObject" /><link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" /><link type="text/css" rel="stylesheet" href="./../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"><!----></script><meta name="SelfBranded" content="true" /></head><body onload="onLoad()" class="primary-mtps-offline-document"><div class="OH_outerDiv"><div class="OH_outerContent"><table class="TitleTable"><tr><td class="OH_tdTitleColumn">Utility<span id="ID0EBBABAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBABAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>DumpObject Method </td><td class="OH_tdRunningTitleColumn">Crestron Fusion API Online Help</td></tr></table><div id="mainSection"><div id="mainBody"><span class="introStyle"></span><div class="summary">
+            Use reflection to print out all the fields of an object
+            </div><p></p><b>Namespace:</b> <a href="N_Crestron_Fusion_API_ApiHelper.htm" target="">Crestron.Fusion.API.ApiHelper</a><br /><b>Assembly:</b> <span sdata="assembly">ApiHelper</span> (in ApiHelper.dll) Version: 10.2.10.218 (10.2.0010.0218)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EBGEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBGEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBGEAAAAA_tabimgleft"></div><div id="ID0EBGEAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBGEAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBGEAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EBGEAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBGEAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBGEAAAAA_tabimgright"></div></div><div id="ID0EBGEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBGEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBGEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EBGEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBGEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EBGEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBGEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EBGEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">string</span> <span class="identifier">DumpObject</span>(
+	<span class="identifier">Object</span> <span class="parameter">Obj</span>,
+	<span class="identifier">string</span> <span class="parameter">strName</span>,
+	<span class="identifier">string</span> <span class="parameter">strType</span>,
+	<span class="identifier">int</span> <span class="parameter">iIndent</span>,
+	<span class="identifier">bool</span> <span class="parameter">bUseSpecifiedFields</span>
+)</pre></div><div id="ID0EBGEAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public static string DumpObject(
+	Object Obj,
+	string strName,
+	string strType,
+	int iIndent,
+	bool bUseSpecifiedFields
+)</pre></div><div id="ID0EBGEAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBGEAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBGEAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBGEAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBGEAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBGEAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBGEAAAAA');</script><div id="ID0EAGEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EAGEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EAGEAAAAA_tabimgleft"></div><div id="ID0EAGEAAAAA_tab1" class="OH_CodeSnippetContainerTabSolo" EnableCopyCode="true"><a xmlns="">J#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EAGEAAAAA_tabimgright"></div></div><div id="ID0EAGEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EAGEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EAGEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EAGEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EAGEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EAGEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EAGEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EAGEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">String</span> <span class="identifier">DumpObject</span>(
+	<span class="identifier">Object</span> <span class="parameter">Obj</span>,
+	<span class="identifier">String</span> <span class="parameter">strName</span>,
+	<span class="identifier">String</span> <span class="parameter">strType</span>,
+	<span class="identifier">int</span> <span class="parameter">iIndent</span>,
+	<span class="identifier">boolean</span> <span class="parameter">bUseSpecifiedFields</span>
+)</pre></div><div id="ID0EAGEAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public static String DumpObject(
+	Object Obj,
+	String strName,
+	String strType,
+	int iIndent,
+	boolean bUseSpecifiedFields
+)</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EAGEAAAAA');</script></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="Obj"><dt><span class="parameter">Obj</span></dt><dd>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="ID0EBCAEFEAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCAEFEAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Object</a><br /><span>Object to dump</span></dd></dl><dl paramName="strName"><dt><span class="parameter">strName</span></dt><dd>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System<span id="ID0EBCADFEAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCADFEAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>String</a><br /><span>The name of the field or object</span></dd></dl><dl paramName="strType"><dt><span class="parameter">strType</span></dt><dd>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System<span id="ID0EBCACFEAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCACFEAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>String</a><br /><span>The type name of the object</span></dd></dl><dl paramName="iIndent"><dt><span class="parameter">iIndent</span></dt><dd>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="ID0EBCABFEAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCABFEAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Int32</a><br /><span>The indentation level, usu. 0</span></dd></dl><dl paramName="bUseSpecifiedFields"><dt><span class="parameter">bUseSpecifiedFields</span></dt><dd>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">System<span id="ID0EBCAAFEAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCAAFEAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Boolean</a><br /><span>Whether special ...Specified fields are to be checked for</span></dd></dl></div><h4 class="subHeading">Return Value</h4>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a><br />A formatted string with object's fields<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>(1) Only public properties are returned.</p><p>(2) Arrays, classes, and structs are recursively presented.</p><p>(3) The specified check (new in 8.1) is used primarily for EWS, since it indicates whether value types
+                are present in an object by a bool ...Specified field.  E.g. if there was an int Counter field in the
+                object, there would be a CounterSpecified field to indicate whether there was an actual value set
+                in the int field on the EWS side.</p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div>
+            The following statement:
+            <div id="ID0ECCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0ECCAAAAA_tabs"></div><div id="ID0ECCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0ECCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0ECCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0ECCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0ECCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0ECCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0ECCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0ECCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre>TimeZoneInfo tzi = TimeZoneInfo..FindSystemTimeZoneById(<span class="highlight-literal">"Romance Standard Time"</span>);
+<span class="highlight-keyword">string</span> s = DumpObject(tzi, <span class="highlight-literal">"Fx 3.5 TimeZone"</span>, tzi.GetType().Name, <span class="highlight-number">0</span>) + <span class="highlight-literal">"\r\n"</span> +
+           DumpObject(tzi.GetAdjustmentRules(), <span class="highlight-literal">"AjustmentRules"</span>, <span class="highlight-keyword">typeof</span>(TimeZoneInfo.AdjustmentRule).Name, <span class="highlight-number">1</span>);</pre></div><div id="ID0ECCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>TimeZoneInfo tzi = TimeZoneInfo..FindSystemTimeZoneById("Romance Standard Time");
+string s = DumpObject(tzi, "Fx 3.5 TimeZone", tzi.GetType().Name, 0) + "\r\n" +
+           DumpObject(tzi.GetAdjustmentRules(), "AjustmentRules", typeof(TimeZoneInfo.AdjustmentRule).Name, 1);</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0ECCAAAAA');</script><div id="ID0EACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EACAAAAA_tabs"></div><div id="ID0EACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre>{TimeZoneInfo} Fx <span class="highlight-number">3.5</span> TimeZone ...
+  {String} Id = <span class="highlight-literal">'Romance Standard Time'</span>
+  {String} DisplayName = <span class="highlight-literal">'(GMT+01:00) Brussels, Copenhagen, Madrid, Paris'</span>
+  {String} StandardName = <span class="highlight-literal">'Romance Standard Time'</span>
+  {String} DaylightName = <span class="highlight-literal">'Romance Daylight Time'</span>
+  {TimeSpan} BaseUtcOffset = <span class="highlight-literal">'01:00:00'</span>
+  {Boolean} SupportsDaylightSavingTime = <span class="highlight-literal">'True'</span>
+  {AdjustmentRule[]} AjustmentRules[<span class="highlight-number">1</span>] ...
+    {AdjustmentRule} AjustmentRules[<span class="highlight-number">0</span>] ...
+      {DateTime} DateStart = <span class="highlight-literal">'01 Jan 0001 12:00:00.00000 AM (Unspecified)'</span>
+      {DateTime} DateEnd = <span class="highlight-literal">'31 Dec 9999 12:00:00.00000 AM (Unspecified)'</span>
+      {TimeSpan} DaylightDelta = <span class="highlight-literal">'01:00:00'</span>
+      {TransitionTime} DaylightTransitionStart ...
+        {DateTime} TimeOfDay = <span class="highlight-literal">'01 Jan 0001 02:00:00.00000 AM (Unspecified)'</span>
+        {Int32} Month = <span class="highlight-literal">'3'</span>
+        {Int32} Week = <span class="highlight-literal">'5'</span>
+        {Int32} Day = <span class="highlight-literal">'1'</span>
+        {DayOfWeek} DayOfWeek = <span class="highlight-literal">'Sunday'</span>
+        {Boolean} IsFixedDateRule = <span class="highlight-literal">'False'</span>
+      {TransitionTime} DaylightTransitionEnd ...
+        {DateTime} TimeOfDay = <span class="highlight-literal">'01 Jan 0001 03:00:00.00000 AM (Unspecified)'</span>
+        {Int32} Month = <span class="highlight-literal">'10'</span>
+        {Int32} Week = <span class="highlight-literal">'5'</span>
+        {Int32} Day = <span class="highlight-literal">'1'</span>
+        {DayOfWeek} DayOfWeek = <span class="highlight-literal">'Sunday'</span>
+        {Boolean} IsFixedDateRule = <span class="highlight-literal">'False'</span></pre></div><div id="ID0EACAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>{TimeZoneInfo} Fx 3.5 TimeZone ...
+  {String} Id = 'Romance Standard Time'
+  {String} DisplayName = '(GMT+01:00) Brussels, Copenhagen, Madrid, Paris'
+  {String} StandardName = 'Romance Standard Time'
+  {String} DaylightName = 'Romance Daylight Time'
+  {TimeSpan} BaseUtcOffset = '01:00:00'
+  {Boolean} SupportsDaylightSavingTime = 'True'
+  {AdjustmentRule[]} AjustmentRules[1] ...
+    {AdjustmentRule} AjustmentRules[0] ...
+      {DateTime} DateStart = '01 Jan 0001 12:00:00.00000 AM (Unspecified)'
+      {DateTime} DateEnd = '31 Dec 9999 12:00:00.00000 AM (Unspecified)'
+      {TimeSpan} DaylightDelta = '01:00:00'
+      {TransitionTime} DaylightTransitionStart ...
+        {DateTime} TimeOfDay = '01 Jan 0001 02:00:00.00000 AM (Unspecified)'
+        {Int32} Month = '3'
+        {Int32} Week = '5'
+        {Int32} Day = '1'
+        {DayOfWeek} DayOfWeek = 'Sunday'
+        {Boolean} IsFixedDateRule = 'False'
+      {TransitionTime} DaylightTransitionEnd ...
+        {DateTime} TimeOfDay = '01 Jan 0001 03:00:00.00000 AM (Unspecified)'
+        {Int32} Month = '10'
+        {Int32} Week = '5'
+        {Int32} Day = '1'
+        {DayOfWeek} DayOfWeek = 'Sunday'
+        {Boolean} IsFixedDateRule = 'False'</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACAAAAA');</script>
+            would contain the following in 's' after completion:
+            <a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="T_Crestron_Fusion_API_ApiHelper_Utility.htm" target="">Utility Class</a></div><div class="seeAlsoStyle"><a href="AllMembers_T_Crestron_Fusion_API_ApiHelper_Utility.htm" target="">Utility Members</a></div><div class="seeAlsoStyle"><a href="N_Crestron_Fusion_API_ApiHelper.htm" target="">Crestron.Fusion.API.ApiHelper Namespace</a></div></div></div></div></div><div id="OH_footer" class="OH_footer"><p>Crestron 2012</p><div class="OH_feedbacklink"><a href="mailto:support@crestron.com?subject=Crestron+Fusion+API+Online+Help+Utility.DumpObject+Method++100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to support@crestron.com.</div></div></body></html>

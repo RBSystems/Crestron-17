@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TestAPI | Dashboard</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <!-- Event Logs-->
+    @using PagedList;
+    @using PagedList.Mvc;
+    @model TestAPI.Models.ViewModel
+
+    @{
+        ViewBag.Title = "Home";
+    }
+
+</head>
+<body>
+
+
+    <div class="dashboardContent">
+
+        <div class="row">
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box" style="background-color:steelblue;">
+                    <div class="inner" style="color:whitesmoke;">
+                        <h3>@Model.NumOfRoomsUsed</h3>
+                        <p>No. of. rooms in use</p>
+                    </div>
+                    @*<div class="icon">
+                            <i class="ion ion-bag"></i>
+                        </div>*@
+                    @*<a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>*@
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box " style="background-color:steelblue;">
+                    <div class="inner" style="color:whitesmoke;">
+                        <h3>@Model.NumOfEventLogs<sup style="font-size: 20px"></sup></h3>
+
+                        <p>Event Logs</p>
+
+                    </div>
+                    @*<div class="icon">
+                            <i class="ion ion-stats-bars"></i>
+                        </div>*@
+                    @*<a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>*@
+                </div>
+            </div>
+            <!-- ./col -->
+            <!-- ./col -->
+            <!-- ./col -->
+        </div>
+
+
+
+        <div class="box box-info">
+            <div class="box-header with-border">
+                <br />
+                <div class="button-container">
+                    @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+                    {
+                        <p>
+                            @Html.TextBox("txtRoomNum", null, new { @class = "form-control", placeholder = "Input Room Number(eg. L.637)" })
+                        </p>
+
+                        <input type="submit" value="Display Log" class="btn btn-default" />
+                    }
+                    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+                    {
+                        <input type="submit" value="Delete All Logs" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete all event logs?')" />
+                    }
+                </div>
+
+                <br />
+                <h3 class="box-title">Event Logs</h3>
+                <div class="box-tools pull-right">
+
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                        <i class="fa fa-minus"></i>
+                    </button>
+                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <div class="table-responsive">
+                    <table class="table no-margin">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ProjectorActionLogList.First().TimeStamp)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ProjectorActionLogList.First().RoomNum)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ProjectorActionLogList.First().AccountID)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ProjectorActionLogList.First().Projector_Function)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ProjectorActionLogList.First().Latitude)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ProjectorActionLogList.First().Longitude)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ProjectorActionLogList.First().BSSID)
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @try
+                            {
+                                foreach (var item in Model.ProjectorActionLogList)
+                                {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.TimeStamp)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.RoomNum)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.AccountID)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Projector_Function)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Latitude)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Longitude)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.BSSID)
+                                </td>
+                            </tr>
+                                }
+                            }
+                            catch (System.NullReferenceException)
+                            {
+                                <tr>
+                                    <td>
+                                        <h3>@ViewBag.message</h3>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                    @try
+                        {
+                            @Html.PagedListPager(Model.ProjectorActionLogList, page => Url.Action("Index", new { page, txtRoomNum = Request.QueryString["txtRoomNum"] }),
+                                                 new PagedListRenderOptions()
+                                                 {
+                                                     DisplayPageCountAndCurrentLocation = true,
+                                                     DisplayItemSliceAndTotal = true
+                                                 }
+                                             )
+                        }
+                        catch (System.NullReferenceException)
+                        {
+
+                        }
+                </div>
+                <!-- /.table-responsive -->
+            </div>
+
+
+            <!-- /.box-body -->
+            <!-- /.box-footer -->
+        </div>
+
+        <div class="box box-info">
+            <div class="box-header with-border">
+
+                <h3 class="box-title">Rooms currently in use</h3>
+                <div class="box-tools pull-right">
+
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                        <i class="fa fa-minus"></i>
+                    </button>
+                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <div class="table-responsive">
+                    <table class="table no-margin">
+                        <thead>
+
+
+                            <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.CrestronUsageCheckList.First().RoomNum)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.CrestronUsageCheckList.First().CurrentUser)
+                                    </th>
+                                    <th>
+                                        <p>Log In Time</p>
+                                    </th>
+                                </tr>
+                        </thead>
+                        <tbody>
+                            @try
+                            {
+                                foreach (var item in Model.CrestronUsageCheckList)
+                                {
+                                    <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.RoomNum)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.CurrentUser)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Duration)
+                                            </td>
+                                        </tr>
+                                }
+                            }
+                            catch (System.NullReferenceException)
+                            {
+                                <tr>
+                                    <td>
+                                        <h3>There are no users using the app currently</h3>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                            }
+
+                        </tbody>
+                    </table>
+
+                </div>
+                @*/.table-responsive*@
+            </div>
+
+            <!-- /.box-body -->
+            <!-- /.box-footer -->
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
