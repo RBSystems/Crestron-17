@@ -1,0 +1,29 @@
+<ion-content text-center class="bg">
+  <img style="display:block;
+      top:5%;
+      margin-left:auto;
+      margin-right:auto;
+      position:relative;" width="100" height="100" src="assets/imgs/nyplogo.png">
+  <div class="head" text-center>
+    <h1>
+      <b>iProjection</b>
+    </h1>
+    <h5>Smart Control</h5>
+  </div>
+  <div text-center class="inputs">
+    <form (submit)="doLogin()">
+      <ion-item>
+        <ion-label stacked>Username</ion-label>
+        <ion-input [(ngModel)]="loginData.username" (ngModelChange)="loginData.username = $event.toLocaleUpperCase()" name="username" type="text"></ion-input>
+      </ion-item>
+      <ion-item class="pass">
+        <ion-label stacked>Password</ion-label>
+        <ion-input [(ngModel)]="loginData.password" name="password" type="password"></ion-input>
+      </ion-item>
+      <button ion-button block round type="submit">
+        Login
+      </button>
+    </form>
+    <p>*SIT Domain Account ID & Password</p>
+  </div>
+</ion-content>

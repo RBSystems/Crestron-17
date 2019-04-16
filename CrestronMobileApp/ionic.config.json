@@ -1,0 +1,7 @@
+{
+  "name": "CrestronMobileApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

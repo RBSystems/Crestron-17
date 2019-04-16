@@ -1,0 +1,34 @@
+Fusion Server : 172.20.192.54
+Room : d1d7c7dc-deb7-4026-a4ba-a2678a294a2e
+Userid: 0BF34A53-3DD3-438D-B88F-BEC77EAB3009
+Passcode: Crestron1
+
+Retrieving Symbol GUID (HTTP GET)
+http://{Server IP}/fusion/apiservice/rooms/{room_id}?auth={passcode}{userid}
+
+Example : http://172.20.192.54/fusion/apiservice/rooms/d1d7c7dc-deb7-4026-a4ba-a2678a294a2e?auth=Crestron1%200BF34A53-3DD3-438D-B88F-BEC77EAB3009
+
+Retrieving attributes for rooms (HTTP GET)
+http://localhost/fusion/apiservice/signalvalues/{symbol_guid}?auth=Crestron1%200BF34A53-3DD3-438D-B88F-BEC77EAB3009
+
+Example : http://172.20.192.54/fusion/apiservice/signalvalues/a2ceabfb-79d9-4cf3-894e-451a9e391093
+?auth=Crestron1%200BF34A53-3DD3-438D-B88F-BEC77EAB3009
+
+Controlling of attributes (HTTP PUT)
+http://localhost/fusion/apiservice/signalvalues/{symbol_guid}/{attribute_id}?value={new_value}&auth=Crestron1%200BF34A53-3DD3-438D-B88F-BEC77EAB3009
+
+Example : http://172.20.192.54/fusion/apiservice/signalvalues/a2ceabfb-79d9-4cf3-894e-451a9e391093/SYSTEM_POWER?
+value=true&auth=Crestron1%200BF34A53-3DD3-438D-B88F-BEC77EAB3009
+
+Example : http://172.20.192.54/fusion/apiservice/signalvalues/a2ceabfb-79d9-4cf3-894e-451a9e391093/Volume?
+value=true&auth=Crestron1%200BF34A53-3DD3-438D-B88F-BEC77EAB3009
+
+Example : http://172.20.192.54/fusion/apiservice/signalvalues/a2ceabfb-79d9-4cf3-894e-451a9e391093/SystemPowerOff?
+value=true&auth=Crestron1%200BF34A53-3DD3-438D-B88F-BEC77EAB3009
+
+
+
+
+
+
+

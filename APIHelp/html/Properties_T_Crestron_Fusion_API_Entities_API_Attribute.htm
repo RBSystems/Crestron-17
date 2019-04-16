@@ -1,0 +1,71 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp"><head><link rel="SHORTCUT ICON" href="./../icons/favicon.ico" /><style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style><link rel="stylesheet" type="text/css" href="./../styles/branding.css" /><link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" /><style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style><script src="./../scripts/branding.js" type="text/javascript"><!----></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>API_Attribute Properties</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="API_Attribute class, properties" /><meta name="Microsoft.Help.Id" content="Properties.T:Crestron.Fusion.API.Entities.API_Attribute" /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="'true'" /><meta name="container" content="Crestron.Fusion.API.Entities" /><meta name="file" content="Properties_T_Crestron_Fusion_API_Entities_API_Attribute" /><meta name="guid" content="Properties_T_Crestron_Fusion_API_Entities_API_Attribute" /><link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" /><meta name="SelfBranded" content="true" /></head><body onload="onLoad()" class="primary-mtps-offline-document"><div class="OH_outerDiv"><div class="OH_outerContent"><table class="TitleTable"><tr><td class="OH_tdTitleColumn">API_Attribute Properties</td><td class="OH_tdRunningTitleColumn">Crestron Fusion API Online Help</td></tr></table><div id="mainSection"><div id="mainBody"><span class="introStyle"></span>The <a href="T_Crestron_Fusion_API_Entities_API_Attribute.htm" target="">API_Attribute</a> type exposes the following members.<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Properties</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><table id="memberList" class="members"><tr><th class="ps_iconColumn">
+							 
+						</th><th class="ps_nameColumn">Name</th><th class="ps_descriptionColumn">Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_AssetID.htm" target="">AssetID</a></td><td><div class="summary">
+            Identifies the unique identifier of the asset associated with the attribute.
+            This field is not required and has a default of null.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_AttributeID.htm" target="">AttributeID</a></td><td><div class="summary">
+            Identifies the attribute using a globally unique identifier (GUID).       
+            This property is read only. The asset id should be placed in the URI for PUT and DELETE operations.
+            The default is a new GUID.  The maximum length is 50 characters.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_AttributeName.htm" target="">AttributeName</a></td><td><div class="summary">
+             Consists of a string representing the attribute's name.       
+             This property is required for POST and PUT operations. 
+             The maximum length is 255 characters.        
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_AttributeType.htm" target="">AttributeType</a></td><td><div class="summary">
+            Indicates the type of attribute using the  <a href="T_Crestron_Fusion_API_Entities_API_Enum_AttributeType.htm" target="">API_Enum_AttributeType</a> enumeration.       
+            This property is required.       
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_ButtonChangeText.htm" target="">ButtonChangeText</a></td><td><div class="summary">
+            Stores the text for the change button shown in the Fusion web client.
+            This property is optional and has a default of null.  the maximum length for the string is 128 characters.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_ButtonOffText.htm" target="">ButtonOffText</a></td><td><div class="summary">
+            Stores the text for the off button shown in the Fusion web client.
+            This property is optional and has a default of null.  the maximum length for the string is 128 characters.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_ButtonOnText.htm" target="">ButtonOnText</a></td><td><div class="summary">
+            Stores the text for the on button shown in the Fusion web client.
+            This property is optional and has a default of null.  the maximum length for the string is 128 characters.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_Default.htm" target="">Default</a></td><td><div class="summary">
+            Indicates if the default property values should be used for this attribute.
+            This property is optional with a default of false
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_DefaultIOMask.htm" target="">DefaultIOMask</a></td><td><div class="summary">
+            Indicates the ability to perform operations consisting of reading and writing data.
+            This property will be assigned to the signal then the attribute is associated with a symbol.
+            This property is required and has a maximum length of 4 characters.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_DefaultJoin.htm" target="">DefaultJoin</a></td><td><div class="summary">       
+            Indicates join number to assigned to the signal when the attribute is associated with a symbol.
+            This property is required and has a maximum length of 4 characters.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_DefaultMaxValue.htm" target="">DefaultMaxValue</a></td><td><div class="summary">
+            Indicates the maximum value of the signal when the attribute is associated with a symbol.
+            This property is optional and has a maximum length of 4 characters.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_DefaultMinValue.htm" target="">DefaultMinValue</a></td><td><div class="summary">
+            Indicates the minimum value of the signal when the attribute is associated with a symbol.
+            This property is optional and has a maximum length of 4 characters.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_DefaultSlot.htm" target="">DefaultSlot</a></td><td><div class="summary">
+            Indicates the slot number of the signal when the attribute is associated with a symbol.
+            This property is required and has a maximum length of 10 characters.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_GraphicSetID.htm" target="">GraphicSetID</a></td><td><div class="summary">
+            Stores the unique identifier of the graphics set associated with symbol.
+            This property is not required and has maximum length of 50 characters.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_LastModified.htm" target="">LastModified</a></td><td><div class="summary">
+            Indicates date and time record was last modified.        
+            This property is optional on posts and required on puts with a default value the current date.
+            This property is used for record locking.  Put requests will need to send the existing value.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_LogDB.htm" target="">LogDB</a></td><td><div class="summary">
+             Stores a boolean flag to indicate if logging information should be stored in the database.
+             This property is optional with a default value of false.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_LogNTEvent.htm" target="">LogNTEvent</a></td><td><div class="summary">
+             Stores a boolean flag to indicate if logging information should be stored in the windows event log.
+             This property is optional with a default value of false.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_Reserved.htm" target="">Reserved</a></td><td><div class="summary">
+            Indicates if attribute is reserved and cannot be overridden.
+            This property is required.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Crestron_Fusion_API_Entities_API_Attribute_XmlName.htm" target="">XmlName</a></td><td><div class="summary">
+            Stores the name of the attribute as it should be displayed in web client.
+            This field is required and has a maximum length of 128 characters.
+            </div></td></tr></table><a href="#mainBody" target="">Back to Top</a><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="T_Crestron_Fusion_API_Entities_API_Attribute.htm" target="">API_Attribute Class</a></div><div class="seeAlsoStyle"><a href="N_Crestron_Fusion_API_Entities.htm" target="">Crestron.Fusion.API.Entities Namespace</a></div></div></div></div></div><div id="OH_footer" class="OH_footer"><p>Crestron 2012</p><div class="OH_feedbacklink"><a href="mailto:support@crestron.com?subject=Crestron+Fusion+API+Online+Help+API_Attribute+Properties+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to support@crestron.com.</div></div></body></html>

@@ -1,0 +1,14 @@
+C:\NYPiProjection\CrestronMobileApp
+-This is the directory of the Mobile Application
+
+C:\NYPiProjection\NYPIProjectionAppDownload
+-This is the directory of the web application to download the mobile application or access the PWA version of the mobile application
+
+C:\NYPiProjection\nypIprojectionIOSdownload
+-This is the directory IOS version of the application which is exported for over the air distribution. This is hosted on the crestron server so that it can be downloaded from the web application
+
+C:\NYPiProjection\TestAPI
+-This is the directory of the web application used to manage the usage of the mobile application 
+
+C:\NYPiProjection\FYPJDB.bacpac
+-This is the exported database file for the entire project 
