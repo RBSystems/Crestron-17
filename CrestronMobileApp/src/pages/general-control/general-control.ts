@@ -420,6 +420,52 @@ export class GeneralControlPage {
     }
   }
 
+  statusPower = false;
+  onChangePower() {
+    if(this.statusPower){
+      this.PowerOn();
+    }
+    else{
+      this.PowerOff();
+    }
+  }
+
+  PowerOn() {
+    if (this.PowerColor === '#70c9e3') {
+      this.turnOn(this.PowerColor);
+      this.printStatus("System Power On");
+
+      this.activateProjectorFunc("SYSTEM_POWER", "true", "System Power On");
+    }
+    else {
+      this.turnOff(this.PowerColor);
+      this.printStatus("System already on");
+    }
+  }
+
+  PowerOff() {
+    if (this.PowerColor === '#70c9e3') {
+      this.turnOff(this.PowerColor);
+      this.printStatus("System Power Off");
+
+      this.activateProjectorFunc("SYSTEM_POWER", "false", "System Power Off");
+    }
+    else {
+      this.turnOff(this.PowerColor);
+      this.printStatus("System Power already off");
+    }
+  }
+
+  statusProjector = false;
+  onChangeProjector() {
+    if(this.statusProjector){
+      this.ProjectorOn();
+    }
+    else{
+      this.ProjectorOff();
+    }
+  }
+
   ProjectorOn() {
 
     if (this.ProjectorOnColor === '#70c9e3') {
@@ -446,38 +492,49 @@ export class GeneralControlPage {
     }
   }
 
-  PC() {
-    if (this.PCColor === '#70c9e3') {
-      this.turnOn(this.PCColor);
-      this.turnOff(this.ProjectorOffColor);
-      this.turnOff(this.HDMIColor);
-      this.turnOff(this.WirelessPresenterColor);
-      this.turnOff(this.Aux1Color);
-      this.printStatus("PC is on");
+  statusScreen = false;
+  onChangeScreen() {
+    if(this.statusScreen){
+      this.ScreenDown();
+    }
+    else{
+      this.ScreenUp();
+    }
+  }
+  
+  ScreenUp() {
+    if (this.ScreenUpDownColor === '#70c9e3') {
+      this.turnOff(this.ScreenUpDownColor);
+      this.printStatus("Screen is going up");
 
-      this.activateProjectorFunc("PC", "true", "Switched to PC");
+      this.activateProjectorFunc("84b833e7-78bb-43f1-a4a7-4241cec76424", "true", "Screen Down");
+
     } else {
-      this.printStatus("PC is already on");
+      this.turnOn(this.ScreenUpDownColor);
+      this.printStatus("Screen is already up");
     }
   }
 
-  VGA() {
-    if (this.ProjectorOffColor === '#70c9e3') {
-      this.turnOn(this.VGAColor);
-      this.turnOff(this.PCColor);
-      this.turnOff(this.HDMIColor);
-      this.turnOff(this.WirelessPresenterColor);
-      this.turnOff(this.Aux1Color);
-      this.printStatus("VGA is on");
+  ScreenDown() {
+    if (this.ScreenUpDownColor === '#70c9e3') {
+      this.turnOn(this.ScreenUpDownColor);
+      this.printStatus("Screen is going down");
 
-      //this.remoteCtrlService.sendRemoteCommand(this.signalID, "VGA%20/%20Visualiser", "true").subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
-      
-      //try changing to vga with activateProjectorFunc
-      this.activateProjectorFunc("0cdf6517-e3f8-44b7-b475-782122cb3e6b", "true", "Switched to VGA");
-      
+      this.activateProjectorFunc("c93e210e-91d9-4890-afc6-0de3923b665d", "true", "Screen Down");
+
     } else {
+      this.turnOff(this.ScreenUpDownColor);
+      this.printStatus("Screen is already down");
+    }
+  }
 
-      this.printStatus("VGA is already on");
+  statusProjectorMute = false;
+  onChangeProjectorMute() {
+    if(this.statusProjectorMute){
+      this.ProjectorMute();
+    }
+    else{
+      this.ProjectorUnMute();
     }
   }
 
@@ -507,6 +564,21 @@ export class GeneralControlPage {
     }
   }
 
+  PC() {
+    if (this.PCColor === '#70c9e3') {
+      this.turnOn(this.PCColor);
+      this.turnOff(this.ProjectorOffColor);
+      this.turnOff(this.HDMIColor);
+      this.turnOff(this.WirelessPresenterColor);
+      this.turnOff(this.Aux1Color);
+      this.printStatus("PC is on");
+
+      this.activateProjectorFunc("PC", "true", "Switched to PC");
+    } else {
+      this.printStatus("PC is already on");
+    }
+  }
+
   HDMI() {
     if (this.HDMIColor === '#70c9e3') {
       this.turnOn(this.HDMIColor);
@@ -523,29 +595,23 @@ export class GeneralControlPage {
     }
   }
 
-  ScreenDown() {
-    if (this.ScreenUpDownColor === '#70c9e3') {
-      this.turnOn(this.ScreenUpDownColor);
-      this.printStatus("Screen is going down");
+  VGA() {
+    if (this.ProjectorOffColor === '#70c9e3') {
+      this.turnOn(this.VGAColor);
+      this.turnOff(this.PCColor);
+      this.turnOff(this.HDMIColor);
+      this.turnOff(this.WirelessPresenterColor);
+      this.turnOff(this.Aux1Color);
+      this.printStatus("VGA is on");
 
-      this.activateProjectorFunc("c93e210e-91d9-4890-afc6-0de3923b665d", "true", "Screen Down");
-
+      //this.remoteCtrlService.sendRemoteCommand(this.signalID, "VGA%20/%20Visualiser", "true").subscribe(result => console.log("Result:" + result), error => console.log("Error" + error));
+      
+      //try changing to vga with activateProjectorFunc
+      this.activateProjectorFunc("0cdf6517-e3f8-44b7-b475-782122cb3e6b", "true", "Switched to VGA");
+      
     } else {
-      this.turnOff(this.ScreenUpDownColor);
-      this.printStatus("Screen is already down");
-    }
-  }
 
-  ScreenUp() {
-    if (this.ScreenUpDownColor === '#70c9e3') {
-      this.turnOff(this.ScreenUpDownColor);
-      this.printStatus("Screen is going up");
-
-      this.activateProjectorFunc("84b833e7-78bb-43f1-a4a7-4241cec76424", "true", "Screen Down");
-
-    } else {
-      this.turnOn(this.ScreenUpDownColor);
-      this.printStatus("Screen is already up");
+      this.printStatus("VGA is already on");
     }
   }
 
@@ -604,42 +670,6 @@ export class GeneralControlPage {
     else {
       this.turnOn(this.AutoLockColor);
       this.printStatus("AV Rack still locked");
-    }
-  }
-
-  statusPower = false;
-  onChangePower() {
-    if(this.statusPower){
-      this.PowerOn();
-    }
-    else{
-      this.PowerOff();
-    }
-  }
-
-  PowerOn() {
-    if (this.PowerColor === '#70c9e3') {
-      this.turnOn(this.PowerColor);
-      this.printStatus("System Power On");
-
-      this.activateProjectorFunc("SYSTEM_POWER", "true", "System Power On");
-    }
-    else {
-      this.turnOff(this.PowerColor);
-      this.printStatus("System already on");
-    }
-  }
-
-  PowerOff() {
-    if (this.PowerColor === '#70c9e3') {
-      this.turnOff(this.PowerColor);
-      this.printStatus("System Power Off");
-
-      this.activateProjectorFunc("SYSTEM_POWER", "false", "System Power Off");
-    }
-    else {
-      this.turnOff(this.PowerColor);
-      this.printStatus("System Power already off");
     }
   }
 
