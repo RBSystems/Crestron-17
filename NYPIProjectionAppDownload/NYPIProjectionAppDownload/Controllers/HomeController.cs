@@ -17,20 +17,13 @@ namespace NYPIProjectionAppDownload.Controllers
         }
 
         [HttpGet]
-        public void downloadAndroidFile()
+        public ActionResult downloadAndroidFile()
         {
-            AppDownloadOBJDAO dao = new AppDownloadOBJDAO();
-            AppDownloadOBJ obj = new AppDownloadOBJ();
-            obj = dao.GetAppFiles();
-            byte[] bytes = obj.AndroidApp;
-            Response.Clear();
-            MemoryStream ms = new MemoryStream(bytes);
-            Response.ContentType = "application/apk";
-            Response.AddHeader("content-disposition", "attachment;filename=nypIprojectionApp-Signed.apk");
-            Response.Buffer = true;
-            ms.WriteTo(Response.OutputStream);
-            Response.End();
+            string file = "~/apkdownload/app-release.apk";
+            string contentType = "application/apk";
+            return File(file, contentType, Path.GetFileName(file));
         }
+
 
         [HttpGet]
         public void downloadIOSFile()

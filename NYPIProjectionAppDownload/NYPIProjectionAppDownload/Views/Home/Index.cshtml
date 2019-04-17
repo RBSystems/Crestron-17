@@ -11,9 +11,9 @@
 
         <!-- Boxes -->
         <div class="thumbnails">
-            
+
             <div class="box">
-                <a class="image fit"><img  style="margin-left: auto;margin-right: auto;width: 70%;height:70%; max-width:95%; max-height:95%;"  src="~/images/android-logo.png" alt="" /></a>
+                <a class="image fit"><img style="margin-left: auto;margin-right: auto;width: 70%;height:70%; max-width:95%; max-height:95%;" src="~/images/android-logo.png" alt="" /></a>
                 <div class="inner">
                     <h3>Android NYP iProjection App</h3>
                     <p>Designed for a smartphone or a tablet PC running on the Android OS.</p>
@@ -26,11 +26,11 @@
                             </i>
                         </font>
                     </p>
+
                     @using (Html.BeginForm("downloadAndroidFile", "Home", FormMethod.Get))
                     {
                         <input type="submit" value="Install Android APK" class="button fit" data-poptrox="youtube,800x400" />
-                       
-                     }
+                    }
                 </div>
             </div>
 
@@ -50,14 +50,14 @@
                     </p>
 
                     @using (Html.BeginForm("downloadIOSFile", "Home", FormMethod.Get))
-    {
-                <input type="submit" value="Get iOS App" class="button style2 fit" data-poptrox="youtube,800x400" />
+                    {
+                        <input type="submit" value="Get iOS App" class="button style2 fit" data-poptrox="youtube,800x400" />
 
-}
-                   
+                    }
+
                 </div>
             </div>
-            
+
             <div class="box">
                 <a class="image fit"><img style="margin-left: auto;margin-right: auto;width: 90%;height:100%; max-width:95%; max-height:95%;" src="~/images/pwalogo.png" alt="" /></a>
                 <div class="inner">
@@ -74,14 +74,14 @@
                         </font>
                     </p>
                     @using (Html.BeginForm("OpenPWALink", "Home", FormMethod.Post, new { target = "_blank" }))
-    {
-                <input type="submit" value="View in browser" class="button style3 fit" data-poptrox="youtube,800x400" />
-}
+                    {
+                        <input type="submit" value="View in browser" class="button style3 fit" data-poptrox="youtube,800x400" />
+                    }
 
-                    
+
                 </div>
             </div>
-          
+
 
 
         </div>
