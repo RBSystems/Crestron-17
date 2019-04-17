@@ -26,14 +26,11 @@ namespace NYPIProjectionAppDownload.Controllers
 
 
         [HttpGet]
-        public void downloadIOSFile()
+        public ActionResult downloadIOSFile()
         {
-            AppDownloadOBJDAO dao = new AppDownloadOBJDAO();
-            AppDownloadOBJ obj = new AppDownloadOBJ();
-            obj = dao.GetAppFiles();
-            Response.Redirect(obj.IOSApp);
-            //itms-services://?action=download-manifest&url=https://crestron.sit.nyp.edu.sg/nypIprojectionIOSDownload/manifest.xml
-            //This is the url to download IOS App
+            string file = "~/apkdownload/Crestron.ipa extension.zip";
+            string contentType = "application/zip";
+            return File(file, contentType, Path.GetFileName(file));
         }
 
         [HttpPost]
