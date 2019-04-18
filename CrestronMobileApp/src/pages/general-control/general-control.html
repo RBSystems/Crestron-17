@@ -20,7 +20,7 @@
       </ion-item>
     </div>
   </div>
-  <div class="row">
+  <div class="row" *ngIf="statusPower">
     <div class="col">
       <ion-item>
         <ion-label>Projector On/Off</ion-label>
@@ -28,7 +28,7 @@
       </ion-item>
     </div>
   </div>
-  <div class="row">
+  <div class="row" *ngIf="statusPower">
     <div class="col">
       <ion-item>
         <ion-label>Screen Up/Down</ion-label>
@@ -36,7 +36,7 @@
       </ion-item>
     </div>
   </div>
-  <div class="row">
+  <div class="row" *ngIf="statusPower">
     <div class="col">
       <ion-item>
         <ion-label>Projector Mute/Unmute</ion-label>
@@ -44,7 +44,7 @@
       </ion-item>
     </div>
   </div>
-  <div class="row">        
+  <div class="row" *ngIf="statusPower">        
 	`<div class="col2">
       <ion-card class="offStatus" *ngIf="!PCColor">
         <ion-card-content>
@@ -60,7 +60,7 @@
       </ion-card>
     </div>
   </div>
-  <div class="row">
+  <div class="row" *ngIf="statusPower">
 	  <div class="col2">
       <ion-card class="offStatus" *ngIf="!HDMIColor">
         <ion-card-content>
@@ -76,7 +76,7 @@
       </ion-card>
     </div>
   </div>
-  <div class="row">
+  <div class="row" *ngIf="statusPower">
 	  <div class="col2">
       <ion-card class="offStatus" *ngIf="!VGAColor">
         <ion-card-content>
@@ -98,7 +98,7 @@
       </ion-card>
     </div>    
   </div>
-  <div class="row">
+  <div class="row" *ngIf="statusPower">
     <div class="col2">
       <ion-card class="offStatus" *ngIf="!WirelessPresenterColor">
         <ion-card-content>
@@ -120,7 +120,7 @@
       </ion-card>
     </div>	
   </div>
-  <div class="row">
+  <div class="row" *ngIf="statusPower">
 	  <div class="col2">
       <ion-card class="offStatus" *ngIf="!Aux1Color">
         <ion-card-content>
@@ -136,7 +136,7 @@
       </ion-card>
     </div>
   </div>
-  <div class="row">
+  <div class="row" *ngIf="statusPower">
     <div class="col col-50">
         <ion-card class="offStatus" *ngIf="!AutoLockColor">
           <ion-card-content>
